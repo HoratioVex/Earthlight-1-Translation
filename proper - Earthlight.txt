@@ -1,0 +1,76 @@
+アースライト - Earth Light
+
+Hard Units (Hunter)
+HUB-01 Mars	
+HU-NN7 Titan	
+HU-AX45 Talos	
+HU-M34 Medusa
+
+Change Hard Units (Convertible Hunter)
+CHU-03F Athena
+CHU-03R Athena	 	 
+	
+Fly Fighter   ( Fighter Planes )		
+FS-41 Lobster	
+FFA-81 Crane
+	
+Fly Bomber   ( Bomber Plane )
+FB-97 Brontes	 	 	 
+
+Carrier   ( Troop Carrier )		
+CR-1 Crab	
+
+Space BB   ( Space Mine )
+SBBW-4 Wisp	 	 	 
+	
+Cannon Unit   ( Flying, Long-Range Cannons )		
+CUB-06 Gunner
+CUN-42 Sniper	
+CUM-7 Launcher
+
+Stay Gun   ( Land-based, Long-Range Cannons )
+SG-DR10 Dragon	
+SG-HY7 Hydra	
+SG-RA4 Rahab	 
+
+Battleship   ( Space Battleships )		
+BB-04 Tiamat	
+BB-AII Asura II	
+BB-MM4 Nodens
+BB-V3 Hastur	
+
+Cruiser Great   ( Space Cruisers )
+SCG-MB1 Hannibal	
+SCG-BM Regulus	
+SCG-AX Corvus	
+	
+Destroyer DG   ( Space Destroyers )		
+DDG-BB7 Fenrir	
+DDG-MN6 Hellhound	 
+DDG-AX9 Grunt	
+
+Missile Ship
+MSP-21 Abaddon	 	 	 
+
+Carrier Vessel		
+CV-MN2 Iris	
+CV-B44 Artemis	
+CV-C8 Selene	
+CV-CHX Siren		
+
+Space Dock   ( Store / Repair Troops )
+DOC-TY3 Pergamino	 	 	 
+
+Fortress		
+FOR-TY1 Solomon	
+FOR-TY2 Carthago	
+FOR-TY4 Goliath	 
+		
+Castle
+CT-TY4 Adzam
+CT-TYX6 Brain
+
+---
+
+Assault Fortress Nemea
+factory - Foundry Factotum

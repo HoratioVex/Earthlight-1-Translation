@@ -1,0 +1,75 @@
+$d24d - d384: decompress
+to: 7f0006
+X offset (decomp)
+Y offset (comp)
+
+(datasets: aef5+offset, switch to uncompressed)
+$fdb: datatype: #00: uncompressed(d25c), #01: rle-interleaved(d280), #02:copy with fill in(d2eb), #03:rle-interleaved with fill in(d31a)
+$fdc: (comp) length
+9c55: fill in some  bytes? kanji?
+
+$21/$22: current control bytes
+$23/$24: cache for previous values?
+$25: counter current set of 8 doublebytes
+$37: ram position
+$39: 16 byte chunks decomp left
+$8a-8c: memory bank for (comp)
+
+decomp:
+cache=#00
+control byte shift left
+    bit was 1: load next comp byte
+	bit was 0: load #00
+xor with cache -> new cache
+write to decomp
+repeat x8
+
+cd5cc -> 7f0008 :  latin font (57 katakana)
+
+99f2
+d385: draw kanji? prerendered 1a807a?
+
+intro: 19fb50 "2"
+^addr: $8a+$0fe2
+99ce: table?
+cfde: select kanji origin
+^aefe: table for kanji locations?
+
+$7ba character count? (checked 98db)
+
+$805: frame counter
+$806: frame flag
+$757: message index
+$75b: character indent / offset
+$75c: line offset
+759: current letter to render
+7f9?
+$802?
+
+-> jsl $009896 -> 99af
+(98e8) unit speciality -> 99af
+(da21) intro
+-> exit e542 ->
+
+use:
+08-0a,2d-2f table addresses, translate to new bank
+29-2a origin address
+21 target vram address
+2e letter count?
+
+9d vram to write, left in chunk
+a9 vram written?
+ab vram total to write?
+
+fd7-fd9: starting vram address
+fd7-fe0
+-24 counters?
+ff0-fff: free?
+75b?
+79b?
+7ba
+11e4
+13a4
+
+
+ 

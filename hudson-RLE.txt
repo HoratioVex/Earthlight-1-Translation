@@ -1,0 +1,54 @@
+-------------------
+Compressed graphics
+-------------------
+
+The graphics use some kind of RLE-like compression scheme that uses bit shifting to determine how
+many times to write each byte of compressed data 
+
+How a tile is decompressed:
+1. Load the current byte of compressed data.
+2. Let x = 0.
+3. Do a bit shift left.
+4. Each time the carry bit is set, set x to the next byte of the compressed data.
+5. Write x to current memory offset, increment memory offset by two.
+Do steps 2-5 a total of eight times per tile.
+
+Examples:
+Control (bin):10000000
+Compressed:   80 FF
+Decompressed: FF FF FF FF FF FF FF FF
+
+Control (bin):00001111
+Compressed:   0F 01 02 03 04 
+Decompressed: 00 00 00 00 01 02 03 04
+
+Control (bin):11001100
+Compressed:   CC FF 00 FF 00
+Decompressed: FF 00 00 00 FF 00 00 00
+
+Control (bin):00000000
+Compressed:   00
+Decompressed: 00 00 00 00 00 00 00 00
+
+Control (bin):11111111
+Compressed:   FF 01 02 03 04 05 06 07 08
+Decompressed: 01 02 03 04 05 06 07 08
+
+Decompression order at beginning of game, before showing title screen:
+Even numbered bytes (00,02...) are loaded first, then odd numbered bytes are decompressed after.
+
+07:8000 - 07:8054 -> 7F:2000
+07:810D - 07:8165 -> 7F:2001
+
+07:8055 - 07:80A6 -> 7F:2200
+07:8166 - 07:81B1 -> 7F:2201
+
+07:80A7 - 07:80DB -> 7F:2400
+07:81B2 - 07:81DB -> 7F:2401
+
+07:80DC - 07:810C -> 7F:2600
+07:81DC - 07:8208 -> 7F:2601
+
+etc...
+7F:2000 - 7F:27FF are the first 4 horizontal rows of player sprite data in WRAM. 
+Then the next 4 rows are loaded. Player sprites span most of the used space in bank 7
