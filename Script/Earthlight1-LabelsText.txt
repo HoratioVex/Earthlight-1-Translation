@@ -1,14 +1,62 @@
 // 2: 07E64A (Titles and Labels)
 
-// Title M01 (2: 43,26,27,61,5f,60,61)
-//              MAP 0   1
-「死守!ハミルトン防衛線」
+//26
+0<END>
 
-// Objectives M01 (2: 89,80,8a,7f,)
-勝利条件
-(UNION)
-敵の司令塔を
-破壊せよ!
-(GALT)
-敵の部隊を
-全滅させよ!
+//27
+1<END>
+
+//28
+3<END>
+
+//29
+4<END>
+
+//2a
+5<END>
+
+//2b
+6<END>
+
+//2c
+7<END>
+
+//2d
+8<END>
+
+//2e
+9<END>
+
+//43
+Map<END>
+
+//5f
+//「
+<END>
+
+//60
+//」
+<END>
+
+// Title M01 (2: 61,61) (first title to calculate offsets for quotation marks)
+//死守!ハミルトン防衛線
+Hamilton Must Hold<END>
+
+// Objectives M01 (2: 7f,)width 11
+//敵の司令塔を
+//破壊せよ!
+Destroy    <LF>
+Enemy HQ   <END>
+
+//80
+//敵の部隊を
+//全滅させよ!
+Destroy All<LF>
+Enemy      <LF>
+Forces     <END>
+
+//89
+Union<END>
+
+//8a
+Galt<END>

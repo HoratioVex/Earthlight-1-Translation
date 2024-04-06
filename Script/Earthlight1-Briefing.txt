@@ -1,21 +1,96 @@
 // 3: 07C5CF (Briefing Text)
 
-// Briefing M01-01 (3: 0x17)
-反ガルト連邦軍は、F1「オリンポス」で
-攻撃要塞「ネメア」の攻略作戦の準備を
-いそいでいた。
+//01
+x<END>
+
+//02
+x<END>
+
+//03
+x<END>
+
+//04
+x<END>
+
+//05
+x<END>
+
+//06
+x<END>
+
+//07
+x<END>
+
+//08
+x<END>
+
+//09
+x<END>
+
+//0a
+x<END>
+
+//0b
+x<END>
+
+//0c
+x<END>
+
+//0d
+x<END>
+
+//0e
+x<END>
+
+//0f
+x<END>
+
+//10
+x<END>
+
+//11
+x<END>
+
+//12
+x<END>
+
+//13
+x<END>
+
+//14
+x<END>
+
+//15
+x<END>
+
+//16
+x<END>
+
+// Briefing M01-01 (3: 0x17)width 30
+//反ガルト連邦軍は、F1「オリンポス」で
+//攻撃要塞「ネメア」の攻略作戦の準備を
+//いそいでいた。
+Union forces hastingly gather at F1 Olympus<LF>
+for their attempt to capture Assault Fortress Nemea.<END>
 
 // Briefing M01-02 (3: 0x18)
-その動きに対し、ガルト皇帝アーリマンは
-攻撃部隊をむかわせた!・・・目標は、
-オリンポスの目、「ハミルトン司令搭」!
+//その動きに対し、ガルト皇帝アーリマンは
+//攻撃部隊をむかわせた!・・・目標は、
+//オリンポスの目、「ハミルトン司令搭」!
+In response,Galt Emperor Ahriman has ordered<LF>
+a strike group to disrupt the staging area.<LF>
+His target: The Eye of Olympus,Hamilton Command HQ.<END>
 
 // Briefing M01-03 (3: 0x19)
-「ハミルトン司令搭」は、
-オリンポスの「守りのかなめ」!!
-失うわけにはいかない!!
+//「ハミルトン司令搭」は、
+//オリンポスの「守りのかなめ」!!
+//失うわけにはいかない!!
+"Hamilton HQ is the cornerstone of Olympus' defense!<LF>
+We can't afford to lose it!"<END>
 
 // Briefing M01-04 (3: 0x1a)
-司令搭を守る部隊は、決死のかくごで
-ガルト軍に立ち向っていった!!
-ここを死守せねばならんと・・・
+//司令搭を守る部隊は、決死のかくごで
+//ガルト軍に立ち向っていった!!
+//ここを死守せねばならんと・・・
+Hamilton's garrison heads out in a desperate sortie<LF>
+to intercept Galt's strike.Everything is on the line...<END>

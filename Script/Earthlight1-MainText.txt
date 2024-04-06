@@ -1,9 +1,79 @@
 // 1: 07A800 (Main)
+#VAR(MainTable, TABLE)
+#ADDTBL("steely.tbl", MainTable)
+#ACTIVETBL(MainTable)
 
-// Mars - Speciality (0x0D)
+#SMA("LOROM00")
+
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "LINEAR", 0, 16)
+#VAR(PtrTbl, POINTERTABLE)
+#PTRTBL(PtrTbl, $A18000, 2, Ptr)
+#AUTOWRITE(PtrTbl, "<END>")
+
+#JMP($A18200)
+
+//01
+y<END>
+
+//02
+y<END>
+
+//03
+y<END>
+
+//04
+y<END>
+
+// Intro 01 (0x05)^width 29
+//22世紀に入り
+//世界統一を はたした人類は
+//その生活圏を宇宙にまで広げていた。
+It is the year 2225 AD. Earth<LF>
+has been unified, and mankind<LF>
+is reaching out to colonize  <LF>
+space.<END>
+
+
+// Intro 02 (0x06)
+//地球の衛星軌道上には、
+//小惑星を利用したかず多くの
+//工業ブラントやコロニーが浮かび、
+Earth's orbit is bustling    <LF>
+with colonies and production <LF>
+plants,which have been built <LF>
+on drifting asteroids.<END> 
+
+// Intro 03 (0x07)
+//じつに、人類の全人口の3分の2が
+//地球をはなれ、宇宙でくらしていた。
+Already two-thirds of Earth's<LF>
+population have left the     <LF>
+surface to live in space.<EN>
+
+// Intro 04 (0x08)
+//これらの開発小惑星の集団は、
+//ファクトリーとよばれ、全部で7つの
+//ファクトリーが、建設された。
+These clusters of developed  <LF>
+asteroids are called         <LF>
+Foundries.                   <LF>
+Seven Foundries have been    <LF>
+constructed in total.<END>
+
+//Intro 05 (0x09)
+//それぞれは、オリンポス、エデン、
+//ガルト、アルカディア、アトランティス、
+//ラグナグ、アスガルド、と名づけられた。
+Their names: Olympus, Eden,  <LF>
+Galt, Arcadia, Atlantis,     <LF>
+Ragnarok and Asgard.<END>
+
+
+// Mars - Speciality (0x0D) width 12, actual 9
 白兵
 
-// Mars - P1 (0x0E)
+// Mars - P1 (0x0E) width 30
 ハードユニット(HU) 兵器の標準型
 武装は、ビームガンと白兵用のブレードを
 もつ
@@ -12,30 +82,6 @@
 単独での行動よりは、他のユニットとの
 作戦行動にむいている。包囲効果や支援
 効果を最大限に利用すること
-
-// Intro 01 (0x05)
-22世紀に入り
-世界統一を はたした人類は
-その生活圏を宇宙にまで広げていた。
-
-// Intro 02 (0x06)
-地球の衛星軌道上には、
-小惑星を利用したかず多くの
-工業ブラントやコロニーが浮かび、
-
-// Intro 03 (0x07)
-じつに、人類の全人口の3分の2が
-地球をはなれ、宇宙でくらしていた。
-
-// Intro 04 (0x08)
-これらの開発小惑星の集団は、
-ファクトリーとよばれ、全部で7つの
-ファクトリーが、建設された。
-
-//Intro 05 (0x09)
-それぞれは、オリンポス、エデン、
-ガルト、アルカディア、アトランティス、
-ラグナグ、アスガルド、と名づけられた。
 
 
 // System Message 01 (0xB1)
@@ -54,7 +100,7 @@ FILE2
 はい
 いいえ
 
-// System Message 04 (0xB0,B6,BB,BC,BD)etc
+// System Message 04 (0xB0,B6,BB,BC,BD)etc width 18
 どのファイルを
 ロードしますか?
 FILE1 MAP01
