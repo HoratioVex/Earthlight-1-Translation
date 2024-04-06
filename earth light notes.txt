@@ -40,9 +40,17 @@ $7ba character count? (checked 98db)
 $805: frame counter
 $806: frame flag
 $757: message index
-$75b: character indent / offset
-$75c: line offset
+$758: ?
+$75b: offset lobyte
+$75c: offset hibyte
 759: current letter to render
+7f9: msg number in seq
+77c+(num) : vram target hibyte
+75d+(num) : vram target lobyte
+
+
+7fe-7ff: target vram address (origin)
+800-801: target vram (current)
 7f9?
 $802?
 
@@ -54,7 +62,7 @@ $802?
 use:
 08-0a,2d-2f table addresses, translate to new bank
 29-2a origin address
-21 target vram address
+21(-24?): target vram address
 2e letter count?
 
 9d vram to write, left in chunk
@@ -65,11 +73,23 @@ fd7-fd9: starting vram address
 fd7-fe0
 -24 counters?
 ff0-fff: free?
-75b?
+
 79b?
 7ba
 11e4
 13a4
 
+7400 e800
+7480 e900
+7690 ed20
+76f0 ede0
+7900 f200
+
+4000 8000 0
+4030 8060 4
+4040 8080 5
+     
+70D0 e1a0
+7250 e4a0
 
  
