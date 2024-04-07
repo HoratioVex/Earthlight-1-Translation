@@ -16,40 +16,65 @@ org $FFD5
 	;dw $0000 ;should we fix checksum?
 
 ;org $FFDE
-	;dw $0000
+	;dw $0000 ;checksum 2
 
-;org $0099B0 ;hook into original kanji render
+org $0099B0 ;hook into original kanji render
+	jml RenderMessage ;DB is $08, P is $30
 	;*** lda #$00
 	;*** xba
 	;*** lda $0757
-	;jml RenderMessage ;DB is $08, P is $30
+	
+org $0099C4
+HookExit: ;original code
+	lda [$2D] ;***
+	sta $29   ;***
+	
+org $009933
+	;*** lda.b #$01
+	lda.b #$00 ;check for activate Background
 
-org $0099CC
-HookExit: ;original
-	ply ;***
-	rts ;***
+;System registers 
+!MEMSEL       = $420D
+!VMAIN        = $2115
+!VMADDL       = $2116
+!VMADDH       = $2117
+!VMDATAL      = $2118
+!VMDATAH      = $2119
+!DMAP4        = $4340 ;Control
+!BBAD4 	      = $4341 ;Destination
+!A1T4L        = $4342 ;Source
+!A1T4H        = $4343
+!A1B4         = $4344
+!DAS4L        = $4345 ;Size
+!DAS4H        = $4346
+!MDMAEN		  = $420B
 
-
+;used by game
 !messageID    = $0757
-!indentTile   = $075B
-!indentLine   = $075C
+!indentL      = $075B
+!indentH      = $075C
+!messageNum   = $07F9
+!targetL      = $075D
+!targetH      = $077C
 !frameCounter = $0805
 
-!pointListH   = $0FFF
-!pointListM   = $0FFE
-!pointListL   = $0FFD
-!currCharH    = $2F ;$0FF2
-!currCharM    = $2E ;$0FF1
-!currCharL    = $2D ;$0FF0
-!bytesWritten = $0FF3
-!charsWritten = $0FF4
+;used by us
+; $FF6-$FFB: free
+!currCharH     = $2F
+!currCharM     = $2E
+!currCharL     = $2D
+!bytesWritten  = $0FF6
+!totalWrittenL = $0FF7
+!totalWrittenH = $0FF8
 
 org $A08000 ;start of expanded space, fastrom mirror
 RenderMessage:
-	sep #$30
+	sep #$20
 	phk
 	plb
-bank $A0 ;assume current bank
+	 bank $A0 ;assume current bank
+	lda #$01
+	sta !MEMSEL ;fastrom on
 
 ;translate old pointer list $0a (07A800,07E64A,07C5CF) to new address ($A18000,$A28000,$A38000)
 
@@ -58,64 +83,68 @@ bank $A0 ;assume current bank
 	beq .caseList1
 	cmp #$E6
 	beq .caseList2
-	lda $#A3
+	lda #$A3
 	bra .ListDone
 .caseList1:
-	lda $#A1
+	lda #$A1
 	bra .ListDone
 .caseList2:
-	lda $#A2
+	lda #$A2
 .ListDone:
-	sta !pointListH
-	sta !currCharH
+	sta !currCharH ;repurpose to load pointer
 	lda #$80
-	sta !pointListM
+	sta !currCharM
 	lda #$00
-	sta !pointListL
-
-	rep #$20
-	ldy !messageID
-	lda [!pointListL],y
 	sta !currCharL
-	sep #$20
+
+;first char
+	rep #$30
+	lda !messageID
+	asl ;pointer length=2 bytes
+	tay
+	lda [!currCharL],y
+	sta !currCharL
 	ldx #$0000
 .nextChar:
+	sep #$20
 	stz !bytesWritten
 	lda [!currCharL]
-	cmp #$FF
-	beq .msgDone
+	;cmp #$00
+	;beq .printSpace
 	cmp #$FE
 	beq .lineFeed
-	cmp #$00
-	beq .printSpace
+	cmp #$FF
+	beq .msgDone
 	rep #$20
+	and #$00FF
 	asl ;*8 for font entry
 	asl
 	asl
 	tay
 	sep #$20
 .nextByte: {
-	lda Font,y
+	lda #$00
 	sta $7F0006,x
 	inx
-	stz $7F0006,x
+	lda Font,y
+	sta $7F0006,x
 	inx
 	iny
 	inc !bytesWritten
 	lda !bytesWritten
-	cmp #$10
+	cmp #$08
 	bne .nextByte
 	}
-	;inc !charsWritten
+.lineFeed: ;ignore, messages are padded
+	rep #$20
 	inc !currCharL
 	bra .nextChar
-.lineFeed:
-	bra .nextChar
 .printSpace:
-	rep #20
+	rep #$20
+	lda #$0000
 	ldy #$0000
 .nextZero: { ;don't need Y for this, can use it as counter
-	stz $7F0006,x
+	sta $7F0006,x
 	inx
 	inx
 	iny
@@ -126,23 +155,56 @@ bank $A0 ;assume current bank
 	bra .nextChar
 .msgDone:
 	sep #$20
+	stx !totalWrittenL
+	
+;setup DMA	
+	sep #$30
+	ldx !messageNum
+	lda !targetL,x
+	sta !VMADDL
+	lda !targetH,x
+	sta !VMADDH
+	lda #$01
+	sta !DMAP4
+	lda #$18 ;target vramwrite
+	sta !BBAD4
+	lda #$06
+	sta !A1T4L 
+	lda #$00
+	sta !A1T4H  
+	lda #$7f
+	sta !A1B4
+	lda !totalWrittenL
+	sta !DAS4L 
+	lda !totalWrittenH
+	sta !DAS4H 	
+
+;wait for vblank
 	lda !frameCounter
 .waitFrame:	
 	cmp !frameCounter
 	beq .waitFrame
 
-;wait for frame advance
 ;dma to vram
-;point original char pointer to a $0000 for empty message, so it skips rendering 
-
-	sep #$30
+	lda #$10 ;dma channel 4
+	sta !MDMAEN	
+	
+.Final:  ;finalize and return	
+	lda #$07	;point original char pointer to a $0000 (e.g.$07AA47)for empty message, so it skips rendering
+	sta !currCharH
+	lda #$AA
+	sta !currCharM
+	lda #$47
+	sta !currCharL
+	lda #$00
+	sta !MEMSEL ;fastrom off, who knows
 	lda #$08
 	pha
 	plb
-	jml HookExit ;restore and return
+	jml HookExit
 
 Font:
 incbin "../Graphics/steely8.til"
 
-incsrc "Graphics.asm"
+incsrc "./Earthlight-Graphics.asm"
 
