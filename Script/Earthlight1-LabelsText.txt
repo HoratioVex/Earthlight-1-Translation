@@ -1,4 +1,17 @@
 // 2: 07E64A (Titles and Labels)
+#VAR(MainTable, TABLE)
+#ADDTBL("steely.tbl", MainTable)
+#ACTIVETBL(MainTable)
+
+#SMA("LOROM00")
+
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "LINEAR", 0, 16)
+#VAR(PtrTbl, POINTERTABLE)
+#PTRTBL(PtrTbl, $110000, 2, Ptr)
+#AUTOWRITE(PtrTbl, "<END>")
+
+#JMP($110200)
 
 //26
 0<END>

@@ -1,4 +1,17 @@
 // 3: 07C5CF (Briefing Text)
+#VAR(MainTable, TABLE)
+#ADDTBL("steely.tbl", MainTable)
+#ACTIVETBL(MainTable)
+
+#SMA("LOROM00")
+
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "LINEAR", 0, 16)
+#VAR(PtrTbl, POINTERTABLE)
+#PTRTBL(PtrTbl, $118000, 2, Ptr)
+#AUTOWRITE(PtrTbl, "<END>")
+
+#JMP($118200)
 
 //01
 x<END>

@@ -8,10 +8,13 @@
 #VAR(Ptr, CUSTOMPOINTER)
 #CREATEPTR(Ptr, "LINEAR", 0, 16)
 #VAR(PtrTbl, POINTERTABLE)
-#PTRTBL(PtrTbl, $A18000, 2, Ptr)
+#PTRTBL(PtrTbl, $108000, 2, Ptr)
 #AUTOWRITE(PtrTbl, "<END>")
 
-#JMP($A18200)
+#JMP($108200)
+
+//0
+00<END>
 
 //01
 y<END>
@@ -29,10 +32,11 @@ y<END>
 //22世紀に入り
 //世界統一を はたした人類は
 //その生活圏を宇宙にまで広げていた。
-It is the year 2225 AD. Earth<LF>
-has been unified, and mankind<LF>
-is reaching out to colonize  <LF>
-space.<END>
+It is the 22nd century.      <LF>
+                             <LF>
+Mankind has unified Earth and<LF>
+reaches for the stars.<END>
+
 
 
 // Intro 02 (0x06)
@@ -42,24 +46,36 @@ space.<END>
 Earth's orbit is bustling    <LF>
 with colonies and production <LF>
 plants,which have been built <LF>
-on drifting asteroids.<END> 
+on drifting asteroids.       <LF>
+                             <LF> 
+                             <END> 
 
 // Intro 03 (0x07)
 //じつに、人類の全人口の3分の2が
 //地球をはなれ、宇宙でくらしていた。
 Already two-thirds of Earth's<LF>
 population have left the     <LF>
-surface to live in space.<EN>
+surface to live in space.    <LF>
+                             <LF>
+                             <LF>
+                             <END>
 
 // Intro 04 (0x08)
 //これらの開発小惑星の集団は、
 //ファクトリーとよばれ、全部で7つの
 //ファクトリーが、建設された。
-These clusters of developed  <LF>
-asteroids are called         <LF>
-Foundries.                   <LF>
+//These clusters of developed  <LF>
+//asteroids are called         <LF>
+//Foundries.                   <LF>
+//Seven Foundries have been    <LF>
+//constructed in total.<END>
+Developed asteroids connect  <LF>
+with others to form vast     <LF>
+orbital structures.          <LF>
+They are called Foundries.   <LF>
 Seven Foundries have been    <LF>
-constructed in total.<END>
+built in total.<END> 
+
 
 //Intro 05 (0x09)
 //それぞれは、オリンポス、エデン、
@@ -67,50 +83,61 @@ constructed in total.<END>
 //ラグナグ、アスガルド、と名づけられた。
 Their names: Olympus, Eden,  <LF>
 Galt, Arcadia, Atlantis,     <LF>
-Ragnarok and Asgard.<END>
+Ragnarok and Asgard.         <LF>
+                             <LF>
+                             <LF>
+                             <END>
 
 
 // Mars - Speciality (0x0D) width 12, actual 9
-白兵
+//白兵
+  Melee<END>
 
 // Mars - P1 (0x0E) width 30
-ハードユニット(HU) 兵器の標準型
-武装は、ビームガンと白兵用のブレードを
-もつ
+//ハードユニット(HU) 兵器の標準型
+//武装は、ビームガンと白兵用のブレードを
+//もつ
+Standard Hunter             <LF>
+Armed with a beamgun and a  <LF>
+monoblade for melee combat<END>
 
 // Mars - P2 (0x0F)
-単独での行動よりは、他のユニットとの
-作戦行動にむいている。包囲効果や支援
-効果を最大限に利用すること
-
+//単独での行動よりは、他のユニットとの
+//作戦行動にむいている。包囲効果や支援
+//効果を最大限に利用すること
+Requires support from other <LF>
+unit types to be effective. <LF>
+Relies on flanking and      <LF>
+support effects.<END>
 
 // System Message 01 (0xB1)
-ロードする
-データがありません
+//ロードする
+//データがありません
+No data to load<END>
 
 // System Message 02 (0xB5, B6,B7)etc
-どのファイルに
-セーブしますか?
-FILE1
-FILE2
+//どのファイルに
+//セーブしますか?
+//FILE1
+//FILE2
 
 // System Message 03 (0xB3,B9, BA)
-セーブしました
-戦闘にもどりますか?
-はい
-いいえ
+//セーブしました
+//戦闘にもどりますか?
+//はい
+//いいえ
 
 // System Message 04 (0xB0,B6,BB,BC,BD)etc width 18
-どのファイルを
-ロードしますか?
-FILE1 MAP01
+//どのファイルを
+//ロードしますか?
+//FILE1 MAP01
 
 // System Message 05 (0xB2,)
-ロードを完了しました
-「戦闘に戻ります
+//ロードを完了しました
+//「戦闘に戻ります
 
 // System Message 06 (B8,B9,BA)
-前のデータが、きえますが
-よろしいですか?
-はい
-いいえ
+//前のデータが、きえますが
+//よろしいですか?
+//はい
+//いいえ
