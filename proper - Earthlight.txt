@@ -74,3 +74,4 @@ CT-TYX6 Brain
 
 Assault Fortress Nemea
 factory - Foundry Factotum
+Buccaneer - Marauder / Corsair

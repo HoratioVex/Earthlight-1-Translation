@@ -64,6 +64,7 @@ use:
 29-2a origin address
 21(-24?): target vram address
 2e letter count?
+$56: activate BG (at 089938 -> 08993b) 18a4,x
 
 9d vram to write, left in chunk
 a9 vram written?
