@@ -4,7 +4,7 @@
 lorom
 
 org $2FFFFF
-	db $FF ;expand to 12 Mbits
+	db $00 ;expand to 12 Mbits
 
 org $FFD7
 	db $0B ;change ROM size? original: 0A
@@ -29,9 +29,9 @@ HookExit: ;original code
 	lda [$2D] ;***
 	sta $29   ;***
 	
-org $009933
-	;*** lda.b #$01
-	lda.b #$00 ;check for activate Background
+;org $009933
+	;lda.b #$01 ;***
+	;lda.b #$00 ;check for activate Background
 
 ;System registers 
 !MEMSEL       = $420D
@@ -66,10 +66,15 @@ org $009933
 !bytesWritten  = $0FF6
 !totalWrittenL = $0FF7
 !totalWrittenH = $0FF8
+!RAMBuffer     = $7F0006 ;for graphics decomp, should be free
 
 org $A08000 ;start of expanded space, fastrom mirror
 RenderMessage:
 	sep #$20
+	phx
+	phy
+	phb
+	
 	phk
 	plb
 	 bank $A0 ;assume current bank
@@ -109,8 +114,8 @@ RenderMessage:
 	sep #$20
 	stz !bytesWritten
 	lda [!currCharL]
-	;cmp #$00
-	;beq .printSpace
+	cmp #$00
+	beq .printSpace
 	cmp #$FE
 	beq .lineFeed
 	cmp #$FF
@@ -124,10 +129,10 @@ RenderMessage:
 	sep #$20
 .nextByte: {
 	lda #$00
-	sta $7F0006,x
+	sta !RAMBuffer,x
 	inx
 	lda Font,y
-	sta $7F0006,x
+	sta !RAMBuffer,x
 	inx
 	iny
 	inc !bytesWritten
@@ -144,7 +149,7 @@ RenderMessage:
 	lda #$0000
 	ldy #$0000
 .nextZero: { ;don't need Y for this, can use it as counter
-	sta $7F0006,x
+	sta !RAMBuffer,x
 	inx
 	inx
 	iny
@@ -159,20 +164,15 @@ RenderMessage:
 	
 ;setup DMA	
 	sep #$30
-	ldx !messageNum
-	lda !targetL,x
-	sta !VMADDL
-	lda !targetH,x
-	sta !VMADDH
 	lda #$01
 	sta !DMAP4
 	lda #$18 ;target vramwrite
 	sta !BBAD4
-	lda #$06
+	lda.b #!RAMBuffer     ;l
 	sta !A1T4L 
-	lda #$00
+	lda.b #!RAMBuffer>>8  ;m
 	sta !A1T4H  
-	lda #$7f
+	lda.b #!RAMBuffer>>16 ;h
 	sta !A1B4
 	lda !totalWrittenL
 	sta !DAS4L 
@@ -186,6 +186,11 @@ RenderMessage:
 	beq .waitFrame
 
 ;dma to vram
+	ldx !messageNum
+	lda !targetL,x
+	sta !VMADDL
+	lda !targetH,x
+	sta !VMADDH
 	lda #$10 ;dma channel 4
 	sta !MDMAEN	
 	
@@ -198,9 +203,9 @@ RenderMessage:
 	sta !currCharL
 	lda #$00
 	sta !MEMSEL ;fastrom off, who knows
-	lda #$08
-	pha
 	plb
+	ply
+	plx
 	jml HookExit
 
 Font:
