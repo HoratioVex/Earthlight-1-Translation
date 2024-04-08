@@ -83,27 +83,36 @@ x<END>
 //反ガルト連邦軍は、F1「オリンポス」で
 //攻撃要塞「ネメア」の攻略作戦の準備を
 //いそいでいた。
-Union forces hastingly gather at F1 Olympus<LF>
-for their attempt to capture Assault Fortress Nemea.<END>
+Union forces hastingly gather <LF>
+at F1 Olympus to prepare their<LF>
+siege of Assault Fortress     <LF>
+Nemea. <END>
 
 // Briefing M01-02 (3: 0x18)
 //その動きに対し、ガルト皇帝アーリマンは
 //攻撃部隊をむかわせた!・・・目標は、
 //オリンポスの目、「ハミルトン司令搭」!
-In response,Galt Emperor Ahriman has ordered<LF>
-a strike group to disrupt the staging area.<LF>
-His target: The Eye of Olympus,Hamilton Command HQ.<END>
+In response,Galt Emperor      <LF>
+Ahriman has ordered a strike  <LF>
+group to disrupt the staging  <LF>
+area.His target:Hamilton      <LF>
+Control,the Eye of Olympus.   <END>
 
 // Briefing M01-03 (3: 0x19)
 //「ハミルトン司令搭」は、
 //オリンポスの「守りのかなめ」!!
 //失うわけにはいかない!!
-"Hamilton HQ is the cornerstone of Olympus' defense!<LF>
-We can't afford to lose it!"<END>
+"Hamilton HQ is the corner-   <LF>
+stone of Olympus' defense!    <LF>
+We can't afford to lose it!"  <LF>
+                              <LF>
+                              <END>
 
 // Briefing M01-04 (3: 0x1a)
 //司令搭を守る部隊は、決死のかくごで
 //ガルト軍に立ち向っていった!!
 //ここを死守せねばならんと・・・
-Hamilton's garrison heads out in a desperate sortie<LF>
-to intercept Galt's strike.Everything is on the line...<END>
+Hamilton's garrison heads out <LF>
+in a desperate sortie to      <LF>
+intercept Galt's strike.      <LF>
+Everything is on the line…    <END>

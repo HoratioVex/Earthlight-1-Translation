@@ -45,10 +45,10 @@ reaches for the stars.<END>
 //工業ブラントやコロニーが浮かび、
 Earth's orbit is bustling    <LF>
 with colonies and production <LF>
-plants,which have been built <LF>
-on drifting asteroids.       <LF>
-                             <LF> 
-                             <END> 
+plants built on drifting     <LF>
+asteroids.                   <LF>
+                             <LF>
+                             <END>
 
 // Intro 03 (0x07)
 //じつに、人類の全人口の3分の2が
@@ -69,12 +69,12 @@ surface to live in space.    <LF>
 //Foundries.                   <LF>
 //Seven Foundries have been    <LF>
 //constructed in total.<END>
-Developed asteroids connect  <LF>
-with others to form vast     <LF>
-orbital structures.          <LF>
-They are called Foundries.   <LF>
+The clusters of developed    <LF>
+asteroids are called         <LF>
+Foundries.                   <LF>
 Seven Foundries have been    <LF>
-built in total.<END> 
+constructed in total.        <LF>
+               <END> 
 
 
 //Intro 05 (0x09)
@@ -88,56 +88,122 @@ Ragnarok and Asgard.         <LF>
                              <LF>
                              <END>
 
+// 0A
+a<END>
+
+// 0B
+a<END>
+
+// 0C
+a<END>
+
+// ****************************************************************
 
 // Mars - Speciality (0x0D) width 12, actual 9
 //白兵
-  Melee<END>
+   Melee<END>
 
 // Mars - P1 (0x0E) width 30
 //ハードユニット(HU) 兵器の標準型
 //武装は、ビームガンと白兵用のブレードを
 //もつ
-Standard Hunter             <LF>
-Armed with a beamgun and a  <LF>
-monoblade for melee combat<END>
+Standard Hunter               <LF>
+Armed with a beamgun and a    <LF>
+monoblade for melee combat    <LF>
+                              <END>
 
 // Mars - P2 (0x0F)
 //単独での行動よりは、他のユニットとの
 //作戦行動にむいている。包囲効果や支援
 //効果を最大限に利用すること
-Requires support from other <LF>
-unit types to be effective. <LF>
-Relies on flanking and      <LF>
-support effects.<END>
+Requires support from other   <LF>
+unit types to be effective.   <LF>
+Relies on flanking and support<LF>
+effects.<END>
+
+// ***************************************************************
+
+// System Message 04 (0xB0)etc width 18
+//どのファイルを
+//ロードしますか?
+Load which slot?  <END>
 
 // System Message 01 (0xB1)
 //ロードする
 //データがありません
-No data to load<END>
-
-// System Message 02 (0xB5, B6,B7)etc
-//どのファイルに
-//セーブしますか?
-//FILE1
-//FILE2
-
-// System Message 03 (0xB3,B9, BA)
-//セーブしました
-//戦闘にもどりますか?
-//はい
-//いいえ
-
-// System Message 04 (0xB0,B6,BB,BC,BD)etc width 18
-//どのファイルを
-//ロードしますか?
-//FILE1 MAP01
+No data to load   <END>
 
 // System Message 05 (0xB2,)
 //ロードを完了しました
 //「戦闘に戻ります
+Load complete     <LF>
+Resume battle     <END>
 
-// System Message 06 (B8,B9,BA)
+// System Message 03 (0xB3,)
+//セーブしました
+//戦闘にもどりますか?
+Game saved        <LF>
+Keep playing?     <END>
+
+// B4
+b4<END>
+
+// System Message 02 (0xB5,)etc
+//どのファイルに
+//セーブしますか?
+Save which slot?  <END>
+
+// B6
+File1<END>
+
+// B7
+File2<END>
+
+// System Message 06 (B8,)
 //前のデータが、きえますが
 //よろしいですか?
+OK to overwrite   <LF>
+previous data?    <END>
+
+
+// B9
 //はい
+Yes<END>
+
+// BA 
 //いいえ
+No<END>
+
+// BB
+Map<END>
+
+// BC
+0<END>
+
+// BD
+1<END>
+
+// BE
+2<END>
+
+// BF
+3<END>
+
+// C0
+4<END>
+
+// C1
+5<END>
+
+// C2
+6<END>
+
+// C3
+7<END>
+
+// C4
+8<END>
+
+// C5
+9<END>
+
