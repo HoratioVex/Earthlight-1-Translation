@@ -24,9 +24,9 @@ Space BB   ( Space Mine )
 SBBW-4 Wisp	 	 	 
 	
 Cannon Unit   ( Flying, Long-Range Cannons )		
-CUB-06 Gunner
-CUN-42 Sniper	
-CUM-7 Launcher
+CUB-06 Gunner Vulcan
+CUN-42 Sniper	Phoibos Harpoon
+CUM-7 Launcher  Cyclops
 
 Stay Gun   ( Land-based, Long-Range Cannons )
 SG-DR10 Dragon	
@@ -47,7 +47,7 @@ SCG-AX Corvus
 Destroyer DG   ( Space Destroyers )		
 DDG-BB7 Fenrir	
 DDG-MN6 Cerberus Hellhound	 
-DDG-AX9 Grunt	
+DDG-AX9 Gulon Crocuta CuSith Cadejo Garm Garmr Grant Grunt	
 
 Missile Ship
 MSP-21 Abaddon	 	 	 
