@@ -3,36 +3,6 @@
 
 lorom
 
-org $2FFFFF
-	db $00 ;expand to 12 Mbits
-
-org $FFD7
-	db $0B ;change ROM size? original: 0A
-
-org $FFD5
-	db $30 ;FastROM On, original $20
-
-;org $FFDC
-	;dw $0000 ;should we fix checksum?
-
-;org $FFDE
-	;dw $0000 ;checksum 2
-
-org $0099B0 ;hook into original kanji render
-	jml RenderMessage ;DB is $08, P is $30
-	;*** lda #$00
-	;*** xba
-	;*** lda $0757
-	
-org $0099C4
-HookExit: ;original code
-	lda [$2D] ;***
-	sta $29   ;***
-	
-;org $009933
-	;lda.b #$01 ;***
-	;lda.b #$00 ;check for activate Background
-
 ;System registers 
 !MEMSEL       = $420D
 !VMAIN        = $2115
@@ -50,23 +20,68 @@ HookExit: ;original code
 !MDMAEN		  = $420B
 
 ;used by game
-!messageID    = $0757
-!indentL      = $075B
-!indentH      = $075C
-!messageNum   = $07F9
-!targetL      = $075D
-!targetH      = $077C
 !frameCounter = $0805
+!messageID    = $0757
+!offsetChar   = $075B
+!offsetLine   = $075C
+!messageNum   = $07F9
+!lineLength   = $079B ;per msg
+!targetL      = $075D ;per msg
+!targetH      = $077C ;per msg
+
 
 ;used by us
 ; $FF6-$FFB: free
 !currCharH     = $2F
 !currCharM     = $2E
 !currCharL     = $2D
-!bytesWritten  = $0FF6
-!totalWrittenL = $0FF7
-!totalWrittenH = $0FF8
-!RAMBuffer     = $7F0006 ;for graphics decomp, should be free
+!bytesLeft     = $0FF6
+!tempL         = $0FF7
+!tempH         = $0FF8
+!RAMBuffer     = $7F0806 ;for graphics decomp, should be free
+;-----
+;Header
+org $2FFFFF
+	db $00 ;expand to 12 Mbits
+
+org $FFD7
+	db $0B ;change ROM size? original: 0A
+
+org $FFD5
+	db $30 ;FastROM On, original $20
+
+;org $FFDC
+	;dw $0000 ;should we fix checksum?
+
+;org $FFDE
+	;dw $0000 ;checksum 2
+
+;-----
+;Fixed Length for briefing title
+org $05ECC9
+	;*** jsl $00984c ;skip first render
+	;*** lda $075b ;skip measured length
+	lda #$08 ;fixed length, but it's supposed to be padded with quotation marks
+	nop #5
+;-----
+;Fixed Length for map title, load screen
+org $08B3FB
+	;*** jsl $00984c
+	;*** lda $075b
+	lda #$0A ;fixed length 
+	nop #5
+;-----
+org $0099B0 ;hook into original kanji render
+	jml RenderMessage ;P is $30
+	;*** lda #$00
+	;*** xba
+	;*** lda $0757
+	
+org $0099C4
+HookExit: ;original code
+	lda [$2D] ;***
+	sta $29   ;***
+
 
 org $A08000 ;start of expanded space, fastrom mirror
 RenderMessage:
@@ -112,7 +127,8 @@ RenderMessage:
 	ldx #$0000
 .nextChar:
 	sep #$20
-	stz !bytesWritten
+	lda #$08
+	sta !bytesLeft
 	lda [!currCharL]
 	cmp #$00
 	beq .printSpace
@@ -122,24 +138,20 @@ RenderMessage:
 	beq .msgDone
 	rep #$20
 	and #$00FF
-	asl ;*8 for font entry
-	asl
-	asl
+	asl #3 ;*8 for font entry
 	tay
 	sep #$20
-.nextByte: {
-	lda #$00
-	sta !RAMBuffer,x
-	inx
-	lda Font,y
-	sta !RAMBuffer,x
-	inx
-	iny
-	inc !bytesWritten
-	lda !bytesWritten
-	cmp #$08
-	bne .nextByte
-	}
+	.nextByte: {
+		lda #$00
+		sta !RAMBuffer,x
+		inx
+		lda Font,y
+		sta !RAMBuffer,x
+		inx
+		iny
+		dec !bytesLeft
+		bne .nextByte
+		}
 .lineFeed: ;ignore, messages are padded
 	rep #$20
 	inc !currCharL
@@ -147,20 +159,19 @@ RenderMessage:
 .printSpace:
 	rep #$20
 	lda #$0000
-	ldy #$0000
-.nextZero: { ;don't need Y for this, can use it as counter
-	sta !RAMBuffer,x
-	inx
-	inx
-	iny
-	cpy #$0008
-	bne .nextZero
-	}
+	ldy #$0008
+	.nextZero: { ;don't need Y for this, can use it as counter
+		sta !RAMBuffer,x
+		inx
+		inx
+		dey
+		bne .nextZero
+		}
 	inc !currCharL
 	bra .nextChar
 .msgDone:
 	sep #$20
-	stx !totalWrittenL
+	stx !tempL
 	
 ;setup DMA	
 	sep #$30
@@ -174,10 +185,30 @@ RenderMessage:
 	sta !A1T4H  
 	lda.b #!RAMBuffer>>16 ;h
 	sta !A1B4
-	lda !totalWrittenL
+	lda !tempL
 	sta !DAS4L 
-	lda !totalWrittenH
-	sta !DAS4H 	
+	lda !tempH
+	sta !DAS4H
+;setup VRAM target	
+	ldx !messageNum ;store target
+	lda !targetL,x
+	sta !tempL
+	lda !targetH,x
+	sta !tempH
+	lda !offsetChar ;add offset
+	dec
+	bpl .addCharOffset
+	bra .skipCharOffset
+.addCharOffset:
+	rep #$20
+	and #$00FF
+	asl #4 ; *16 for tile, /2 (vram word address)
+	clc
+	adc !tempL
+	sta !tempL
+	sep #$20 
+	;TODO: add offset line
+.skipCharOffset:
 
 ;wait for vblank
 	lda !frameCounter
@@ -185,15 +216,14 @@ RenderMessage:
 	cmp !frameCounter
 	beq .waitFrame
 
-;dma to vram
-	ldx !messageNum
-	lda !targetL,x
+;start dma to vram
+	lda !tempL
 	sta !VMADDL
-	lda !targetH,x
+	lda !tempH
 	sta !VMADDH
 	lda #$10 ;dma channel 4
 	sta !MDMAEN	
-	
+		
 .Final:  ;finalize and return	
 	lda #$07	;point original char pointer to a $0000 (e.g.$07AA47)for empty message, so it skips rendering
 	sta !currCharH
@@ -201,8 +231,8 @@ RenderMessage:
 	sta !currCharM
 	lda #$47
 	sta !currCharL
-	lda #$00
-	sta !MEMSEL ;fastrom off, who knows
+	;lda #$00
+	;sta !MEMSEL ;fastrom off, who knows
 	plb
 	ply
 	plx
