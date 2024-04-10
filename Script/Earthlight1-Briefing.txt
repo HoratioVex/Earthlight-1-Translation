@@ -13,6 +13,9 @@
 
 #JMP($118200)
 
+//00
+x0<END>
+
 //01
 x<END>
 
@@ -92,11 +95,11 @@ Nemea. <END>
 //その動きに対し、ガルト皇帝アーリマンは
 //攻撃部隊をむかわせた!・・・目標は、
 //オリンポスの目、「ハミルトン司令搭」!
-In response,Galt Emperor      <LF>
+In response, Galt Emperor     <LF>
 Ahriman has ordered a strike  <LF>
 group to disrupt the staging  <LF>
-area.His target:Hamilton      <LF>
-Control,the Eye of Olympus.   <END>
+area. His target: Hamilton    <LF>
+Control, the Eye of Olympus.  <END>
 
 // Briefing M01-03 (3: 0x19)
 //「ハミルトン司令搭」は、

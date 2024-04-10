@@ -6,13 +6,128 @@
 #SMA("LOROM00")
 
 #VAR(Ptr, CUSTOMPOINTER)
-#CREATEPTR(Ptr, "LINEAR", 0, 16)
+#CREATEPTR(Ptr, "LOROM00", 0, 16)
 #VAR(PtrTbl, POINTERTABLE)
 #PTRTBL(PtrTbl, $110000, 2, Ptr)
 #AUTOWRITE(PtrTbl, "<END>")
 
 #JMP($110200)
 
+//00
+0<END>
+
+//01
+0<END>
+
+//02
+0<END>
+
+//03
+0<END>
+
+//04
+0<END>
+
+//05
+0<END>
+
+//06
+0<END>
+
+//07
+0<END>
+
+//08
+0<END>
+
+//09
+0<END>
+
+//0A
+0<END>
+
+//0B
+0<END>
+
+//0C
+0<END>
+
+//0D
+0<END>
+
+//0E
+0<END>
+
+//0F
+0<END>
+
+//10
+0<END>
+
+//11
+0<END>
+
+//12
+0<END>
+
+//13
+0<END>
+
+//14
+0<END>
+
+//15
+0<END>
+
+//16
+0<END>
+
+//17
+0<END>
+
+//18
+0<END>
+
+//19
+0<END>
+
+//1A
+0<END>
+
+//1B
+0<END>
+
+//1C
+0<END>
+
+//1D
+0<END>
+
+//1E
+0<END>
+
+//1F
+0<END>
+
+//20
+0<END>
+
+//21
+0<END>
+
+//22
+0<END>
+
+//23
+0<END>
+
+//24
+x24<END>
+
+//25
+x25<END>
+
+// *********************** Numbers
 //26
 0<END>
 
@@ -20,40 +135,319 @@
 1<END>
 
 //28
-3<END>
+2<END>
 
 //29
-4<END>
+3<END>
 
 //2a
-5<END>
+4<END>
 
 //2b
-6<END>
+5<END>
 
 //2c
-7<END>
+6<END>
 
 //2d
-8<END>
+7<END>
 
 //2e
+8<END>
+
+//2f
 9<END>
+
+// **************************
+//30
+0<END>
+
+//31
+0<END>
+
+//32
+0<END>
+
+//33
+0<END>
+
+//34
+0<END>
+
+//35
+0<END>
+
+//36
+0<END>
+
+//37
+0<END>
+
+//38
+0<END>
+
+//39
+0<END>
+
+//3A
+0<END>
+
+//3B
+0<END>
+
+//3C
+0<END>
+
+//3D
+0<END>
+
+//3E
+0<END>
+
+//3F
+0<END>
+
+//40
+0<END>
+
+//41
+0<END>
+
+//42
+0<END>
 
 //43
 Map<END>
 
+//44
+0<END>
+
+//45
+0<END>
+
+//46
+0<END>
+
+//47
+0<END>
+
+//48
+0<END>
+
+//49
+0<END>
+
+//4A
+0<END>
+
+//4B
+0<END>
+
+//4C
+0<END>
+
+//4D
+0<END>
+
+//4E
+0<END>
+
+//4F
+0<END>
+
+//50
+0<END>
+
+//51
+0<END>
+
+//52
+0<END>
+
+//53
+0<END>
+
+//54
+0<END>
+
+//55
+0<END>
+
+//56
+0<END>
+
+//57
+0<END>
+
+//58
+0<END>
+
+//59
+0<END>
+
+//5A
+0<END>
+
+//5B
+0<END>
+
+//5C
+0<END>
+
+//5D
+0<END>
+
+//5E
+0<END>
+
 //5f
 //「
-<END>
+(<END>
 
 //60
 //」
-<END>
+)<END>
 
-// Title M01 (2: 61,61) (first title to calculate offsets for quotation marks)
+//************************************ Map Titles
+
+// Title M01 (2: 61,61) (first title to calculate offsets for quotation marks)-width 18
 //死守!ハミルトン防衛線
-Hamilton Must Hold<END>
+Hamilton Must  <LF>
+Hold           <END>
+
+//Title M02 (62)
+//ガラン突破作戦
+Operation Ga[ll]un<LF>
+Breakthrough   <END>
+
+//Title M03 (63)
+//バートラム脱出
+Escape From    <LF>
+Bertram        <END>
+
+//Title M04 (64)
+//内線？！ラッカー制圧戦
+//insurrection
+Turmoil at     <LF>
+Rucker         <END>
+
+//Title M05 (65)
+//レイモンド奪取作戦
+The Raymond    <LF>
+Campaign       <END>
+
+//Title M06 (66)
+//出撃！合流艦隊をすくえ
+Uniting the    <LF>
+Fleet          <END>
+
+//Title M07 (67)
+//ル・グィンの幸運
+Le Guin's      <LF>
+Fortune        <END>
+
+//Title M08 (68)
+//Ｆ1「オリンポス」防衛戦
+The Defense of <LF>
+F1 Olympus     <END>
+
+//Title M09 (69)
+//エデンの門の攻防
+Battle at the  <LF>
+Gates of Eden  <END>
+
+//Title M10 (6a)
+//レオ・オブ・ネメア
+Into the       <LF>
+Lion's Den     <END>
+
+//Title M11 (6b)
+//迎撃！ノートン防衛艦隊
+Interception   <LF>
+Norton Defsene <END>
+
+//Title M12 (6c)
+//ヴァン・ヴォクトの戦い
+The Battle     <LF>
+of Van Vogt    <END>
+
+//Title M13 (6d)
+//アーサー星域のワナ
+Ambush at      <LF>
+Arthur Starf[ie]l<END>
+
+//Title M14 (6e)
+//ムーア星域会戦
+Skirmish at    <LF>
+Moore's Star   <END>
+
+//Title M15 (6f)
+//ラグナグ・ファクトリー
+The Foundry    <LF>
+Ragnarok       <END>
+
+//Title M16 (70)
+//核のヴェルヌ・ドック (doggu/dokku?)
+The Heart of   <LF>
+Verne Docks    <END>
+
+//Title M17 (71)
+//特殊巡洋艦コルバス
+xyz<END>
+
+//Title M18 (72)
+//地球光をあびながら
+xyz<END>
+
+//Title M19 (73)
+//援軍、きたりなば・・
+xyz<END>
+
+//Title M20 (74)
+//せん光！バッカニア砲！
+xyz<END>
+
+//Title M21 (75)
+//女神降臨！新兵器登場！
+xyz<END>
+
+//Title M22 (76)
+//決死のパンドラ星域突破
+xyz<END>
+
+//Title M23 (77)
+//鋼鉄の砲塔なき戦艦
+xyz<END>
+
+//Title M24 (78)
+//すい星をこえて・・
+xyz<END>
+
+//Title M25 (79)
+//突撃！アルフレッド攻略戦
+xyz<END>
+
+//Title M26 (7a)
+//オールディス星域攻防戦
+xyz<END>
+
+//Title M27 (7b)
+//発射！ダーレス砲撃戦
+xyz<END>
+
+//Title M28 (7c)
+//バラム決戦
+xyz<END>
+
+//Title M29 (7d)
+//アスガルド・工業プラント
+xyz<END>
+
+//Title M30 (7e)
+//バビロンとぶ！
+xyz<END>
+
+// *************************************** Objectives
 
 // Objectives M01 (2: 7f,)width 11
 //敵の司令塔を
@@ -67,6 +461,30 @@ Enemy HQ   <END>
 Destroy All<LF>
 Enemy      <LF>
 Forces     <END>
+
+//81
+obj<END>
+
+//82
+obj<END>
+
+//83
+obj<END>
+
+//84
+obj<END>
+
+//85
+obj<END>
+
+//86
+obj<END>
+
+//87
+obj<END>
+
+//88
+obj<END>
 
 //89
 Union<END>

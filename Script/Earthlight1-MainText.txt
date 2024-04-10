@@ -13,20 +13,25 @@
 
 #JMP($108200)
 
-//0
-00<END>
+//00
+//移動範囲外です
+Out of move range<END>
 
 //01
-y<END>
+//射程外です
+Out of range<END>
 
 //02
-y<END>
+//射撃目標がありません
+No attack target<END>
 
 //03
-y<END>
+//敵のユニットです
+Enemy unit<END>
 
 //04
-y<END>
+//まだできていません
+Not done yet<END>
 
 // Intro 01 (0x05)^width 29
 //22世紀に入り
@@ -55,7 +60,7 @@ asteroids.                   <LF>
 //地球をはなれ、宇宙でくらしていた。
 Already two-thirds of Earth's<LF>
 population have left the     <LF>
-surface to live in space.    <LF>
+planet to live in space.     <LF>
                              <LF>
                              <LF>
                              <END>
@@ -89,13 +94,16 @@ Ragnarok and Asgard.         <LF>
                              <END>
 
 // 0A
-a<END>
+//「主砲目標照準合わせよし!!」
+"Target acquired for main gun!"<END>
 
 // 0B
-a<END>
+//「主砲発射準備完了!!」
+"Main gun ready to fire!"<END>
 
 // 0C
-a<END>
+//「よし!発射!!」
+"Understood! Fire!"<END>
 
 // ****************************************************************
 
