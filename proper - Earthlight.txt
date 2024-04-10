@@ -68,10 +68,16 @@ FOR-TY4 Goliath
 		
 Castle
 CT-TY4 Adzam
-CT-TYX6 Brain
+CT-TYX6 Cortex Brain
 
 ---
 
 Assault Fortress Nemea
 factory - Foundry Factotum
 Buccaneer - Marauder / Corsair
+
+weapon mounts:
+LIGHT
+HEAVY
+BOMB
+MELEE
