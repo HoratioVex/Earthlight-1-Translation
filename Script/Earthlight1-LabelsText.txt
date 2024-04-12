@@ -13,119 +13,185 @@
 
 #JMP($110200)
 
+//司令塔戰動母艦敵
+//機塞破壞要全滅!!
+//船
+
+//*****************************************Mission Win
 //00
-0<END>
+//連邦軍は、ついに
+//ガルト軍の司令塔を破壊した!
+The Union has       <LF>
+destroyed the HQ    <LF>
+of the Galt Army    <END>
 
 //01
-0<END>
+//連邦軍の強力な攻撃のまえに
+//ガルト軍は、全滅した!!
+The Union has com-  <LF>
+pletely annihilated <LF>
+all Galt forces     <END>
 
 //02
-0<END>
+//連邦軍は戦いのすえ、ついに!
+//ガルト軍の要塞を破壊した!!
+The Union has       <LF>
+destroyed the       <LF>
+fortress of the Galt<LF>
+Army                <END>
 
 //03
-0<END>
+//キミのカンペキな作戦で
+//ガルト軍の艦船は宇宙にちった!
+Thanks to your per- <LF>
+fect strategy,Galt's<LF>
+fleet was scattered <LF>
+in space            <END>
 
 //04
+//ガルト軍の戦艦は、しつような
+//連邦軍の攻撃に爆発した!!!
 0<END>
 
 //05
+//キミのみごとな攻撃で、ガルト軍の
+//機動母艦をほおむりさった!!
 0<END>
 
 //06
+//ガルト軍は、機動母艦のすべてを
+//うしない、ひきあげていった!!
 0<END>
 
 //07
+//旗艦をうしなったガルト艦隊は
+//戦意をなくし、ひきあげていった!
 0<END>
 
 //08
+//すべての司令塔をうしなった
+//ガルト軍は、降伏した!!
 0<END>
 
+//********************************************** lost Options
 //09
-0<END>
+//えらんでください
+Please Choose<END>
 
 //0A
-0<END>
+//もういちど たたかう
+Restart Mission<END>
 
 //0B
-0<END>
+//タイトルにもどる!
+Main Menu<END>
 
 //0C
-0<END>
+//セーブする
+Save<END>
 
 //0D
-0<END>
+//ロードする
+Load<END>
 
+//******************************************** Points Screen
 //0E
-0<END>
+//破壊ユニットポイント
+Units Destroyed<END>
 
 //0F
-0<END>
+//生存ユニットポイント
+Units Survived<END>
 
 //10
-0<END>
+//損害ユニットポイント
+Units Lost<END>
 
 //11
-0<END>
+//制圧ドックポイント
+Docks Captured<END>
 
 //12
-0<END>
+//クリアボーナス
+Stage Clear Bonus<END>
 
 //13
-0<END>
+//いままでの勝利ポイント
+Total Victory Points<END>
 
 //14
-0<END>
+//こんかいの勝利ポイント
+Map Victory Points<END>
 
-//15
-0<END>
+//15 
+//戦果をファイルに
+//セーブしますか?
+Save progress?<END>
 
 //16
-0<END>
+//セーブする
+Save<END>
 
 //17
-0<END>
+//セーブしない
+Don't Save<END>
 
 //18
-0<END>
+//どのファイルに
+//セーブしますか?
+Save Game    <LF>
+Select Slot<END>
 
 //19
-0<END>
+File 1<END>
 
 //1A
-0<END>
+File 2<END>
 
 //1B
-0<END>
+//前のデータが、きえます
+Old data will be erased<END>
 
 //1C
-0<END>
+//はい
+Yes<END>
 
 //1D
-0<END>
+//いいえ
+No<END>
 
 //1E
-0<END>
+//セーブしませんが
+//よろしいですか?
+Progress will<LF>
+be lost      <LF>
+Are you sure?<END>
 
 //1F
-0<END>
+Save complete<END>
 
 //20
-0<END>
+//つぎの作戦をはじめる
+Next Map<END>
 
 //21
-0<END>
+//戦線をはなれる
+Quit<END>
 
 //22
-0<END>
+//セーブしませんでした!
+//どうしますか?
+Game not saved<LF>
+What now?     <END>
 
 //23
-0<END>
+Map<END>
 
 //24
-x24<END>
+Saved<END>
 
 //25
-x25<END>
+Thanks for playing<END>
 
 // *********************** Numbers
 //26
@@ -158,87 +224,102 @@ x25<END>
 //2f
 9<END>
 
-// **************************
 //30
-0<END>
+//どのファイルを
+Select file<END>
 
 //31
-0<END>
+//ロードする
+Load<END>
 
 //32
-0<END>
+//ロードを完了しました
+Load complete<END>
 
+// ************************** VP Ranks
 //33
-0<END>
+//KERBROS
+Hellhound<END>
 
 //34
-0<END>
+Phoenix<END>
 
 //35
-0<END>
+Pegasus<END>
 
 //36
-0<END>
+Unicorn<END>
 
 //37
-0<END>
+Salamander<END>
 
 //38
-0<END>
+Griffon<END>
 
 //39
-0<END>
+Skull Head<END>
 
 //3A
-0<END>
+Fire Eagle<END>
 
 //3B
-0<END>
+Falcon<END>
 
 //3C
-0<END>
+Solar Bird<END>
 
 //3D
-0<END>
+Wild Tiger<END>
 
 //3E
-0<END>
+Star Wolf<END>
 
 //3F
-0<END>
+Mad Shark<END>
 
 //40
-0<END>
+Silent Fox<END>
 
 //41
-0<END>
+Shadow Bat<END>
 
 //42
-0<END>
+Moon Rat<END>
+//******************************************** misc
 
 //43
 Map<END>
-
+//******************************************** Mission Loss
 //44
-0<END>
+//ガルト軍の強大な攻撃力の前に
+//味方の部隊は、ほうかいした!
+The Union forces    <LF>
+routed by the might <LF>
+of Galt's offense   <END>
 
 //45
-0<END>
+//地球の命運をかけ
+fate of the earth<END>
 
 //46
-0<END>
+//ほどなくして・・・
+soon...<END>
 
 //47
-0<END>
+//ここに・・・
+here...<END>
 
 //48
-0<END>
+//地球連邦軍の決死の
+earth fed forces<END>
 
 //49
-0<END>
+//かくして・・
+desperate<END>
 
 //4A
-0<END>
+//ガルト 帝国軍は、反撃
+imperial counter<END>
 
 //4B
 0<END>
@@ -277,7 +358,13 @@ Map<END>
 0<END>
 
 //57
-0<END>
+//アラート・メッセージ!!
+//ガルト軍の援軍が
+//この星域に接近中!!
+ALERT             <LF>
+Galt reinforce-   <LF>
+ments are arriving<LF>
+in this sector    <END>
 
 //58
 0<END>
@@ -326,10 +413,10 @@ Escape From    <LF>
 Bertram        <END>
 
 //Title M04 (64)
-//内線？！ラッカー制圧戦
-//insurrection
-Turmoil at     <LF>
-Rucker         <END>
+//内戦?!ラッカー制圧戦
+//uprising / civil war /insurrection
+Insurrection at<LF>
+Fort Rucker    <END>
 
 //Title M05 (65)
 //レイモンド奪取作戦
@@ -349,7 +436,7 @@ Fortune        <END>
 //Title M08 (68)
 //Ｆ1「オリンポス」防衛戦
 The Defense of <LF>
-F1 Olympus     <END>
+F1 Olympos     <END>
 
 //Title M09 (69)
 //エデンの門の攻防
@@ -373,8 +460,9 @@ of Van Vogt    <END>
 
 //Title M13 (6d)
 //アーサー星域のワナ
+//Starf[ie]ld
 Ambush at      <LF>
-Arthur Starf[ie]l<END>
+Arthur Belt    <END>
 
 //Title M14 (6e)
 //ムーア星域会戦
@@ -393,67 +481,86 @@ Verne Docks    <END>
 
 //Title M17 (71)
 //特殊巡洋艦コルバス
-xyz<END>
+//Night of the Raven
+Flight of the  <LF>
+Raven          <END>
 
 //Title M18 (72)
 //地球光をあびながら
-xyz<END>
+Basking in     <LF>
+Earth's Light  <END>
 
 //Title M19 (73)
 //援軍、きたりなば・・
-xyz<END>
+Awaiting       <LF>
+Reinforcements <END>
 
 //Title M20 (74)
 //せん光！バッカニア砲！
-xyz<END>
+The Buccaneer  <LF>
+Cannon         <END>
 
 //Title M21 (75)
 //女神降臨！新兵器登場！
-xyz<END>
+A Goddess      <LF>
+Descends       <END>
 
 //Title M22 (76)
 //決死のパンドラ星域突破
-xyz<END>
+Pandora        <LF>
+Paradox        <END>
 
 //Title M23 (77)
 //鋼鉄の砲塔なき戦艦
-xyz<END>
+Battleships    <LF>
+Without Turrets<END>
 
 //Title M24 (78)
 //すい星をこえて・・
-xyz<END>
+Beyond         <LF>
+Mercury        <END>
 
 //Title M25 (79)
 //突撃！アルフレッド攻略戦
-xyz<END>
+//charge!, alfred Bester
+Attack on      <LF>
+Alfred         <END>
 
 //Title M26 (7a)
 //オールディス星域攻防戦
-xyz<END>
+Aldiss Star    <LF>
+Battle         <END>
 
 //Title M27 (7b)
 //発射！ダーレス砲撃戦
-xyz<END>
+//August William Derleth
+Bombs on       <LF>
+Derleth        <END>
 
 //Title M28 (7c)
 //バラム決戦
-xyz<END>
+Decision at    <LF>
+Balam          <END>
 
 //Title M29 (7d)
 //アスガルド・工業プラント
-xyz<END>
+Asgard Factory <LF>
+Factory        <END>
 
 //Title M30 (7e)
 //バビロンとぶ！
-xyz<END>
+// Tell the King of Babylon
+Render Unto    <LF>
+Babylon        <END>
 
 // *************************************** Objectives
 
 // Objectives M01 (2: 7f,)width 11
 //敵の司令塔を
 //破壊せよ!
-Destroy    <LF>
-Enemy HQ   <END>
+Destroy the<LF>
+Enemy      <LF>
+HQ         <END>
 
 //80
 //敵の部隊を
@@ -463,7 +570,11 @@ Enemy      <LF>
 Forces     <END>
 
 //81
-obj<END>
+//敵の要塞本体を
+//破壊せよ!!
+Destroy the<LF>
+Enemy      <LF>
+Fortress   <END>
 
 //82
 obj<END>

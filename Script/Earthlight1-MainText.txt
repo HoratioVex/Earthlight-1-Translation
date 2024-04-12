@@ -13,6 +13,7 @@
 
 #JMP($108200)
 
+//**************************** Misc / unused?
 //00
 //移動範囲外です
 Out of move range<END>
@@ -33,6 +34,7 @@ Enemy unit<END>
 //まだできていません
 Not done yet<END>
 
+//****************************** Intro
 // Intro 01 (0x05)^width 29
 //22世紀に入り
 //世界統一を はたした人類は
@@ -69,30 +71,25 @@ planet to live in space.     <LF>
 //これらの開発小惑星の集団は、
 //ファクトリーとよばれ、全部で7つの
 //ファクトリーが、建設された。
-//These clusters of developed  <LF>
-//asteroids are called         <LF>
-//Foundries.                   <LF>
-//Seven Foundries have been    <LF>
-//constructed in total.<END>
 The clusters of developed    <LF>
 asteroids are called         <LF>
 Foundries.                   <LF>
+                             <LF>
 Seven Foundries have been    <LF>
-constructed in total.        <LF>
-               <END> 
+constructed in total.<END>
 
 
 //Intro 05 (0x09)
 //それぞれは、オリンポス、エデン、
 //ガルト、アルカディア、アトランティス、
 //ラグナグ、アスガルド、と名づけられた。
-Their names: Olympus, Eden,  <LF>
+Their names: Olympos, Eden,  <LF>
 Galt, Arcadia, Atlantis,     <LF>
 Ragnarok and Asgard.         <LF>
                              <LF>
                              <LF>
                              <END>
-
+// ********************************************************* unused
 // 0A
 //「主砲目標照準合わせよし!!」
 "Target acquired for main gun!"<END>
@@ -105,7 +102,7 @@ Ragnarok and Asgard.         <LF>
 //「よし!発射!!」
 "Understood! Fire!"<END>
 
-// ****************************************************************
+// ******************************************************* Units - long description
 
 // Mars - Speciality (0x0D) width 12, actual 9
 //白兵
@@ -128,13 +125,70 @@ Requires support from other   <LF>
 unit types to be effective.   <LF>
 Relies on flanking and support<LF>
 effects.<END>
+//-------------------------------------
+//10
+xx<END>
+//11
+yy<END>
+//12
+yy<END>
+//-------------------------------------
+//13
+//白兵
+   Melee<END>
 
-// ***************************************************************
+//14
+//白兵戦専門のHU兵器
+//強力なビームサーベルと両うでに防御用の
+//小型ビームを装備している
+Close Combat Hunter           <LF>
+Armed with a fearsome beam-   <LF>
+saber and light beamguns on   <LF>
+both arms                     <LF>
+                              <LF>
+                              <END>
+
+//15
+//白兵で敵をたたき切るのをとくいとするが
+//武装がビーム兵器のみなので、磁気空間では
+//完全に無力化する
+It aims to engage enemies in  <LF>
+melee combat, but since it    <LF>
+relies entirely on beam       <LF>
+weapons, this unit is com-    <LF>
+pletely ineffective in mag-   <LF>
+netic fields.                 <END>
+
+// 4F
+xyz<END>
+
+//************************************************* Terrain description
+//89
+//要塞などの基盤をなしている小惑星が
+//むき出しになっているところ
+//艦船は入れない
+//固定砲が設置できる
+Where the asteroids that form the basis of
+fortifications are exposed, ships cannot
+enter, but fixed
+artillery can be installed.<END>
+
+// ************************************************ Terrain names
+//98 
+//岩盤地形
+Bedrock<END>
+
+//**************************************************** percentage numbers
+//a5
+25<END> 
+
+// *************************************************** System message
 
 // System Message 04 (0xB0)etc width 18
 //どのファイルを
 //ロードしますか?
-Load which slot?  <END>
+Load Game         <LF>
+Select Slot       <END>
 
 // System Message 01 (0xB1)
 //ロードする
@@ -144,8 +198,8 @@ No data to load   <END>
 // System Message 05 (0xB2,)
 //ロードを完了しました
 //「戦闘に戻ります
-Load complete     <LF>
-Resume battle     <END>
+Load Complete     <LF>
+Resume Battle     <END>
 
 // System Message 03 (0xB3,)
 //セーブしました
@@ -154,12 +208,18 @@ Game saved        <LF>
 Keep playing?     <END>
 
 // B4
-b4<END>
+//お疲れさまでした
+//電源を切ってください
+Thank you for playing<LF>
+                     <LF>
+You can turn off the <LF>
+console              <END>
 
 // System Message 02 (0xB5,)etc
 //どのファイルに
 //セーブしますか?
-Save which slot?  <END>
+Save Game         <LF>
+Select Slot       <END>
 
 // B6
 File1<END>
