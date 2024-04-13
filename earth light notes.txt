@@ -24,6 +24,12 @@ xor with cache -> new cache
 write to decomp
 repeat x8
 
+-------------------
+script encoding:
+1 control byte, 8 character bytes
+each bit in control byte determines whether corresponding character is shifted
+-------------------
+
 cd5cc -> 7f0008 :  latin font (57 katakana)
 
 99f2
@@ -41,8 +47,8 @@ $805: frame counter
 $806: frame flag
 $757: message index
 $758: ?
-$75b: offset lobyte
-$75c: offset hibyte
+$75b: offset char
+$75c: offset line
 759: current letter to render
 7f9: msg number in seq
 77c+(num) : vram target hibyte
@@ -96,4 +102,9 @@ ff0-fff: free?
 17 tiles / 11 chars
 5eccd: load constant?
 8b3fb: "
- 
+----------------------------
+unit names
+ 00dfd3: read 118f3, read 01ee66 (char code + 0xC)
+
+19bd: unit list in ram
+1d5a8: calc index for unit name

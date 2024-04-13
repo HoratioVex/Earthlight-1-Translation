@@ -25,8 +25,8 @@ SBBW-4 Wisp
 	
 Cannon Unit   ( Flying, Long-Range Cannons )		
 CUB-06 Gunner Vulcan
-CUN-42 Sniper	Phoibos Harpoon
-CUM-7 Launcher  Cyclops
+CUN-42 Sniper	 Phoibos Apollo Harpoon
+CUM-7 Launcher  Cyclops Argos
 
 Stay Gun   ( Land-based, Long-Range Cannons )
 SG-DR10 Dragon	
