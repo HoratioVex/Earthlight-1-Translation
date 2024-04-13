@@ -472,7 +472,7 @@ Moore's Star   <END>
 //Title M15 (6f)
 //ラグナグ・ファクトリー
 The Foundry    <LF>
-Ragnarok       <END>
+Luggnagg       <END>
 
 //Title M16 (70)
 //核のヴェルヌ・ドック (doggu/dokku?)

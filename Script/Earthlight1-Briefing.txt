@@ -103,16 +103,16 @@ In response, Galt Emperor     <LF>
 Ahriman has ordered a strike  <LF>
 group to disrupt the staging  <LF>
 area. His target: Hamilton    <LF>
-Control, the Eye of Olympos.  <END>
+Command, the Eye of Olympos.  <END>
 
 // Briefing M01-03 (3: 0x19)
 //「ハミルトン司令搭」は、
 //オリンポスの「守りのかなめ」!!
 //失うわけにはいかない!!
-"Hamilton HQ is the corner-   <LF>
-stone of Olympos' defense!    <LF>
-We can't afford to lose it!"  <LF>
-                              <LF>
+"Hamilton Command is the      <LF>
+cornerstone of Olympos' de-   <LF>
+fense. We can't afford to     <LF>
+lose it!"                     <LF>
                               <END>
 
 // Briefing M01-04 (3: 0x1a)
@@ -196,25 +196,26 @@ Olympos.                      <END>
 //敵のドックを制圧すれば、
 //こちらの機体のしゅうりもできる!!
 //その上で、司令搭をたたいて、脱出だ!!
-The rebels form a reckless   <LF>
-plan: Capture the dock to    <LF>
-take their fighters back,    <LF>
-then hit the command station <LF>
-and get out!                 <END>
+"Let's capture the dock and  <LF>
+take our fighters back. Then <LF>
+we can hit the command center<LF>
+and get out of here!         <END>
+
 //------------------------------
 //Briefing M04-01 (23)
 //ガルト 帝国軍は、
 //「オリンポス」の内部に
 //工作部隊を送りこんできた!!
-Special forces of the Imperial<LF>
-Galt Army are operating inside<LF>
-of Olympos.                   <END>
+Special operations forces of  <LF>
+the Galt Empire have infil-   <LF>
+trated Olympos.               <LF>
+<END>
 
 //24
 //ガルト工作部隊は、「オリンポス」の
 //ラッカー要塞を制圧して、内戦を起こした
 //内部から一気に攻略しようというのだ!!
-The Galt detachment plans to  <LF>
+The Galt commandos plan to    <LF>
 swiftly seize Fort Rucker and <LF>
 stage an insurrection to take <LF>
 the Foundry from within.      <END>
@@ -236,30 +237,48 @@ The Union is determined to    <LF>
 capture the neutral dock, stop<LF>
 the insurrection and take back<LF>
 Fort Rucker.                  <END>
+
 //-------------------------------
 //Briefing M05-01 (0x27)
 //ネメア攻略作戦「ヘラクレス」は発動した!
 //「オリンポス」の反ガルト連邦軍は、
 //そのコマをレイモンド星域へと進めた!
-xyz<END>
+The Union has finally launched<LF>
+operation "Hercules" against  <LF>
+Assault Fortress Nemea.       <LF>
+Union forces are advancing in <LF>
+the Raymond sector.<END>
 
 //Briefing M05-02 (0x28)
 //「レイモンド星域」・・・
 //この星域は「オリンポス」と「エデン」を
 //結ぶ航路の最重要地点である。
-xyz<END>
+The Raymond sector is a key   <LF>
+location that controls the    <LF>
+route between Olympos and     <LF>
+Eden.                         <LF>
+                              <END>
 
 //Briefing M05-03 (0x29)
 //ここを制圧することは、
 //反ガルト連邦にとって、ネメア攻略の
 //進路をかくほすることになる!!
-xyz<END>
+Capturing this sector will be <LF>
+clear a path to Nemea, a      <LF>
+crucial step for the Union.   <LF>
+                              <LF>
+                              <END>
 
 //Briefing M05-04 (0x2a)
 //星域の中央を侵攻してくる敵をおさえ、
 //中立浮きドックの爆撃機をうばい、
 //敵の司令搭を一気に爆撃せよ!!
-xyz<END>
+"Contain the enemies invading <LF>
+the center of the sector,     <LF>
+seize the bombers from the    <LF>
+neutral docks and bombard the <LF>
+enemy command center. On the  <LF>
+double!"                      <END>
 //--------------------------------
 //Briefing M06-01 (0x2b)
 //アーリマンのガルト 帝国軍は

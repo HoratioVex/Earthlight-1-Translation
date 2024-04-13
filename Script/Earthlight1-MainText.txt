@@ -51,10 +51,8 @@ reaches for the stars.<END>
 //小惑星を利用したかず多くの
 //工業ブラントやコロニーが浮かび、
 Earth's orbit is bustling    <LF>
-with colonies and production <LF>
-plants built on drifting     <LF>
-asteroids.                   <LF>
-                             <LF>
+with colonies and factories  <LF>
+built on drifting asteroids. <LF>
                              <END>
 
 // Intro 03 (0x07)
@@ -85,7 +83,7 @@ constructed in total.<END>
 //ラグナグ、アスガルド、と名づけられた。
 Their names: Olympos, Eden,  <LF>
 Galt, Arcadia, Atlantis,     <LF>
-Ragnarok and Asgard.         <LF>
+Luggnagg and Asgard.         <LF>
                              <LF>
                              <LF>
                              <END>
@@ -158,29 +156,930 @@ relies entirely on beam       <LF>
 weapons, this unit is com-    <LF>
 pletely ineffective in mag-   <LF>
 netic fields.                 <END>
+//-------------------------------------
+//16
+   Melee<END>
 
-// 4F
-xyz<END>
+//17
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//18
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//19
+   Melee<END>
+
+//1a
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//1b
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//1c
+   Melee<END>
+
+//1d
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//1e
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//1f
+   Melee<END>
+
+//20
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//21
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//22
+   Melee<END>
+
+//23
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//24
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//25
+   Melee<END>
+
+//26
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//27
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//28
+   Melee<END>
+
+//29
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//2a
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//2b
+   Melee<END>
+
+//2c
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//2d
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//2e
+   Melee<END>
+
+//2f
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//30
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//31
+   Melee<END>
+
+//32
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//33
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//34
+   Melee<END>
+
+//35
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//36
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//37
+   Melee<END>
+
+//38
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//39
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//3a
+   Melee<END>
+
+//3b
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//3c
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//3d
+   Melee<END>
+
+//3e
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//3f
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//40
+   Melee<END>
+
+//41
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//42
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//43
+   Melee<END>
+
+//44
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//45
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//46
+   Melee<END>
+
+//47
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//48
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//49
+   Melee<END>
+
+//4a
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//4b
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//4c
+   Melee<END>
+
+//4d
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//4e
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//4f
+   Melee<END>
+
+//50
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//51
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//52
+   Melee<END>
+
+//53
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//54
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//55
+   Melee<END>
+
+//56
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//57
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//58
+   Melee<END>
+
+//59
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//5a
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//5b
+   Melee<END>
+
+//5c
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//5d
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//5e
+   Melee<END>
+
+//5f
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//60
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//61
+   Melee<END>
+
+//62
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//63
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//64
+   Melee<END>
+
+//65
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//66
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//67
+   Melee<END>
+
+//68
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//69
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//6a
+   Melee<END>
+
+//6b
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//6c
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//6d
+   Melee<END>
+
+//6e
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//6f
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//70
+   Melee<END>
+
+//71
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//72
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//73
+   Melee<END>
+
+//74
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//75
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//76
+   Melee<END>
+
+//77
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//78
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//79
+   Melee<END>
+
+//7a
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//7b
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//7c
+   Melee<END>
+
+//7d
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+
+//7e
+
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <LF>
+                              <END>
+//-------------------------------------
+//7f
+none<END>
+
+//80
+adzam<END>
+
+//81
+//アッザムを破壊することによりバッカニア砲
+//の発射をくい止めることができる
+Destroying Adzam will prevent <LF>
+the Buccaneer Cannon from     <LF>
+firing                        <END>
 
 //************************************************* Terrain description
+//82
+//宇宙空間
+//移動や攻撃には、いっさいの影響を
+//あたえない
+Open Space                    <LF>
+No effect on movement or      <LF>
+attacks                       <END>
+
+//83
+83<END>
+
+//84
+84<END>
+
+//85
+85<END>
+
+//86
+86<END>
+
+//87
+87<END>
+
+//88
+88<END>
+
 //89
 //要塞などの基盤をなしている小惑星が
 //むき出しになっているところ
 //艦船は入れない
 //固定砲が設置できる
-Where the asteroids that form the basis of
-fortifications are exposed, ships cannot
-enter, but fixed
-artillery can be installed.<END>
+Exposed asteroid rock not yet <LF>
+built on                      <LF>
+Ships can't enter             <LF>
+Artillery can be deployed     <LF> 
+                              <END>
+
+//8a
+//小惑星に作られた要塞の機動甲板
+//移動や攻撃には、ほとんど影響がない
+//固定砲が設置できる
+The deck of a floating        <LF>
+fortress built on an asteroid <LF>
+Small effect on movement and  <LF>
+attack                        <LF>
+Artillery can be deployed     <END>
+
+//8b
+8b<END>
+
+//8c
+//要塞甲板に設置された要塞防御壁
+//すべてのユニットが進入できない
+//射線もまったく通らない
+A defensive wall built on a   <LF>
+fortress deck                 <LF>
+No unit can enter             <LF>
+No shots can pass through     <END>
+
+//8d
+8d<END>
+
+//8e
+8e<END>
+
+//8f
+8f<END>
+
+//90
+90<END>
 
 // ************************************************ Terrain names
+//91
+//無空間
+//Open Space<END>
+Void<END>
+
+//92
+92<END>
+
+//93
+93<END>
+
+//94
+94<END>
+
+//95
+95<END>
+
+//96
+96<END>
+
+//97
+97<END>
+
 //98 
 //岩盤地形
 Bedrock<END>
 
+//99
+//要塞甲板
+Fortress Deck<END>
+
+//9a
+as<END>
+
+//9b
+//要塞防御壁
+Fortress Wall<END>
+
+//9c
+9c<END>
+
+//9d
+9d<END>
+
+//9e
+9e<END>
+
+//9f
+9f<END>
 //**************************************************** percentage numbers
+//a0
+0<END>
+//a1
+5<END>
+//a2
+10<END>
+//a3
+15<END>
+//a4
+20<END>
 //a5
 25<END> 
+//a6
+35<END>
+//a7
+40<END>
+//a8
+45<END>
+//a9
+50<END>
+//aa
+100<END>
+
+//***************************************************** ad blurb from demo
+//ab
+//ざんねんながら
+//今回の作戦は、ここまでで
+//終了となっています。
+strategy<END>
+
+//ac
+//このほかにも、たのしいしかけが
+//アースライトには、いっぱい
+//あります。
+earthlight has many tricks<END>
+
+//ad
+//戦艦や空母、変形するユニット
+//輸送機、核爆弾を持つユニット
+//などなど・・・
+battleships,carriers<END>
+
+//ae
+//援軍が、やってきたり・・:
+//すい星がマップをとおったり・・・
+//マップのしかけもいっぱい!!
+lots of map events<END>
+
+//af
+//アースライトは、製作進行中!
+//発売日までまっててね・・・
+wait for full release<END>
 
 // *************************************************** System message
 

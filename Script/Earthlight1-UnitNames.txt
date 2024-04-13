@@ -1,0 +1,109 @@
+//unit names -> $01F8F6
+
+#VAR(MainTable, TABLE)
+#ADDTBL("ascii.tbl", MainTable)
+#ACTIVETBL(MainTable)
+
+#SMA("LOROM00")
+
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "LOROM00", 0, 16)
+#VAR(PtrTbl, POINTERTABLE)
+#PTRTBL(PtrTbl, $00F8F6, 2, Ptr)
+#AUTOWRITE(PtrTbl, "<E>")
+
+#JMP($00F970)
+
+mars    <E>
+titan   <E>
+talos   <E>
+medusa  <E>
+athena  <E>
+athena  <E>
+athena  <E>
+athena  <E>
+lobster <E>
+crane   <E>
+brontes <E>
+brontes <E>
+horus   <E>
+horus   <E>
+vulcan  <E>
+phoibos <E>
+cyclops <E>
+pandora <E>
+wisp    <E>
+remora  <E>
+echidna <E>
+naga    <E>
+rockeye <E>
+dragon  <E>
+hydra   <E>
+rahab   <E>
+crab    <E>
+crab    <E>
+camelii <E>
+camelii <E>
+tiamat  <E>
+asura ii<E>
+nodens  <E>
+hastur  <E>
+artemis <E>
+iris    <E>
+siren   <E>
+siren   <E>
+selene  <E>
+hannibal<E>
+regulus <E>
+palmyra <E>
+corvus  <E>
+abaddon <E>
+abaddon <E>
+msnp-ii <E>
+msnp-ii <E>
+msfb-5  <E>
+msfb-5  <E>
+fenrir  <E>
+cerberus<E>
+gulon   <E>
+pergamon<E>
+solomon <E>
+carthago<E>
+goliath <E>
+cortex  <E>
+adzam   <E>
+//endlist <E>
+
+//      .HUB-01 .HU
+// -NN7 .HU-AX45.HU
+// -M34 .CHU-03F.CH
+// U-03F.CHU-03R.CH
+// U-03R.FS-41  .FF
+// A-81 .FB-97  .FB
+// -97  .FB-33  .FB
+// -33  .CUB-6  .CU
+// N-42 .CUM-7  .SB
+// BM-0 .SBBW-4 .SB
+// BC-1 .BS-B13 .BS
+// -AX4 .BSF-6  .SG
+// -DR10.SG-HY7 .SG
+// -RA4 .CR-1   .CR
+// -1   .CR-61II.CR
+// -61II.BB-04  .BB
+// -AII .BB-MM4 .BB
+// -V3  .
+
+//CV-B44 .CV
+// -MN2 .CV-CHX .CV
+// -CHX .CV-C8  .SC
+// G-MB1.SCG-BM .SC
+// G-OL .SCG-AX .MS
+// P-21 .MSP-21 .MS
+// NP-II.MSNP-II.MS
+// FB-5 .MSFB-5 .DD
+// G-BB7.DDG-MN6.DD
+// G-AX9.DOC-TY3.FO
+// R-TY1.FOR-TY2.FO
+// R-TY4.CT-TYX6.CT
+// -TY4 .€€€€ .€€..
+//  . 
