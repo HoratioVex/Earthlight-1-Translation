@@ -39,6 +39,7 @@ lorom
 !tempL         = $0FF7
 !tempH         = $0FF8
 !RAMBuffer     = $7F0806 ;for graphics decomp, should be free
+!PTUnitNames   = $01F8F6 ;pointer table eng unit names
 ;-----
 ;Header
 org $2FFFFF
@@ -70,6 +71,16 @@ org $08B3FB
 	;*** lda $075b
 	lda #$0A ;fixed length 
 	nop #5
+;-----
+;Hook pointers for English unit names, main map
+org $01D5AD
+	jsl LoadPtrUnitNames
+	nop #3
+;-----
+;Hook pointers for English unit names, unit list
+org $04E07B
+	jsl LoadPtrUnitNames
+	nop #3
 ;-----
 org $0099B0 ;hook into original kanji render
 	jml RenderMessage ;P is $30
@@ -171,7 +182,7 @@ RenderMessage:
 	bra .nextChar
 .msgDone:
 	sep #$20
-	stx !tempL
+	stx !tempL ;ram pointer = bytes written
 	
 ;setup DMA	
 	sep #$30
@@ -232,7 +243,7 @@ RenderMessage:
 	lda #$47
 	sta !currCharL
 	;lda #$00
-	;sta !MEMSEL ;fastrom off, who knows
+	;sta !MEMSEL ;fastrom off? who knows
 	plb
 	ply
 	plx
@@ -240,6 +251,16 @@ RenderMessage:
 
 Font:
 incbin "../Graphics/steely8.til"
+;---------------------------------
+LoadPtrUnitNames:
+	; *** asl asl asl clc adc#$ee66
+	asl
+	phx
+	tax
+	lda.l !PTUnitNames,x 
+	plx
+	rtl
 
+;----------------------------------
 incsrc "./Earthlight-Graphics.asm"
 
