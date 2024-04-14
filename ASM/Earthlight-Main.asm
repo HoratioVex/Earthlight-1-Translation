@@ -250,7 +250,7 @@ RenderMessage:
 	jml HookExit
 
 Font:
-incbin "../Graphics/steely8.til"
+	incbin "../Graphics/steely8.til"
 ;---------------------------------
 LoadPtrUnitNames:
 	; *** asl asl asl clc adc#$ee66
