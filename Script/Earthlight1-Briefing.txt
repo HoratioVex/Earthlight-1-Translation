@@ -16,84 +16,84 @@
 //*********************************** Short unit descriptions for Docks
 //00
 //標準的なタイプのHU兵器
-x0<END>
+d0<END>
 
 //01
 //中距離レールガンをもつHU兵器
-x<END>
+d01x<END>
 
 //02
-x<END>
+d02x<END>
 
 //03
-x<END>
+d03x<END>
 
 //04
-x<END>
+d04x<END>
 
 //05
-x<END>
+d05x<END>
 
 //06
-x<END>
+d06x<END>
 
 //07
-x<END>
+d07x<END>
 
 //08
-x<END>
+d08x<END>
 
 //09
-x<END>
+d09x<END>
 
 //0a
-x<END>
+d0ax<END>
 
 //0b
-x<END>
+d0bx<END>
 
 //0c
-x<END>
+d0cx<END>
 
 //0d
-x<END>
+d0dx<END>
 
 //0e
-x<END>
+d0ex<END>
 
 //0f
-x<END>
+d0fx<END>
 
 //10
-x<END>
+d10x<END>
 
 //11
-x<END>
+d11x<END>
 
 //12
-x<END>
+d12x<END>
 
 //13
-x<END>
+d13x<END>
 
 //14
-x<END>
+d14x<END>
 
 //15
-x<END>
+d15x<END>
 
 //16
 //対艦攻撃用レールガンをもつ駆逐艦
-x<END>
+d16x<END>
 // **************************************************Briefings
 // Briefing M01-01 (3: 0x17)width 30
 //反ガルト連邦軍は、F1「オリンポス」で
 //攻撃要塞「ネメア」の攻略作戦の準備を
 //いそいでいた。
-Union forces hastingly gather <LF>
-at F1 Olympos to prepare their<LF>
-siege of Assault Fortress     <LF>
-Nemea. <END>
+Forces of the Liberation Union<LF>
+hastingly gather at F1 Olympos<LF>
+to prepare their siege of     <LF>
+Assault Fortress Nemea. <END>
 
 // Briefing M01-02 (3: 0x18)
 //その動きに対し、ガルト皇帝アーリマンは
@@ -243,11 +243,12 @@ Fort Rucker.                  <END>
 //ネメア攻略作戦「ヘラクレス」は発動した!
 //「オリンポス」の反ガルト連邦軍は、
 //そのコマをレイモンド星域へと進めた!
-The Union has finally launched<LF>
-operation "Hercules" against  <LF>
-Assault Fortress Nemea.       <LF>
-Union forces are advancing in <LF>
-the Raymond sector.<END>
+The Liberation Union has      <LF>
+finally launched Operation    <LF>
+"Hercules" against Assault    <LF>
+Fortress Nemea. Union forces  <LF>
+are advancing into the Raymond<LF>
+sector.<END>
 
 //Briefing M05-02 (0x28)
 //「レイモンド星域」・・・
@@ -257,6 +258,7 @@ The Raymond sector is a key   <LF>
 location that controls the    <LF>
 route between Olympos and     <LF>
 Eden.                         <LF>
+                              <LF>
                               <END>
 
 //Briefing M05-03 (0x29)
@@ -284,25 +286,38 @@ double!"                      <END>
 //アーリマンのガルト 帝国軍は
 //「オリンポス」攻略作戦にむけて、
 //艦隊の移動を急がせていた。
-xyz<END>
+Aware of the gathering threat,<LF>
+Ahriman commands the Imperial <LF>
+Fleet to hasten the capture of<LF>
+Olympos.<END>
 
 //Briefing M06-02 (0x2c)
 //「ハインライン」星域・・・そこで!!
 //ガルト艦隊は、「オリンポス」へ向かう
 //反ガルト連邦軍の艦隊を発見!!
-xyz<END>
+In the Heinlein sector, a     <LF>
+Union flotilla en route to    <LF>
+Olympos is spotted by advanc- <LF>
+ing Galt forces.              <END>
 
 //Briefing M06-03 (0x2d)
 //ガルト艦隊は、攻撃をしかけてきた!!
 //反ガルト連邦軍は、味方艦隊をすくうべく
 //機動ユニット部隊を出撃させた!!
-xyz<END>
+The Galt fleet has launched an<LF>
+attack. Nearby Union bases are<LF>
+deploying squadrons to rescue <LF>
+the distressed allies.        <END>
 
 //Briefing M06-04 (0x2e)
 //敵は巡洋艦だけ、機動ユニットはいない!
 //味方の巡洋艦を、戦線より離脱させ、
 //HU兵器で敵艦に「白兵」をいどめ!!
-xyz<END>
+"The Imperials only have capi-<LF>
+tal ships, no fighter support!<LF>
+Pull our ships from the front <LF>
+line and engage the enemy in  <LF>
+close combat with Hunters!"   <END>
 //------------------------------------
 //Briefing M07-01 (0x2f)
 //ガルト 帝国皇帝アーリマンは、

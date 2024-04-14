@@ -125,7 +125,7 @@ Relies on flanking and support<LF>
 effects.<END>
 //-------------------------------------
 //10
-xx<END>
+10<END>
 //11
 yy<END>
 //12
@@ -158,7 +158,7 @@ pletely ineffective in mag-   <LF>
 netic fields.                 <END>
 //-------------------------------------
 //16
-   Melee<END>
+   16Melee<END>
 
 //17
 
@@ -179,7 +179,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //19
-   Melee<END>
+   19Melee<END>
 
 //1a
 
@@ -200,7 +200,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //1c
-   Melee<END>
+   1cMelee<END>
 
 //1d
 
@@ -221,7 +221,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //1f
-   Melee<END>
+   1fMelee<END>
 
 //20
 
@@ -242,7 +242,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //22
-   Melee<END>
+   Me22lee<END>
 
 //23
 
@@ -263,7 +263,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //25
-   Melee<END>
+   25Melee<END>
 
 //26
 
@@ -284,7 +284,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //28
-   Melee<END>
+   28Melee<END>
 
 //29
 
@@ -305,7 +305,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //2b
-   Melee<END>
+  2belee<END>
 
 //2c
 
@@ -326,7 +326,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //2e
-   Melee<END>
+   2elee<END>
 
 //2f
 
@@ -347,7 +347,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //31
-   Melee<END>
+   31lee<END>
 
 //32
 
@@ -368,7 +368,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //34
-   Melee<END>
+   34lee<END>
 
 //35
 
@@ -389,7 +389,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //37
-   Melee<END>
+   37lee<END>
 
 //38
 
@@ -410,7 +410,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //3a
-   Melee<END>
+   3alee<END>
 
 //3b
 
@@ -431,7 +431,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //3d
-   Melee<END>
+   3ddee<END>
 
 //3e
 
@@ -452,7 +452,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //40
-   Melee<END>
+   40lee<END>
 
 //41
 
@@ -473,7 +473,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //43
-   Melee<END>
+   43lee<END>
 
 //44
 
@@ -494,7 +494,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //46
-   Melee<END>
+   46lee<END>
 
 //47
 
@@ -515,7 +515,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //49
-   Melee<END>
+   49lee<END>
 
 //4a
 
@@ -536,7 +536,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //4c
-   Melee<END>
+   4clee<END>
 
 //4d
 
@@ -557,7 +557,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //4f
-   Melee<END>
+   4flee<END>
 
 //50
 
@@ -578,7 +578,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //52
-   Melee<END>
+   52lee<END>
 
 //53
 
@@ -599,7 +599,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //55
-   Melee<END>
+   55lee<END>
 
 //56
 
@@ -620,7 +620,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //58
-   Melee<END>
+   58lee<END>
 
 //59
 
@@ -641,7 +641,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //5b
-   Melee<END>
+   5blee<END>
 
 //5c
 
@@ -662,7 +662,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //5e
-   Melee<END>
+   5elee<END>
 
 //5f
 
@@ -683,7 +683,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //61
-   Melee<END>
+   61lee<END>
 
 //62
 
@@ -704,7 +704,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //64
-   Melee<END>
+   64lee<END>
 
 //65
 
@@ -725,7 +725,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //67
-   Melee<END>
+   67lee<END>
 
 //68
 
@@ -746,7 +746,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //6a
-   Melee<END>
+   6alee<END>
 
 //6b
 
@@ -767,7 +767,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //6d
-   Melee<END>
+   6dlee<END>
 
 //6e
 
@@ -788,7 +788,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //70
-   Melee<END>
+   70lee<END>
 
 //71
 
@@ -809,7 +809,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //73
-   Melee<END>
+   73lee<END>
 
 //74
 
@@ -830,7 +830,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //76
-   Melee<END>
+   M76ee<END>
 
 //77
 
@@ -851,7 +851,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //79
-   Melee<END>
+   79lee<END>
 
 //7a
 
@@ -872,7 +872,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //7c
-   Melee<END>
+   7clee<END>
 
 //7d
 
@@ -893,7 +893,7 @@ netic fields.                 <END>
                               <END>
 //-------------------------------------
 //7f
-none<END>
+7ffe<END>
 
 //80
 adzam<END>

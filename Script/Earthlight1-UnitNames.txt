@@ -107,3 +107,12 @@ adzam   <E>
 // R-TY4.CT-TYX6.CT
 // -TY4 .€€€€ .€€..
 //  . 
+
+//change rank names
+#DISABLE(PtrTbl, "<E>")
+#JMP($43589)
+skeleton  
+
+#JMP($435CB)
+hellhound 
+

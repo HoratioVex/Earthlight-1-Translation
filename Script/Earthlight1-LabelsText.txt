@@ -13,17 +13,21 @@
 
 #JMP($110200)
 
+
+
+//*****************************************Mission Win
+
+//graphic kanji for animation
 //司令塔戰動母艦敵
 //機塞破壞要全滅!!
 //船
 
-//*****************************************Mission Win
 //00
 //連邦軍は、ついに
 //ガルト軍の司令塔を破壊した!
 The Union has       <LF>
-destroyed the HQ    <LF>
-of the Galt Army    <END>
+destroyed Galt's    <LF>
+command center      <END>
 
 //01
 //連邦軍の強力な攻撃のまえに
@@ -51,27 +55,38 @@ in space            <END>
 //04
 //ガルト軍の戦艦は、しつような
 //連邦軍の攻撃に爆発した!!!
-0<END>
+Relentless Union    <LF>
+assaults destroyed  <LF>
+Galt's battleship   <END>
 
 //05
 //キミのみごとな攻撃で、ガルト軍の
 //機動母艦をほおむりさった!!
-0<END>
+The Union's superior<LF>
+strategy overcame   <LF>
+Galt's carrier      <END>
 
 //06
 //ガルト軍は、機動母艦のすべてを
 //うしない、ひきあげていった!!
-0<END>
+All of Galt's       <LF>
+carriers have with- <LF>
+drawn               <END>
 
 //07
 //旗艦をうしなったガルト艦隊は
 //戦意をなくし、ひきあげていった!
-0<END>
+The loss of their   <LF>
+flagship routed     <LF>
+Galt's forces       <END>
 
 //08
 //すべての司令塔をうしなった
 //ガルト軍は、降伏した!!
-0<END>
+Having lost all     <LF>
+command centers,    <LF>
+the Galt forces     <LF>
+surrendered         <END>
 
 //********************************************** lost Options
 //09
@@ -257,7 +272,8 @@ Salamander<END>
 Griffon<END>
 
 //39
-Skull Head<END>
+//Skull Head
+Skeleton<END>
 
 //3A
 Fire Eagle<END>
@@ -294,69 +310,140 @@ Map<END>
 //ガルト軍の強大な攻撃力の前に
 //味方の部隊は、ほうかいした!
 The Union forces    <LF>
-routed by the might <LF>
-of Galt's offense   <END>
+perish before       <LF>
+Galt's assault      <END>
+
 
 //45
-//地球の命運をかけ
-fate of the earth<END>
+//地球の命運をかけた
+//ガルト 帝国に対する反抗作戦
+//「ヘラクレス」は、しっぱいした
+Operation Hercules, <LF>
+which was to deter- <LF>
+mine the fate of    <LF>
+Earth, ends in      <LF>
+failure.<END>
 
 //46
 //ほどなくして・・・
-soon...<END>
+//地球連邦政府は、ガルト帝国に
+//降伏を宣言した・・・
+Soon after, the gov-<LF>
+ernment of Earth    <LF>
+declares its surren-<LF>
+der to the Galt     <LF>
+Empire.             <END>
 
 //47
 //ここに・・・
-here...<END>
+//皇帝アーリマンによる、
+//人類しはいが、はじまった・・・
+Thus begins Emperor <LF>
+Ahriman's culling of<LF>
+mankind.            <LF>
+                    <LF>
+                    <END>
 
 //48
-//地球連邦軍の決死の
-earth fed forces<END>
+//地球連邦軍の決死の攻撃も
+//強大なガルト 帝国艦隊の前に
+//ついに!カつきてしまった・・・
+The desperate attack<LF>
+of the Union fails  <LF>
+before the might of <LF>
+the Imperial Fleet  <LF>
+of Galt.<END>
 
 //49
-//かくして・・
-desperate<END>
+//かくして・・・
+//大要塞「バジリスク」攻略作戦
+//「エレボス」は、しっぱいに終った
+Thus, Operation    <LF>
+Erebos, the plan to<LF>
+capture Grand      <LF>
+Fortress Basilisk, <LF>
+ends in failure.   <END>
 
 //4A
-//ガルト 帝国軍は、反撃
-imperial counter<END>
+//ガルト 帝国軍は、反撃をはじめ!
+//一気に、地球連邦軍艦隊を駆逐!!
+The counterattack  <LF>
+of Galt's Imperial <LF>
+Fleet crushes the  <LF>
+Union.             <LF>
+                   <END>
 
 //4B
+//皇帝アーリマンは、
+//ふたたび、地球連邦政府に
+//降伏をするようにせまった!!
 0<END>
 
 //4C
+//そして、ほどなくして・・:
+//地球連邦政府は、ガルト帝国に
+//降伏を宣言した・・・
 0<END>
 
 //4D
+//追いつめられたガルト 帝国軍の
+//決死の反撃のまえに!
+//地球連邦艦隊は、かいめつした!!
 0<END>
 
 //4E
+//第3ファクトリー「ガルト帝国」
+//首都小惑星「バラム」攻略作戦は
+//しっぱいに終った・・
 0<END>
 
 //4F
+//この作戦「ラグナロク」の
+//しっぱいによって、ガルト軍は
+//ふたたび、攻撃にでてきた!!
 0<END>
 
 //50
+//連邦軍は、その統制をうしない
+//戦いのながれは、変わっていった
 0<END>
 
 //51
+//おそらく・・・
+//アーリマンのわらいが、宇宙に
+//響くのも、そう遠くはないだろう。
 0<END>
 
 //52
+//超ド級攻撃機動母艦「バビロン」
+//破壊作戦「ヤハヴェ」は、
+//しっぱいに終った!!
 0<END>
 
 //53
+//アーリマンの切り札!!
+//「バビロン」は、地球衛星軌道に
+//そのすがたをあらわした・・
 0<END>
 
 //54
+//ガルト 皇帝アーリマンは
+//その主砲を、地球の都市にむけ
+//地球政府に、降伏をせまった!!
 0<END>
 
 //55
+//地球政府は、なす術もなく
+//アーリマンに対して、
+//降伏を宣言した。
 0<END>
 
 //56
+//かくして、
+//ここにガルト戦争は、
+//最悪の終結を向えたのだった・・・
 0<END>
-
+//******************************************** ingame alerts
 //57
 //アラート・メッセージ!!
 //ガルト軍の援軍が
@@ -367,24 +454,50 @@ ments are arriving<LF>
 in this sector    <END>
 
 //58
-0<END>
+//インフォメーション!!
+//味方の援軍が
+//この星域に接近中!!
+INFORMATION       <LF>
+Union reinforce-  <LF>
+ments are ap-     <LF>
+proaching this    <LF>
+sector            <END>
 
 //59
+//バーナーのエネルギー!
+//エンプティ!!
+//バーナーを分離します!!
 0<END>
 
 //5A
+//バッカニア砲!
+//つぎの発射まで
+//あと、**ターンです!!
 0<END>
 
 //5B
+//バッカニア砲!
+//チャージ完了!
+//全艦、射界から脱出せよ!
 0<END>
 
 //5C
+//アラート!!アラート!!
+//すい星がこの星域に
+//接近中!!
 0<END>
 
 //5D
+//すい星通過中!!
+//すい星、進行路の部隊は
+//移動にチュウイせよ!!
 0<END>
 
 //5E
+//バビロン
+//地球衛星軌道上まで
+//あと**ターン!!
+// *=(shift) E5 E5
 0<END>
 
 //5f
@@ -560,7 +673,8 @@ Babylon        <END>
 //破壊せよ!
 Destroy the<LF>
 Enemy      <LF>
-HQ         <END>
+Command    <LF> 
+Center     <END>
 
 //80
 //敵の部隊を
@@ -577,25 +691,40 @@ Enemy      <LF>
 Fortress   <END>
 
 //82
-obj<END>
+//敵の艦船を
+//全滅させよ!
+82obj<END>
 
 //83
-obj<END>
+//敵の戦艦を
+//破壊せよ!!
+83obj<END>
 
 //84
-obj<END>
+//敵の機動母艦を
+//破壊せよ!!
+84obj<END>
 
 //85
-obj<END>
+//敵の機動母艦を
+//全滅させよ!!
+85obj<END>
 
 //86
-obj<END>
+//敵のアスラⅡを
+//破壊せよ!!
+86obj<END>
 
 //87
-obj<END>
+//敵の司令塔の
+//全てを破壊せよ
+87obj<END>
 
 //88
-obj<END>
+//敵の司令塔と
+//要塞本体を
+//破壊せよ!!
+88obj<END>
 
 //89
 Union<END>
