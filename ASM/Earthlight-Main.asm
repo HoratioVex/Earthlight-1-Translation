@@ -82,6 +82,21 @@ org $04E07B
 	jsl LoadPtrUnitNames
 	nop #3
 ;-----
+;Hook pointers for English unit names, unit info
+org $04EEFC
+	jsl LoadPtrUnitNames
+	nop #3
+;-----
+;Hook pointers for English unit names, combat screen
+org $04D2F6
+	jsl LoadPtrUnitNames
+	nop #3
+;-----
+;Hook pointers for English unit names, dock screen
+org $02A31C
+	jsl LoadPtrUnitNamesASL3
+
+;-----
 org $0099B0 ;hook into original kanji render
 	jml RenderMessage ;P is $30
 	;*** lda #$00
@@ -260,7 +275,15 @@ LoadPtrUnitNames:
 	lda.l !PTUnitNames,x 
 	plx
 	rtl
-
 ;----------------------------------
+LoadPtrUnitNamesASL3: ;same as above, but A has been ASL'd 3 times
+	lsr
+	lsr
+	phx
+	tax
+	lda.l !PTUnitNames,x 
+	plx
+	rtl
+;-----------------------------------
 incsrc "./Earthlight-Graphics.asm"
 
