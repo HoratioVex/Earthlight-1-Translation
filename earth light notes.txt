@@ -79,7 +79,7 @@ ab vram total to write?
 fd7-fd9: starting vram address
 fd7-fe0
 -24 counters?
-ff0-fff: free?
+ff0-fff: free?y
 
 79b?
 7ba
@@ -108,3 +108,5 @@ unit names
 
 19bd: unit list in ram
 1d5a8: calc index for unit name
+
+01dd66 tilemaps for units in dock

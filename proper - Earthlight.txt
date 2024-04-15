@@ -81,3 +81,6 @@ LIGHT
 HEAVY
 BOMB
 MELEE
+
+shireitou - command center
+yosai - fortress (stronghold?)
