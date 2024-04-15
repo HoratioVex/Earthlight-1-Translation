@@ -45,7 +45,7 @@ crab    <E>
 camelii <E>
 camelii <E>
 tiamat  <E>
-asura ii<E>
+asura-ii<E>
 nodens  <E>
 hastur  <E>
 artemis <E>

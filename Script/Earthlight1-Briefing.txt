@@ -265,10 +265,10 @@ Eden.                         <LF>
 //ここを制圧することは、
 //反ガルト連邦にとって、ネメア攻略の
 //進路をかくほすることになる!!
-Capturing this sector will be <LF>
+Capturing this sector will    <LF>
 clear a path to Nemea, a      <LF>
-crucial step for the Union.   <LF>
-                              <LF>
+crucial milestone for         <LF>
+Operation Hercules.           <LF>
                               <END>
 
 //Briefing M05-04 (0x2a)
@@ -307,7 +307,7 @@ ing Galt forces.              <END>
 The Galt fleet has launched an<LF>
 attack. Nearby Union bases are<LF>
 deploying squadrons to rescue <LF>
-the distressed allies.        <END>
+their struggling allies.      <END>
 
 //Briefing M06-04 (0x2e)
 //敵は巡洋艦だけ、機動ユニットはいない!
@@ -323,25 +323,38 @@ close combat with Hunters!"   <END>
 //ガルト 帝国皇帝アーリマンは、
 //オリンポス攻略戦のため、司令官を
 //作戦エリアに向けて出発させた。
-xyz<END>
+Galt Emperor Ahriman has      <LF>
+personally assigned a new     <LF>
+Fleet Admiral to oversee the  <LF>
+siege of Olympos.<END>
 
 //Briefing M07-02 (0x30)
 //だが・・・
 //それは反ガルト連邦軍に
 //幸運をもたらすこととなった。
-xyz<END>
+This turns out to be a great  <LF>
+stroke of good fortune for the<LF>
+Liberation Union.             <LF>
+                              <END>
 
 //Briefing M07-03 (0x31)
 //移動中のガルト旗艦を、反ガルト連邦軍が
 //「ル・グィン」星域で発見!!
 //ただちに攻撃かけたのだった!!
-xyz<END>
+Union scouts have discovered  <LF>
+the Galt flagship in the      <LF>
+Le Guin sector and immediately<LF>
+opened the attack.            <END>
 
 //Briefing M07-04 (0x32)
 //目標は、司令官のいる戦艦ティアマト!!
 //ほかには、目もくれなくていい!!
 //ピン・ポイント作戦だ!!
-xyz<END>
+"This is a surgical strike!   <LF>
+Our only target is the        <LF>
+Admiral's Tiamat battleship!  <LF>
+We must bring it down, no     <LF>
+matter the cost!"             <END>
 //-------------------------------------
 //Briefing M08-01 (0x33)
 //ついに!反ガルト連邦軍は、

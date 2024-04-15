@@ -543,8 +543,8 @@ Fleet          <END>
 
 //Title M07 (67)
 //ル・グィンの幸運
-Le Guin's      <LF>
-Fortune        <END>
+Fortune Smiles <LF>
+at Le Guin     <END>
 
 //Title M08 (68)
 //Ｆ1「オリンポス」防衛戦
@@ -671,9 +671,9 @@ Babylon        <END>
 // Objectives M01 (2: 7f,)width 11
 //敵の司令塔を
 //破壊せよ!
-Destroy the<LF>
+Destroy The<LF>
 Enemy      <LF>
-Command    <LF> 
+Command    <LF>
 Center     <END>
 
 //80
@@ -686,45 +686,62 @@ Forces     <END>
 //81
 //敵の要塞本体を
 //破壊せよ!!
-Destroy the<LF>
+Destroy The<LF>
 Enemy      <LF>
 Fortress   <END>
 
 //82
 //敵の艦船を
 //全滅させよ!
-82obj<END>
+Destroy All<LF>
+Enemy Ships<END>
 
 //83
 //敵の戦艦を
 //破壊せよ!!
-83obj<END>
+Destroy The<LF>
+Enemy      <LF>
+Battleship <END>
 
 //84
 //敵の機動母艦を
 //破壊せよ!!
-84obj<END>
+Destroy The<LF>
+Enemy      <LF>
+Carrier    <END>
 
-//85
+//85 destroy all? annihilate?
 //敵の機動母艦を
 //全滅させよ!!
-85obj<END>
+Annihilate <LF>
+The Enemy  <LF>
+Carrier    <END>
 
 //86
 //敵のアスラⅡを
 //破壊せよ!!
-86obj<END>
+Destroy the<LF>
+Enemy      <LF>
+Asura-II   <END>
 
 //87
 //敵の司令塔の
 //全てを破壊せよ
-87obj<END>
+Destroy All<LF>
+Enemy      <LF>
+Command    <LF>
+Centers    <END>
 
 //88
 //敵の司令塔と
 //要塞本体を
 //破壊せよ!!
-88obj<END>
+Destroy The<LF>
+Enemy      <LF>
+Command    <LF>
+Center and <LF>
+Fortifica- <LF>
+tions      <END>
 
 //89
 Union<END>

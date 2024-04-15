@@ -110,7 +110,7 @@ Luggnagg and Asgard.         <LF>
 //ハードユニット(HU) 兵器の標準型
 //武装は、ビームガンと白兵用のブレードを
 //もつ
-Standard Hunter               <LF>
+Assault Hunter                <LF>
 Armed with a beamgun and a    <LF>
 monoblade for melee combat    <LF>
                               <END>
@@ -124,14 +124,21 @@ unit types to be effective.   <LF>
 Relies on flanking and support<LF>
 effects.<END>
 //-------------------------------------
-//10
-10<END>
+//10 Titan
+   Artillery   <LF>
+   Melee<END>
 //11
-yy<END>
+Light Artillery Hunter        <LF>
+Armed with a long-range rail- <LF>
+gun and a forcehammer for     <LF>
+melee combat                  <END>
 //12
-yy<END>
+The Titan strikes enemies from<LF>
+a distance, then rushes in to <LF>
+finish them in close combat.  <LF>
+                              <END>
 //-------------------------------------
-//13
+//13 Talos
 //白兵
    Melee<END>
 
@@ -241,24 +248,23 @@ netic fields.                 <END>
                               <LF>
                               <END>
 //-------------------------------------
-//22
-   Me22lee<END>
+//22 Crane ffa81
+   <END>
 
 //23
-
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Heavy Space Fighter           <LF>
+A more versatile unit than the<LF>
+Lobster, the Crane is armed   <LF>
+with both a light railgun for <LF>
+dogfights and anti-ship       <LF>
+missile pods.                 <END>
 
 //24
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The Crane can counter a       <LF>
+variety of enemies, creating  <LF>
+openings for other units      <LF>
+to advance.                   <LF>
                               <LF>
                               <END>
 //-------------------------------------
@@ -430,46 +436,47 @@ netic fields.                 <END>
                               <LF>
                               <END>
 //-------------------------------------
-//3d
-   3ddee<END>
+//3d Crab
+   Transport<END>
 
 //3e
 
+High-speed Transport Ship     <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The Crab has a large cargo    <LF>
+hold and can load a variety of<LF>
+ships, fighters and bombers.  <LF>
                               <END>
 
 //3f
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+It also transports space mines<LF>
+and turrets to their deploy-  <LF>
+ment area. Slow-moving units  <LF>
+can be brought to the front   <LF>
+line.                         <LF>
+Loaded Units can't attack.    <END>
 //-------------------------------------
-//40
-   40lee<END>
+//40 Tiamat
+   Large       <LF>
+   Warship<END>
 
 //41
 
+Battleship                    <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with four triple-barrel <LF>
+beam cannons and thirty-two   <LF>
+pulsebeam flak turrets.       <LF>
                               <END>
 
 //42
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The Tiamat is often used as   <LF>
+the primary attack vessel     <LF>
+against ships and fortresses  <LF>
+and also commonly serves as   <LF>
+the flagship of a fleet.      <LF>
                               <END>
 //-------------------------------------
 //43
@@ -640,7 +647,7 @@ netic fields.                 <END>
                               <LF>
                               <END>
 //-------------------------------------
-//5b
+//5b Hannibal
    5blee<END>
 
 //5c
@@ -766,7 +773,7 @@ netic fields.                 <END>
                               <LF>
                               <END>
 //-------------------------------------
-//6d
+//6d Gulon
    6dlee<END>
 
 //6e
@@ -787,7 +794,7 @@ netic fields.                 <END>
                               <LF>
                               <END>
 //-------------------------------------
-//70
+//70 Pergamon
    70lee<END>
 
 //71
@@ -911,25 +918,71 @@ firing                        <END>
 //移動や攻撃には、いっさいの影響を
 //あたえない
 Open Space                    <LF>
+                              <LF>
 No effect on movement or      <LF>
 attacks                       <END>
 
-//83
-83<END>
+//83 magnet
+//磁気をおびた粒子が、集っている空間
+//移動には影響がないが、この空間では
+//ビーム兵器が、強力な磁気のために完全に
+//無力化する
+A dense concentration of      <LF>
+magnetic particles            <LF>
+                              <LF>
+It has no effect on movement, <LF>
+but the strong magnetism com- <LF>
+pletely disables beam weapons <END>
 
-//84
-84<END>
+//84 meteor field
+//小さな岩が、たくさん集っている空間
+//この空間に艦船は入れない
+//そのほかのユニットも、移動力が大きく
+//低下する
+A cluster of small rocks      <LF>
+                              <LF>
+Ships can't enter             <LF>
+Other units have greatly re-  <LF>
+duced movement<END>
 
-//85
-85<END>
+//85 asteroid
+//宇宙空間にただよっている小惑星帯
+//艦船は入れない
+//固定砲が設置できる
+An asteroid belt              <LF>
+                              <LF>
+Ships can't enter             <LF>
+Turrets can be deployed       <END>
 
-//86
-86<END>
+//86 interst belt
+//小さな星間粒子が、密集している空間
+//各武装にたいする影響は、それほど大きく
+//ないが、.星間粒子の流れで大型艦船のほか
+//は移動力が低下する
+Interstellar medium consisting<LF>
+of gas, dust and cosmic rays  <LF>
+                              <LF>
+The effect on each weapon     <LF>
+class is small, but the flow  <LF>
+of particles hinders the      <LF>
+movement of larger vessels.   <END>
 
-//87
-87<END>
+//87 gravity
+//重力が、ランダムに発生している空
+//間 レールガン、ミサイル武装に大きな影
+//響を。また、過大な重力のために
+//HU兵器は入れない
+A random fluctuation of       <LF>
+galactic gravity fields       <LF>
+                              <LF>
+Large impact on railguns and  <LF>
+missiles                      <LF>
+Hunters can't enter           <END>
 
-//88
+//88 atmosphere
+//地球の大気圏
+//重力の影響が強いため、ここにある
+//ユニットは、攻撃ができない
 88<END>
 
 //89
@@ -937,23 +990,29 @@ attacks                       <END>
 //むき出しになっているところ
 //艦船は入れない
 //固定砲が設置できる
-Exposed asteroid rock not yet <LF>
-built on                      <LF>
+Solid asteroid rock suitable  <LF>
+for construction              <LF>
+                              <LF>
 Ships can't enter             <LF>
-Artillery can be deployed     <LF> 
+Turrets can be deployed       <LF> 
                               <END>
 
-//8a
+//8a deck
 //小惑星に作られた要塞の機動甲板
 //移動や攻撃には、ほとんど影響がない
 //固定砲が設置できる
 The deck of a floating        <LF>
 fortress built on an asteroid <LF>
+                              <LF>
 Small effect on movement and  <LF>
 attack                        <LF>
-Artillery can be deployed     <END>
+Turrets can be deployed       <END>
 
-//8b
+//8b rail
+//要塞甲板に作られたラハブ用の移動レール
+//ラハブはこのレールの上しか移動できない
+//ほかのユニットにとっては要塞甲板と
+//変わりがない
 8b<END>
 
 //8c
@@ -962,19 +1021,34 @@ Artillery can be deployed     <END>
 //射線もまったく通らない
 A defensive wall built on a   <LF>
 fortress deck                 <LF>
+                              <LF>
 No unit can enter             <LF>
 No shots can pass through     <END>
 
-//8d
+//8d comet gas
+//すい星の尾の部分
+//進入には、全移動力が必要とされる
+//この地形にいるユニットは、攻撃をすること
+//つができないが、攻撃されることはある
 8d<END>
 
-//8e
+//8e comet body
+//すい星の本体
+//すべてのユニットが進入できない
+//射線もまったく通らない
 8e<END>
 
-//8f
+//8f earth
+//地球の重力圈
+//すべてのユニットが進入できない
+//射線もまったく通らない
 8f<END>
 
-//90
+//90 babylone hull
+//超ド級機動攻撃母艦「バビロン」の船体
+//移動・攻撃には、ほとんど影響がない
+//ただし、艦船は進入できないので
+//HU兵器による作戦が必要
 90<END>
 
 // ************************************************ Terrain names
@@ -984,22 +1058,35 @@ No shots can pass through     <END>
 Void<END>
 
 //92
-92<END>
+//磁気帯
+Magnetic <LF>
+Field<END>
 
 //93
-93<END>
+//流星地帯
+Meteoroid<LF>
+Field<END>
 
 //94
-94<END>
+//小惑星
+Asteroid<END>
 
 //95
-95<END>
+//星間物質帯
+//Interstellar medium
+Galactic <LF>
+Plasma   <END>
+
 
 //96
-96<END>
+//重力地帯
+Gravity  <LF>
+Flux     <END>
 
 //97
-97<END>
+//大気圏
+Atmo-    <LF>
+sphere<END>
 
 //98 
 //岩盤地形
@@ -1007,26 +1094,37 @@ Bedrock<END>
 
 //99
 //要塞甲板
-Fortress Deck<END>
+Fortress <LF>
+Deck     <END>
 
 //9a
-as<END>
+//砲搭レール
+Gun Mount<LF>
+Rail     <END>
 
 //9b
 //要塞防御壁
-Fortress Wall<END>
+Fortress <LF>
+Wall<END>
 
 //9c
-9c<END>
+//すい星ガス帯
+Comet Gas<LF>
+Belt     <END>
 
 //9d
-9d<END>
+//すい星本体
+Comet    <LF>
+Body     <END>
 
 //9e
-9e<END>
+//地球地形
+Earth<END>
 
 //9f
-9f<END>
+//バビロン船体
+Babylon  <LF>
+Hull<END>
 //**************************************************** percentage numbers
 //a0
 0<END>
