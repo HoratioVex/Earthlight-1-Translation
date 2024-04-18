@@ -20,12 +20,16 @@ lorom
 !MDMAEN		  = $420B
 
 ;used by game
+!RAMPosition  = $AB
+!positionInc  = $1E1B
+!positionFlag = $1E1D
+!srUpdatePos  = $00E1C2
 !frameCounter = $0805
 !messageID    = $0757
 !offsetChar   = $075B
 !offsetLine   = $075C
 !messageNum   = $07F9
-!lineLength   = $079B ;per msg
+!lineLength   = $079B
 !targetL      = $075D ;per msg
 !targetH      = $077C ;per msg
 
@@ -38,9 +42,10 @@ lorom
 !bytesLeft     = $0FF6
 !tempL         = $0FF7
 !tempH         = $0FF8
-!RAMBuffer     = $7F0806 ;for graphics decomp, should be free
+!RAMBuffer     = $7F0000
 !PTUnitNames   = $01F8F6 ;pointer table eng unit names
 ;-----
+;*******************************************************************************************************
 ;Header
 org $2FFFFF
 	db $00 ;expand to 12 Mbits
@@ -65,6 +70,10 @@ org $05ECC9
 	lda #$08 ;fixed length, but it's supposed to be padded with quotation marks
 	nop #5
 ;-----
+org $05ED26
+	;*** lda #$01
+	lda.b #$00 ;no quotation marks to indent title 
+------	
 ;Fixed Length for map title, load screen
 org $08B3FB
 	;*** jsl $00984c
@@ -97,6 +106,7 @@ org $02A31C
 	jsl LoadPtrUnitNamesASL3
 
 ;-----
+;************************************************************************************************************
 org $0099B0 ;hook into original kanji render
 	jml RenderMessage ;P is $30
 	;*** lda #$00
@@ -142,7 +152,8 @@ RenderMessage:
 	sta !currCharM
 	lda #$00
 	sta !currCharL
-
+	lda #$01
+	sta !positionFlag ;flag for ram write in progress
 ;first char
 	rep #$30
 	lda !messageID
@@ -150,7 +161,11 @@ RenderMessage:
 	tay
 	lda [!currCharL],y
 	sta !currCharL
-	ldx #$0000
+	lda !RAMPosition
+	sta !tempL
+	clc
+	adc #$0006
+	tax
 .nextChar:
 	sep #$20
 	lda #$08
@@ -195,61 +210,77 @@ RenderMessage:
 		}
 	inc !currCharL
 	bra .nextChar
+
 .msgDone:
+	rep #$20
+	txa
+	sec
+	sbc !tempL ;subtract start position
+	sta !positionInc ;move write position up by our total bytes written
+	sec
+	sbc #$0006 ;subtract header length, it won't be DMAd
+	tay
+;write header for buffer entry
+	ldx !tempL
+	lda #$0010 ;code for DMA request for renderer
+	sta !RAMBuffer,x
+	inx #2
+	tya
+	sta !RAMBuffer,x
+	inx #2
+	phx
 	sep #$20
-	stx !tempL ;ram pointer = bytes written
-	
-;setup DMA	
-	sep #$30
-	lda #$01
-	sta !DMAP4
-	lda #$18 ;target vramwrite
-	sta !BBAD4
-	lda.b #!RAMBuffer     ;l
-	sta !A1T4L 
-	lda.b #!RAMBuffer>>8  ;m
-	sta !A1T4H  
-	lda.b #!RAMBuffer>>16 ;h
-	sta !A1B4
-	lda !tempL
-	sta !DAS4L 
-	lda !tempH
-	sta !DAS4H
 ;setup VRAM target	
 	ldx !messageNum ;store target
 	lda !targetL,x
 	sta !tempL
 	lda !targetH,x
 	sta !tempH
-	lda !offsetChar ;add offset
-	dec
-	bpl .addCharOffset
-	bra .skipCharOffset
-.addCharOffset:
+;add offset
+	lda #$00 ;clear remnant hi byte
+	xba
+	lda !offsetChar
+	beq .skipCharOffset
+	tax
 	rep #$20
-	and #$00FF
-	asl #4 ; *16 for tile, /2 (vram word address)
+	lda #$0000
+.moveRight: {
+		clc
+		adc #$0008
+		dex
+		bne .moveRight
+		}
 	clc
 	adc !tempL
 	sta !tempL
 	sep #$20 
-	;TODO: add offset line
 .skipCharOffset:
-
-;wait for vblank
-	lda !frameCounter
-.waitFrame:	
-	cmp !frameCounter
-	beq .waitFrame
-
-;start dma to vram
+	lda #$00
+	xba ;clear remnant hi byte
+	lda !offsetLine
+	beq .skipLineOffset
+	asl
+	tax
+	rep #$20
+	lda #$0000 ;line offset, muultiply with line length
+.moveDown: {
+		clc
+		adc #$0090
+		dex
+		bne .moveDown
+		}
+	clc
+	adc !tempL
+	sta !tempL
+	sep #$20
+.skipLineOffset:
+;write vram target to header
+	plx
+	rep #$20
 	lda !tempL
-	sta !VMADDL
-	lda !tempH
-	sta !VMADDH
-	lda #$10 ;dma channel 4
-	sta !MDMAEN	
-		
+	sta !RAMBuffer,x
+	sep #$20
+	
 .Final:  ;finalize and return	
 	lda #$07	;point original char pointer to a $0000 (e.g.$07AA47)for empty message, so it skips rendering
 	sta !currCharH
@@ -257,8 +288,12 @@ RenderMessage:
 	sta !currCharM
 	lda #$47
 	sta !currCharL
+	
+	rep #$20
+	jsl !srUpdatePos ;call to update ram position
 	;lda #$00
 	;sta !MEMSEL ;fastrom off? who knows
+	sep #$30
 	plb
 	ply
 	plx
