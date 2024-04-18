@@ -110,7 +110,8 @@ Luggnagg and Asgard.         <LF>
 //ハードユニット(HU) 兵器の標準型
 //武装は、ビームガンと白兵用のブレードを
 //もつ
-Assault Hunter                <LF>
+Combat Hunter                 <LF>
+                              <LF>
 Armed with a beamgun and a    <LF>
 monoblade for melee combat    <LF>
                               <END>
@@ -122,20 +123,23 @@ monoblade for melee combat    <LF>
 Requires support from other   <LF>
 unit types to be effective.   <LF>
 Relies on flanking and support<LF>
-effects.<END>
+effects.                      <LF>
+                              <END>
 //-------------------------------------
 //10 Titan
-   Artillery   <LF>
+   Artillery<LF>
    Melee<END>
 //11
-Light Artillery Hunter        <LF>
-Armed with a long-range rail- <LF>
-gun and a forcehammer for     <LF>
+Artillery Hunter              <LF>
+                              <LF>
+Armed with a medium-range     <LF>
+railgun and a forcehammer for <LF>
 melee combat                  <END>
 //12
 The Titan strikes enemies from<LF>
 a distance, then rushes in to <LF>
 finish them in close combat.  <LF>
+                              <LF>
                               <END>
 //-------------------------------------
 //13 Talos
@@ -147,42 +151,42 @@ finish them in close combat.  <LF>
 //強力なビームサーベルと両うでに防御用の
 //小型ビームを装備している
 Close Combat Hunter           <LF>
-Armed with a fearsome beam-   <LF>
-saber and light beamguns on   <LF>
-both arms                     <LF>
                               <LF>
+Armed with an overcharged     <LF>
+beamsaber and light beamguns  <LF>
+on both arms                  <LF>
                               <END>
 
 //15
 //白兵で敵をたたき切るのをとくいとするが
 //武装がビーム兵器のみなので、磁気空間では
 //完全に無力化する
-It aims to engage enemies in  <LF>
-melee combat, but since it    <LF>
+Talos tries to engage enemies <LF>
+in melee combat, but since it <LF>
 relies entirely on beam       <LF>
 weapons, this unit is com-    <LF>
 pletely ineffective in mag-   <LF>
 netic fields.                 <END>
 //-------------------------------------
-//16
-   16Melee<END>
+//16 Medusa
+   Melee<END>
 
 //17
 
+Fire Support Hunter           <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Armed with a huge rapid-fire  <LF>
+missile launcher on its head  <LF>
+and a shockflail for melee    <LF>
+combat                        <END>
 
 //18
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Medusa's primary role is the  <LF>
+defence of fortresses and     <LF>
+capital ships. The exposed    <LF>
+missile pods are both its     <LF>
+greatest strength and weakness<LF>
                               <END>
 //-------------------------------------
 //19
@@ -227,7 +231,7 @@ netic fields.                 <END>
                               <LF>
                               <END>
 //-------------------------------------
-//1f
+//1f Lobster
    1fMelee<END>
 
 //20
@@ -252,7 +256,7 @@ netic fields.                 <END>
    <END>
 
 //23
-Heavy Space Fighter           <LF>
+Heavy Fighter                 <LF>
 A more versatile unit than the<LF>
 Lobster, the Crane is armed   <LF>
 with both a light railgun for <LF>
@@ -289,7 +293,7 @@ to advance.                   <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//28
+//28 vulcan
    28Melee<END>
 
 //29
@@ -310,7 +314,7 @@ to advance.                   <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//2b
+//2b Phoibos / sniper
   2belee<END>
 
 //2c
@@ -331,7 +335,7 @@ to advance.                   <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//2e
+//2e cyclops
    2elee<END>
 
 //2f
@@ -373,7 +377,7 @@ to advance.                   <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//34
+//34 Dragon
    34lee<END>
 
 //35
@@ -394,7 +398,7 @@ to advance.                   <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//37
+//37 hydra
    37lee<END>
 
 //38
@@ -458,7 +462,7 @@ line.                         <LF>
 Loaded Units can't attack.    <END>
 //-------------------------------------
 //40 Tiamat
-   Large       <LF>
+   Large    <LF>
    Warship<END>
 
 //41
@@ -467,8 +471,8 @@ Battleship                    <LF>
                               <LF>
 Armed with four triple-barrel <LF>
 beam cannons and thirty-two   <LF>
-pulsebeam flak turrets.       <LF>
-                              <END>
+pulsebeam point-defence       <LF>
+turrets.                      <END>
 
 //42
 
@@ -479,7 +483,7 @@ and also commonly serves as   <LF>
 the flagship of a fleet.      <LF>
                               <END>
 //-------------------------------------
-//43
+//43 asura2
    43lee<END>
 
 //44
@@ -652,23 +656,23 @@ the flagship of a fleet.      <LF>
 
 //5c
 
+Light Cruiser                 <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Armed with three medium-range <LF>
+armor-piercing beam turrets   <LF>
+and twenty-eight rapid-fire   <LF>
+railguns for point-defence    <END>
 
 //5d
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+A mainstay of fleet battles   <LF>
+and support operations, the   <LF>
+Hannibal serves as fire       <LF>
+support and escort vessel.    <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//5e
+//5e regulus
    5elee<END>
 
 //5f
@@ -731,7 +735,7 @@ the flagship of a fleet.      <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//67
+//67 Fenrir
    67lee<END>
 
 //68
@@ -774,48 +778,49 @@ the flagship of a fleet.      <LF>
                               <END>
 //-------------------------------------
 //6d Gulon
-   6dlee<END>
-
+   Fire and <LF> 
+   Move     <END>
 //6e
 
+Assault Destroyer             <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with a fixed quadruple  <LF>
+railgun and small short-range <LF>
+missile pods                  <LF>
                               <END>
 
 //6f
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+The Gulon is a shock unit that<LF>
+rushes into the heart of enemy<LF>
+formations, hits a vulnerable <LF>
+ship with a massive blast and <LF>
+withdraws before they can re- <LF>
+taliate.                      <END>
 //-------------------------------------
 //70 Pergamon
-   70lee<END>
+   Def. Fire<LF>
+   Repairs  <END>
 
 //71
 
+Space Dock                    <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Can be captured by reducing   <LF>
+its HP to zero with rapid-    <LF>
+fire or melee attacks         <LF>
                               <END>
 
 //72
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Units other than battleships  <LF>
+and carriers can enter an     <LF>
+allied dock to receive main-  <LF>
+tenance and repairs           <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//73
+//73 solomon
    73lee<END>
 
 //74
@@ -878,39 +883,47 @@ the flagship of a fleet.      <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//7c
-   7clee<END>
+//7c Cortex /brain
+   Unarmed<END>
 
 //7d
 
+Command Center                <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Vulnerable to armor-piercing, <LF>
+melee and bomb attacks        <LF>
                               <LF>
                               <END>
 
 //7e
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+A field headquarters through  <LF>
+which all troop movements are <LF>
+coordinated. Larger areas     <LF>
+require more than one command <LF>
+center.                       <LF>
                               <END>
 //-------------------------------------
-//7f
-7ffe<END>
-
+//7f adzam
+   Buccaneer<LF>
+   Cannon<END>
 //80
-adzam<END>
+Command Center which controls <LF>
+the Buccaneer Cannon          <LF>
+                              <LF>
+Vulnerable to armor-piercing, <LF>
+melee and bomb attacks        <LF>
+                              <END>
 
 //81
 //アッザムを破壊することによりバッカニア砲
 //の発射をくい止めることができる
 Destroying Adzam will prevent <LF>
 the Buccaneer Cannon from     <LF>
-firing                        <END>
+firing                        <LF>
+                              <LF>
+                              <LF>
+                              <END>
 
 //************************************************* Terrain description
 //82
@@ -983,7 +996,11 @@ Hunters can't enter           <END>
 //地球の大気圏
 //重力の影響が強いため、ここにある
 //ユニットは、攻撃ができない
-88<END>
+Earth's atmosphere            <LF>
+                              <LF>
+Because of the increasing     <LF>
+gravitational forces, units   <LF>
+can't attack                  <END>
 
 //89
 //要塞などの基盤をなしている小惑星が
@@ -994,7 +1011,7 @@ Solid asteroid rock suitable  <LF>
 for construction              <LF>
                               <LF>
 Ships can't enter             <LF>
-Turrets can be deployed       <LF> 
+Turrets can be deployed       <LF>
                               <END>
 
 //8a deck
@@ -1013,7 +1030,14 @@ Turrets can be deployed       <END>
 //ラハブはこのレールの上しか移動できない
 //ほかのユニットにとっては要塞甲板と
 //変わりがない
-8b<END>
+A railway for the Rahab turret<LF>
+built into a fortress deck    <LF>
+                              <LF>
+A Rahab can move only on      <LF>
+these railways                <LF>
+                              <LF>
+Identical to a fortress deck  <LF>
+for all other units           <END>
 
 //8c
 //要塞甲板に設置された要塞防御壁
@@ -1030,26 +1054,43 @@ No shots can pass through     <END>
 //進入には、全移動力が必要とされる
 //この地形にいるユニットは、攻撃をすること
 //つができないが、攻撃されることはある
-8d<END>
+The tail of a comet           <LF>
+                              <LF>
+Entry requires all movement   <LF>
+points                        <LF>
+Units can't attack, but can be<LF>
+attacked                      <END>
 
 //8e comet body
 //すい星の本体
 //すべてのユニットが進入できない
 //射線もまったく通らない
-8e<END>
+A comet                       <LF>
+                              <LF>
+No unit can enter             <LF>
+No shots can pass through     <END>
 
 //8f earth
 //地球の重力圈
 //すべてのユニットが進入できない
 //射線もまったく通らない
-8f<END>
+Earth's gravity field         <LF>
+                              <LF>
+No unit can enter             <LF>
+No shots can pass through     <END>
 
 //90 babylone hull
 //超ド級機動攻撃母艦「バビロン」の船体
 //移動・攻撃には、ほとんど影響がない
 //ただし、艦船は進入できないので
 //HU兵器による作戦が必要
-90<END>
+Hull of the super-heavy       <LF>
+dreadnought Babylon           <LF>
+                              <LF>
+Small effect on movement and  <LF>
+attack                        <LF>
+As ships can't enter, Hunters <LF>
+will be required              <END>
 
 // ************************************************ Terrain names
 //91
@@ -1099,8 +1140,8 @@ Deck     <END>
 
 //9a
 //砲搭レール
-Gun Mount<LF>
-Rail     <END>
+Turret   <LF>
+Railway  <END>
 
 //9b
 //要塞防御壁
@@ -1109,8 +1150,8 @@ Wall<END>
 
 //9c
 //すい星ガス帯
-Comet Gas<LF>
-Belt     <END>
+Comet    <LF>
+Tail     <END>
 
 //9d
 //すい星本体
@@ -1137,7 +1178,7 @@ Hull<END>
 //a4
 20<END>
 //a5
-25<END> 
+25<END>
 //a6
 35<END>
 //a7
@@ -1185,24 +1226,33 @@ wait for full release<END>
 //どのファイルを
 //ロードしますか?
 Load Game         <LF>
-Select Slot       <END>
-
+Select Slot       <LF>
+                  <LF>
+                  <END>
+                  
 // System Message 01 (0xB1)
 //ロードする
 //データがありません
-No data to load   <END>
+No data to load   <LF>
+                  <LF>
+                  <LF>
+                  <END>
 
 // System Message 05 (0xB2,)
 //ロードを完了しました
 //「戦闘に戻ります
 Load Complete     <LF>
-Resume Battle     <END>
+Resume Battle     <LF>
+                  <LF>
+                  <END>
 
 // System Message 03 (0xB3,)
 //セーブしました
 //戦闘にもどりますか?
 Game saved        <LF>
-Keep playing?     <END>
+Keep playing?     <LF>
+                  <LF>
+                  <END>
 
 // B4
 //お疲れさまでした
@@ -1216,19 +1266,23 @@ console              <END>
 //どのファイルに
 //セーブしますか?
 Save Game         <LF>
-Select Slot       <END>
+Select Slot       <LF>
+                  <LF>
+                  <END>
 
 // B6
-File1<END>
+File 1<END>
 
 // B7
-File2<END>
+File 2<END>
 
 // System Message 06 (B8,)
 //前のデータが、きえますが
 //よろしいですか?
 OK to overwrite   <LF>
-previous data?    <END>
+previous data?    <LF>
+                  <LF>
+                  <END>
 
 
 // B9

@@ -16,75 +16,75 @@
 //*********************************** Short unit descriptions for Docks
 //00
 //標準的なタイプのHU兵器
-d0<END>
+Assault Hunter<END>
 
-//01
+//01 titan
 //中距離レールガンをもつHU兵器
-d01x<END>
+Artillery Hunter<END>
 
-//02
-d02x<END>
+//02 Talos
+Close Combat Hunter<END>
 
 //03
 d03x<END>
 
-//04
+//04 athena
 d04x<END>
 
-//05
+//05 lobster
 d05x<END>
 
-//06
-d06x<END>
+//06 crane
+Heavy Fighter<END>
 
-//07
-d07x<END>
+//07 brontes
+Heavy Bomber<END>
 
-//08
-d08x<END>
+//08 Vulcan
+Rapid-Fire Artillery Ship<END>
 
-//09
-d09x<END>
+//09 Phoibos
+Armor-Piercing Artillery Ship<END>
 
-//0a
+//0a Cyclops
 d0ax<END>
 
-//0b
+//0b wisp
 d0bx<END>
 
-//0c
+//0c dragon
 d0cx<END>
 
-//0d
-d0dx<END>
+//0d Hydra
+Rapid-Fire Missile Turret<END>
 
 //0e
 d0ex<END>
 
-//0f
-d0fx<END>
+//0f Crab
+High-Speed Transport Ship<END>
 
-//10
+//10 hannibal
 d10x<END>
 
-//11
-d11x<END>
+//11 regulus
+Rapid-Fire Cruiser<END>
 
-//12
+//12 corvus
 d12x<END>
 
 //13
 d13x<END>
 
-//14
+//14 fenrir
 d14x<END>
 
-//15
+//15 cerberus
 d15x<END>
 
-//16
+//16 gulon
 //対艦攻撃用レールガンをもつ駆逐艦
-d16x<END>
+Armor-Piercing Destroyer<END>
 // **************************************************Briefings
 // Briefing M01-01 (3: 0x17)width 30
 //反ガルト連邦軍は、F1「オリンポス」で
@@ -244,7 +244,7 @@ Fort Rucker.                  <END>
 //「オリンポス」の反ガルト連邦軍は、
 //そのコマをレイモンド星域へと進めた!
 The Liberation Union has      <LF>
-finally launched Operation    <LF>
+finally initiated Operation   <LF>
 "Hercules" against Assault    <LF>
 Fortress Nemea. Union forces  <LF>
 are advancing into the Raymond<LF>
@@ -360,25 +360,40 @@ matter the cost!"             <END>
 //ついに!反ガルト連邦軍は、
 //作戦「ヘラクレス」をスタートさせた!!
 //Heinlein
-xyz<END>
+The main phase of Operation   <LF>
+"Hercules" is under way.      <END>
 
 //Briefing M08-02 (0x34)
 //主力艦隊は、攻撃目標「ネメア」のある
 //F2「エデン」へむけ、「オリンポス」を
 //つぎつぎと発進していった。
-xyz<END>
+The main fleet of the Union   <LF>
+departs from Olympos in       <LF>
+multiple waves, heading for   <LF>
+F2 Eden, the present location <LF>
+of Assault Fortress Nemea.    <END>
 
 //Briefing M08-03 (0x35)
 //作戦司令官を失ったガルト艦隊は、
 //主力のいなくなった「オリンポス」に
 //起死回生の特攻戦をかけていた!!
-xyz<END>
+The Galt fleet, in severe dis-<LF>
+array after the loss of its   <LF>
+flagship, launches a desparate<LF>
+all-out attack aga[in]st Olympos,<LF>
+whose defence is now stretched<LF>
+thin.                         <END>
 
 //Briefing M08-04 (0x36)
 //連邦軍は、残存艦隊でうって出る!!
 //後からの攻撃がうまくいけば、旗艦のいない
 //ガルト艦隊はそうくずれになるだろう!!
-xyz<END>
+The remaining Union vessels   <LF>
+coordinate for a bold sortie. <LF>
+If it succeeds, the Imperial  <LF>
+command structure might       <LF>
+collapse entirely.            <LF>
+                              <END>
 //--------------------------------------
 
 //Briefing M09-01 (0x37)
@@ -386,49 +401,85 @@ xyz<END>
 //撃ち破ったころ・・・ネメア攻略艦隊は、
 //エデンの門「ブラッドベリィ」についた!
 //bradbury
-xyz<END>
+As Olympos' garrison repels   <LF>
+the Imperial invaders, the    <LF>
+main fleet of the Union ar-   <LF>
+rives in the Bradbury sector, <LF>
+known as the Gate of Eden.    <END>
 
 //Briefing M09-02 (0x38)
 //この「ブラッドベリィ」を突破すれば、
 //攻撃目標の「ネメア」は、すぐだ!!
 //作戦「ヘラクレス」が、はじまったのだ。
-xyz<END>
+Assault Fortress Nemea has    <LF>
+been spotted just beyond Brad-<LF>
+bury. This is the decisive mo-<LF>
+ment for Operation "Hercules".<LF>
+                              <END>
 
 //Briefing M09-03 (0x39)
 //敵は、エデンの門の浮きドックを制圧し、
 //そこから侵攻してくるだろう。
 //ぎゃくに、これを阻止すれば・・・。
-xyz<END>
+"The enemy will overrun the   <LF>
+docks at the Gate of Eden and <LF>
+launch strikes from there. But<LF>
+what if we can prevent that…" <LF>
+                              <END>
 
 //Briefing M09-04 (0x3a)
 //連邦軍は、アスラⅡを旗艦とする
 //要塞攻撃隊を左から突入させ、
 //機動ユニットを浮きドックに向かわせた!
-xyz<END>
+The siege fleet of the Union  <LF>
+led by the Asura-II flagship  <LF>
+heads in from the left, while <LF>
+Hunter squadrons try to       <LF>
+capture the docks.            <END> 
 //--------------------------------------
 //Briefing M10-01 (0x3b)
 //「エデンの門」を突破した連邦軍は、
 //ガルト軍地球攻撃基地「ネメア」へと
 //艦隊をすすめた!!
-xyz<END>
+The Union siege fleet has     <LF>
+broken through the Gate of    <LF>
+Eden and pushes toward Nemea, <LF>
+the Imperial Assault Fortress <LF>
+that has become a threat to   <LF>
+Earth itself.                 <END>
 
 //Briefing M10-02 (0x3c)
 //要塞「ネメア」までは、
 //これといった攻撃はなく、連邦軍艦隊は
 //要塞の中へと進んでいった!
-xyz<END>
+Union forces have encountered <LF>
+no significant resistance     <LF>
+during their approach and are <LF>
+about to enter the fortress.  <LF>
+                              <LF>
+                              <END>
 
 //Briefing M10-03 (0x3d)
 //だが、「ネメア」の守りはかたく・・・
 //要塞のコントロールをしている司令塔は
 //防御壁にかこまれたおくにある!!
-xyz<END>
+But Nemea's defenses are      <LF>
+formidable. The command center<LF>
+controlling the fortress lies <LF>
+firmly entrenched behind a    <LF>
+fortified wall.               <LF>
+                              <END>
 
 //Briefing M10-04 (0x3e)
 //まずは、近くの浮きドックを制圧し、
 //機動ユニット部隊と艦船部隊にわけて、
 //突入してはどうだろうか?
-xyz<END>
+"Perhaps we should capture the<LF>
+nearby dock first. And if we  <LF>
+split up our ships and our    <LF>
+Hunters, one group might find <LF>
+an opening!"                  <LF>
+                              <END>
 //--------------------------------------
 //Briefing M11-01 (0x3f)
 //地球連邦軍は、バート長官の指令のもと、
