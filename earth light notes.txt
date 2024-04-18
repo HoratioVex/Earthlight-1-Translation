@@ -3,7 +3,10 @@ to: 7f0006
 X offset (decomp)
 Y offset (comp)
 
-(datasets: aef5+offset, switch to uncompressed)
+($00cfde: load datasets: aef5+set_offset -> comp type (right nibble), aef8 -> length, aefc-aefe -> source address)
+$fd7: set id (set_offset=set_id*10)
+$fd9 (loaded with constant before call): ???
+$fda (left nibble of datatype): ???
 $fdb: datatype: #00: uncompressed(d25c), #01: rle-interleaved(d280), #02:copy with fill in(d2eb), #03:rle-interleaved with fill in(d31a)
 $fdc: (comp) length
 9c55: fill in some  bytes? kanji?
@@ -11,9 +14,10 @@ $fdc: (comp) length
 $21/$22: current control bytes
 $23/$24: cache for previous values?
 $25: counter current set of 8 doublebytes
-$37: ram position
+$37: ram position / bytes written
 $39: 16 byte chunks decomp left
 $8a-8c: memory bank for (comp)
+
 
 decomp:
 cache=#00
@@ -23,7 +27,10 @@ control byte shift left
 xor with cache -> new cache
 write to decomp
 repeat x8
-
+------------------------
+$d385: decompress tilemaps
+$fdb datatype #00 (uncompressed): 00 00 -> 80 00 (adding $25=0x80 to 1st byte)
+$ab: ram position/bytes written
 -------------------
 script encoding:
 1 control byte, 8 character bytes
@@ -109,4 +116,11 @@ unit names
 19bd: unit list in ram
 1d5a8: calc index for unit name
 
+'A'=0x81
 01dd66 tilemaps for units in dock
+
+0d8aca tilempas unit info
+
+1e21,1e23,1e25: header for ram buffer entry
+dma request: 7f0000 header: 10 00 si ze vr ad(2116)
+inc $ab: add value -> $1e1b, flag -> $1e1d=1, jsl $00e1c2 to perform add

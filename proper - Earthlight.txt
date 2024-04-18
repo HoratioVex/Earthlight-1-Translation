@@ -77,10 +77,14 @@ factory - Foundry Factotum
 Buccaneer - Marauder / Corsair
 
 weapon mounts:
-LIGHT
-HEAVY
+RAPID   PULSE  SMALL FLAK LIGHT
+AP      PIERCE LARGE      HEAVY
 BOMB
 MELEE
-
+ARMOR
 shireitou - command center
 yosai - fortress (stronghold?)
+WPN 
+SIZE
+TERRAIN
+PIERCE
