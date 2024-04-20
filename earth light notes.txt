@@ -4,7 +4,7 @@ X offset (decomp)
 Y offset (comp)
 
 ($00cfde: load datasets: aef5+set_offset -> comp type (right nibble), aef8 -> length, aefc-aefe -> source address)
-$fd7: set id (set_offset=set_id*10)
+$fd7: set id (set_offset=set_id*0xA)
 $fd9 (loaded with constant before call): ???
 $fda (left nibble of datatype): ???
 $fdb: datatype: #00: uncompressed(d25c), #01: rle-interleaved(d280), #02:copy with fill in(d2eb), #03:rle-interleaved with fill in(d31a)
@@ -124,3 +124,10 @@ unit names
 1e21,1e23,1e25: header for ram buffer entry
 dma request: 7f0000 header: 10 00 si ze vr ad(2116)
 inc $ab: add value -> $1e1b, flag -> $1e1d=1, jsl $00e1c2 to perform add
+
+04f0d8: -> RAPID : 12000100100009000400
+04f0c0: -> MELEE : 0d0005000c0005000500
+04f0cc: -> PIERC : 2b002c002d002e002f00
+04f0b4: -> BOMB  : 02000f000d0002000000
+
+1de06: squad count : 130011000000
