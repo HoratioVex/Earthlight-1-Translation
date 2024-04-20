@@ -35,7 +35,8 @@ lorom
 
 
 ;used by us
-; $FF6-$FFB: free
+; $FF6-$FFB: unused (area is for map end line diagram rendering, which finishes before message)
+; $1E21-1E24: temp storage for bufferwriter, should be usable
 !currCharH     = $2F
 !currCharM     = $2E
 !currCharL     = $2D
@@ -161,11 +162,11 @@ RenderMessage:
 	tay
 	lda [!currCharL],y
 	sta !currCharL
-	lda !RAMPosition
+	lda !RAMPosition ;bookmark our start pos to insert header later
 	sta !tempL
 	clc
 	adc #$0006
-	tax
+	tax  ;skip space for header
 .nextChar:
 	sep #$20
 	lda #$08
