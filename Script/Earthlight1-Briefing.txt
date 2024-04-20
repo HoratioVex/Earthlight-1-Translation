@@ -16,75 +16,80 @@
 //*********************************** Short unit descriptions for Docks
 //00
 //標準的なタイプのHU兵器
-Assault Hunter<END>
+Combat Hunter              <END>
 
 //01 titan
 //中距離レールガンをもつHU兵器
-Artillery Hunter<END>
+Artillery Hunter           <END>
 
 //02 Talos
-Close Combat Hunter<END>
+Close Combat Hunter        <END>
 
 //03
-d03x<END>
+//防御支援用のHU兵器
+Fire Support Hunter        <END>
 
 //04 athena
-d04x<END>
+//戦闘爆撃機に変形できる特殊HU兵器
+Convertible Hunter         <END>
 
 //05 lobster
-d05x<END>
+Interceptor                <END>
 
 //06 crane
-Heavy Fighter<END>
+Heavy Fighter              <END>
 
 //07 brontes
-Heavy Bomber<END>
+Heavy Bomber               <END>
 
 //08 Vulcan
-Rapid-Fire Artillery Ship<END>
+Light Artillery Ship       <END>
 
 //09 Phoibos
-Armor-Piercing Artillery Ship<END>
+Heavy Artillery Ship       <END>
 
 //0a Cyclops
-d0ax<END>
+Missile Artillery Ship     <END>
 
 //0b wisp
-d0bx<END>
+Space Mine                 <END>
 
 //0c dragon
-d0cx<END>
+Beam Turret                <END>
 
 //0d Hydra
-Rapid-Fire Missile Turret<END>
+Missile Turret             <END>
 
-//0e
-d0ex<END>
+//0e rahab
+//要塞上に設置された防御用の移動砲台
+Train Cannon               <END>
 
 //0f Crab
-High-Speed Transport Ship<END>
+Transport Ship             <END>
 
 //10 hannibal
-d10x<END>
+Heavy Cruiser              <END>
 
 //11 regulus
-Rapid-Fire Cruiser<END>
+Escort Cruiser             <END>
 
 //12 corvus
-d12x<END>
+Claw Cruiser               <END>
 
-//13
-d13x<END>
+//13 abaddon
+//核爆弾をもつ特殊ミサイル艦
+//Nuclear Strike Ship<END>
+Quantum Strike Ship        <END>
 
 //14 fenrir
-d14x<END>
+Interdiction Destroyer     <END>
 
 //15 cerberus
-d15x<END>
+Light Destroyer            <END>
 
 //16 gulon
 //対艦攻撃用レールガンをもつ駆逐艦
-Armor-Piercing Destroyer<END>
+Assault Destroyer          <END>
 // **************************************************Briefings
 // Briefing M01-01 (3: 0x17)width 30
 //反ガルト連邦軍は、F1「オリンポス」で
@@ -233,10 +238,10 @@ restore order.                <LF>
 //中立の浮きドックを制圧し、
 //内戦のひろがるのをおさえ,
 //敵のたてこもるラッカー要塞を攻略せよ!
-The Union is determined to    <LF>
-capture the neutral dock, stop<LF>
-the insurrection and take back<LF>
-Fort Rucker.                  <END>
+"We must capture the neutral  <LF>
+dock, stop this insurrection  <LF>
+and take back Fort Rucker!"   <LF>
+                              <END>
 
 //-------------------------------
 //Briefing M05-01 (0x27)
@@ -381,7 +386,7 @@ The Galt fleet, in severe dis-<LF>
 array after the loss of its   <LF>
 flagship, launches a desparate<LF>
 all-out attack aga[in]st Olympos,<LF>
-whose defence is now stretched<LF>
+whose defense is now stretched<LF>
 thin.                         <END>
 
 //Briefing M08-04 (0x36)
@@ -485,25 +490,41 @@ an opening!"                  <LF>
 //地球連邦軍は、バート長官の指令のもと、
 //「バジリスク」攻略の準備をはじめた!
 //作戦「エレボス」が、はじまったのだ。
-xyz<END>
+Under the command of Secretary<LF>
+Bert, the fleet of the Terran <LF>
+Union begins preparing for    <LF>
+Operation Erebos, the siege of<LF>
+Fortress Basilisk.            <END>
 
 //Briefing M11-02 (0x40)
 //そんなとき、エデンの防衛線の一つ
 //「ノートン」要塞が、「ネメア」へむかう
 //ガルト艦隊を発見した!!
-xyz<END>
+Meanwhile, Fortress Norton,   <LF>
+part of Eden's defense ring,  <LF>
+discovers a Galt fleet heading<LF>
+for Nemea.                    <LF>
+                              <END>
 
 //Briefing M11-03 (0x41)
 //イリス型の機動母艦を主軸とした艦隊だ。
 //機動母艦さえやっつけてしまえば
 //艦隊は降伏してくるだろう!!
-xyz<END>
+The fleet is led by an        <LF>
+Iris-class carrier. If it is  <LF>
+destroyed, the fleet will     <LF>
+probably disband.             <LF>
+                              <END> 
 
 //Briefing M11-04 (0x42)
 //イリスは、対艦攻撃力をもっていない!
 //うまく艦載機をかわして近づき、
 //艦船の艦砲射撃でたたけ!!
-xyz<END>
+"The Iris has no anti-ship    <LF>
+weapons! Evade the fighter    <LF>
+screen on your approach, then <LF>
+our warships will be free to  <LF>
+engage!"                      <END>
 //--------------------------------------
 //Briefing M12-01 (0x43)
 //「エデン」を出発した連邦軍艦隊は、

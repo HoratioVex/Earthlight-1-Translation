@@ -64,9 +64,9 @@ Galt's battleship   <END>
 //05
 //キミのみごとな攻撃で、ガルト軍の
 //機動母艦をほおむりさった!!
-The Union's superior<LF>
-strategy overcame   <LF>
-Galt's carrier      <END>
+The Union's superior    <LF>
+strategy overcame Galt's<LF>
+carrier                 <END>
 
 //06
 //ガルト軍は、機動母艦のすべてを
@@ -135,17 +135,17 @@ Docks Captured<END>
 //12
 //クリアボーナス
                   <LF>
-Stage Clear Bonus<END>
+Stage Win Bonus   <END>
 
 //13
 //いままでの勝利ポイント
-                  <LF>
-Total Points<END>
+Total             <LF>
+Victory Points    <END>
 
 //14
 //こんかいの勝利ポイント
-                  <LF>
-Map Points<END>
+Map               <LF>
+Victory Points <END>
 
 //15 
 //戦果をファイルに
@@ -187,9 +187,9 @@ No<END>
 //1E
 //セーブしませんが
 //よろしいですか?
-Progress will<LF>
-be lost      <LF>
-Are you sure?<END>
+Progress will be  <LF>
+lost              <LF>
+Are you sure?     <END>
 
 //1F
 Save complete<END>
@@ -205,8 +205,8 @@ Quit<END>
 //22
 //セーブしませんでした!
 //どうしますか?
-Game not saved<LF>
-What now?     <END>
+Game not saved    <LF>
+What now?         <END>
 
 //23
 Map<END>
@@ -572,8 +572,8 @@ Lion's Den     <END>
 
 //Title M11 (6b)
 //迎撃！ノートン防衛艦隊
-Interception   <LF>
-Norton Defsene <END>
+Norton Closes  <LF>
+The Ring       <END>
 
 //Title M12 (6c)
 //ヴァン・ヴォクトの戦い

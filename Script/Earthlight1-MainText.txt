@@ -183,13 +183,13 @@ combat                        <END>
 //18
 
 Medusa's primary role is the  <LF>
-defence of fortresses and     <LF>
+defense of fortresses and     <LF>
 capital ships. The exposed    <LF>
 missile pods are both its     <LF>
 greatest strength and weakness<LF>
                               <END>
 //-------------------------------------
-//19
+//19 Athena F
    19Melee<END>
 
 //1a
@@ -232,24 +232,24 @@ greatest strength and weakness<LF>
                               <END>
 //-------------------------------------
 //1f Lobster
-   1fMelee<END>
+   <END>
 
 //20
 
+Interceptor                   <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with twin pulse beam    <LF>
+cannons                       <LF>
                               <LF>
                               <END>
 
 //21
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Excellent speed and attack    <LF>
+against fighters and Hunters. <LF>
+It can be used to gain super- <LF>
+iority in an area and deny    <LF>
+enemy operations.             <LF>
                               <END>
 //-------------------------------------
 //22 Crane ffa81
@@ -272,25 +272,25 @@ to advance.                   <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//25
-   25Melee<END>
-
+//25 Brontes
+   Bomb     <LF>
+   and Move<END>
 //26
 
+Heavy Bomber                  <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Armed with large anti-ship    <LF>
+torpedoes.                    <LF>
+Mobility and defense change   <LF>
+depending on payload.         <END>
 
 //27
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The most powerful counter to  <LF>
+warships. It becomes a prime  <LF>
+target when carrying a pay-   <LF>
+load and always requires      <LF>
+support.                      <LF>
                               <END>
 //-------------------------------------
 //28 vulcan
@@ -378,66 +378,66 @@ to advance.                   <LF>
                               <END>
 //-------------------------------------
 //34 Dragon
-   34lee<END>
+   <END>
 
 //35
 
+Beam Turret                   <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+A long-range beam cannon that <LF>
+can be installed on fortress  <LF>
+decks, asteroid and bedrock.  <LF>
+Transported as cargo.         <END>
 
 //36
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The Dragon has long range and <LF>
+great attack power. However,  <LF>
+it is unusable in magnetic    <LF>
+fields.                       <LF>
                               <LF>
                               <END>
 //-------------------------------------
 //37 hydra
-   37lee<END>
+   <END>
 
 //38
 
+Missile Turret                <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Armed with long-range rapid-  <LF>
+fire missiles                 <LF>
+The strongest counter to      <LF>
+fighters and Hunters          <END>
 
 //39
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Hydra's missiles can intercept<LF>
+enemy Hunters outside their   <LF>
+engagement range.             <LF>
+It's primary functions are    <LF>
+fortress defense and sup-     <LF>
+porting the front line.       <END>
 //-------------------------------------
-//3a
-   3alee<END>
-
+//3a rahab
+   Moves on <LF>
+   Rails<END>
 //3b
 
+Train Cannon                  <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with both rapid-fire    <LF>
+and armor-piercing beam       <LF>
+cannons                       <LF>
                               <END>
 
 //3c
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Moves on a railway network    <LF>
+installed on a fortress deck. <LF>
+Rather than an independent    <LF>
+unit, it can be seen as a     <LF>
+part of the fortress itself.  <LF>
                               <END>
 //-------------------------------------
 //3d Crab
@@ -471,7 +471,7 @@ Battleship                    <LF>
                               <LF>
 Armed with four triple-barrel <LF>
 beam cannons and thirty-two   <LF>
-pulsebeam point-defence       <LF>
+pulsebeam point-defense       <LF>
 turrets.                      <END>
 
 //42
@@ -484,87 +484,89 @@ the flagship of a fleet.      <LF>
                               <END>
 //-------------------------------------
 //43 asura2
-   43lee<END>
+   Large<END>
 
 //44
 
+Advanced Battleship           <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Armed with two four-barrel    <LF>
+railguns as main cannons and  <LF>
+ten rapid-fire missile pods.  <LF>
+The strongest battleship.     <END>
 
 //45
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+The Asura-II can move as fast <LF>
+as a cruiser while attacking  <LF>
+with the full power of a      <LF>
+battleship.                   <LF>
+It often serves as the flag-  <LF>
+ship of a fleet.              <END>
 //-------------------------------------
-//46
-   46lee<END>
+//46 Nodens
+   Large<END>
 
 //47
 
+Fortified Battleship          <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Armed with five large internal<LF>
+missile tubes                 <LF>
+Turretless design enables     <LF>
+extra armor-plating           <END>
 
 //48
+The Nodens' entire hull is    <LF>
+reinforced with special armor <LF>
+layers, providing exceptional <LF>
+protection to its powerful    <LF>
+missile launchers. It's very  <LF>
+hard to destroy.              <END>
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
 //-------------------------------------
-//49
-   49lee<END>
+//49 Hastur
+   Carrier  <LF>
+   Large<END>
 
 //4a
 
+Cruiser-Carrier               <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with four main beam     <LF>
+cannons and railguns for      <LF>
+protection                    <LF>
                               <END>
 
 //4b
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+The Hastur combines the fire- <LF>
+power of a cruiser with the   <LF>
+support abilities of a        <LF>
+carrier.                      <LF>
+It's vulnerable to enemies    <LF>
+at close range.               <END>
 //-------------------------------------
-//4c
-   4clee<END>
+//4c Artemis
+   Carrier  <LF>
+   Large<END>
 
 //4d
 
+Catapult Carrier              <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Large carrier with two flight <LF>
+decks and a launch catapult   <LF>
+for a two hex boost           <LF>
                               <END>
 
 //4e
 
+Deployed as a mobile base     <LF>
+behind the front line.        <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The Artemis can launch up to  <LF>
+eighteen units at once.       <LF>
                               <END>
 //-------------------------------------
 //4f
@@ -588,7 +590,7 @@ the flagship of a fleet.      <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//52
+//52 siren CV
    52lee<END>
 
 //53
@@ -609,7 +611,7 @@ the flagship of a fleet.      <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//55
+//55 Siren BB
    55lee<END>
 
 //56
@@ -630,38 +632,38 @@ the flagship of a fleet.      <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//58
-   58lee<END>
-
+//58 Selene
+   Carrier  <LF>
+   Large  <END>
 //59
 
+Fast Carrier                  <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+With a design focussed on     <LF>
+mobility, its movement speed  <LF>
+surpasses that of cruisers.   <LF>
                               <END>
 
 //5a
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Its speed allows the Selene   <LF>
+to flank enemy positions, re- <LF>
+cover and repair damaged units<LF>
+and operate beyond the front  <LF>
+line.                         <LF>
                               <END>
 //-------------------------------------
 //5b Hannibal
-   5blee<END>
+   <END>
 
 //5c
 
-Light Cruiser                 <LF>
+Heavy Cruiser                 <LF>
                               <LF>
 Armed with three medium-range <LF>
 armor-piercing beam turrets   <LF>
 and twenty-eight rapid-fire   <LF>
-railguns for point-defence    <END>
+railguns for point-defense    <END>
 
 //5d
 
@@ -673,113 +675,113 @@ support and escort vessel.    <LF>
                               <END>
 //-------------------------------------
 //5e regulus
-   5elee<END>
+   <END>
 
 //5f
 
+Escort Cruiser                <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with thirty-eight pulse <LF>
+beam turrets and several      <LF>
+missile pods                  <LF>
                               <END>
 
 //60
 
+The Regulus screens the fleet <LF>
+from Hunters and fighters.    <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+It is mainly used to escort   <LF>
+carriers, but can also assault<LF>
+Hunter squadrons on its own.  <END>
 //-------------------------------------
-//61
-   61lee<END>
+//61 corvus
+   Melee<END>
 
 //62
 
+Claw Cruiser                  <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with melee claws, rail- <LF>
+gun cannons and several point-<LF>
+defense turrets               <LF>
                               <END>
 
 //63
 
+The Corvus can eject remote-  <LF>
+controlled claws to attack    <LF>
+enemy Hunters and warships.   <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+It is the only capital ship   <LF>
+capable of close combat.      <END>
 //-------------------------------------
-//64
+//64 Abaddon
    64lee<END>
 
 //65
 
+Quantum Strike Ship           <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Carries one Quantum Decimator <LF>
+bomb                          <LF>
                               <LF>
                               <END>
 
 //66
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+The bomb's attack power can't <LF>
+be reduced unless the ship is <LF>
+destroyed.                    <LF>
+The Decimator annihilates     <LF>
+all units and terrain in a two<LF>
+hex radius.                   <END>
 //-------------------------------------
 //67 Fenrir
-   67lee<END>
-
+   Fire and<LF>
+   Move<END>
 //68
 
+Interdictor Destroyer         <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Armed with four eight-barrel  <LF>
+turrets for a total of thirty-<LF>
+two guns                      <LF>
+Excels at h[it]-and-run tactics <END>
 
 //69
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Utilizing its high mobility,  <LF>
+the Fenrir is capable of con- <LF>
+ducting preemptive attacks    <LF>
+against enemy Hunters and     <LF>
+maneuvering difficult terrain.<LF>
                               <END>
 //-------------------------------------
-//6a
-   6alee<END>
-
+//6a Cerberus
+   Fire and<LF>
+   Move<END>
 //6b
 
+Light Destroyer               <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with two eight-barrel   <LF>
+rapid-fire railguns and six   <LF>
+missile tubes                 <LF>
                               <END>
 
 //6c
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+It packs less attack power    <LF>
+than other destroyers and is  <LF>
+often used to deliver the     <LF>
+finishing blow to damaged     <LF>
+enemy vessels.                <LF>
                               <END>
 //-------------------------------------
 //6d Gulon
-   Fire and <LF> 
-   Move     <END>
+   Fire and<LF> 
+   Move    <END>
 //6e
 
 Assault Destroyer             <LF>
@@ -821,46 +823,46 @@ tenance and repairs           <LF>
                               <END>
 //-------------------------------------
 //73 solomon
-   73lee<END>
-
+   Defensive<LF>
+   Fire only<END>
 //74
 
+Small Sector Fortress         <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Vulnerable to armor-piercing, <LF>
+melee and bombing attacks.    <LF>
                               <LF>
                               <END>
 
 //75
 
-                              <LF>
-                              <LF>
-                              <LF>
+A sector fortress serves the  <LF>
+local command center and      <LF>
+military headquarters.        <LF>
                               <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//76
-   M76ee<END>
-
+//76 carthago
+   Defensive<LF>
+   Fire only<END>
 //77
 
+Medium Sector Fortress        <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Vulnerable to armor-piercing, <LF>
+melee and bombing attacks.    <LF>
                               <LF>
                               <END>
 
 //78
 
+Carthago is equipped with     <LF>
+extra armor plates to allow   <LF>
+deployment at the front line. <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+It can serve as a command     <LF>
+center even while under fire. <END>
 //-------------------------------------
 //79
    79lee<END>
@@ -990,7 +992,7 @@ galactic gravity fields       <LF>
                               <LF>
 Large impact on railguns and  <LF>
 missiles                      <LF>
-Hunters can't enter           <END>
+Light units can't enter       <END>
 
 //88 atmosphere
 //地球の大気圏
@@ -1257,10 +1259,10 @@ Keep playing?     <LF>
 // B4
 //お疲れさまでした
 //電源を切ってください
-Thank you for playing<LF>
-                     <LF>
-You can turn off the <LF>
-console              <END>
+Thank you for     <LF>
+playing!          <LF>
+You can turn off  <LF>
+the console       <END>
 
 // System Message 02 (0xB5,)etc
 //どのファイルに
