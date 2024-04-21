@@ -131,3 +131,8 @@ inc $ab: add value -> $1e1b, flag -> $1e1d=1, jsl $00e1c2 to perform add
 04f0b4: -> BOMB  : 02000f000d0002000000
 
 1de06: squad count : 130011000000
+
+$2116 0a62->0a61 04dbf4
+
+dock screen tilemap: data id 75
+02a8ca: weapopn names dock screen
