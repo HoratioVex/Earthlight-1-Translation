@@ -43,13 +43,13 @@ Heavy Fighter              <END>
 Heavy Bomber               <END>
 
 //08 Vulcan
-Light Artillery Ship       <END>
+Pulse Gunboat              <END>
 
 //09 Phoibos
-Heavy Artillery Ship       <END>
+Rail Gunboat               <END>
 
 //0a Cyclops
-Missile Artillery Ship     <END>
+Missile Gunboat            <END>
 
 //0b wisp
 Space Mine                 <END>
@@ -494,7 +494,7 @@ Under the command of Secretary<LF>
 Bert, the fleet of the Terran <LF>
 Union begins preparing for    <LF>
 Operation Erebos, the siege of<LF>
-Fortress Basilisk.            <END>
+Grand Fortress Basilisk.      <END>
 
 //Briefing M11-02 (0x40)
 //そんなとき、エデンの防衛線の一つ
@@ -530,25 +530,43 @@ engage!"                      <END>
 //「エデン」を出発した連邦軍艦隊は、
 //「ヴァン・ヴォクト」星域で
 //ガルト艦隊とはじめて戦闘に突入した!
-xyz<END>
+After departing from Eden,    <LF>
+the Union fleet encounters    <LF>
+Galt forces for the first time<LF>
+in the Van Vogt sector.       <END>
 
 //Briefing M12-02 (0x44)
 //ガルト軍は、宇宙機雷で行路をふうさし、
 //ビームのきかない磁気帯と重力空間に
 //機動艦隊を展開してきた。
-xyz<END>
+The Galt vessels block a part <LF>
+of the sector with space mines<LF>
+and take position behind      <LF>
+gravity fluxes and magnetic   <LF>
+fields to obstruct the        <LF>
+approaching Union fleet.      <END>
 
 //Briefing M12-03 (0x45)
 //攻略作戦としては、
 //機動母艦で重力空間を突破して
 //HUユニットを展開してたたくか・・・
-xyz<END>
+"This puts us in a difficult  <LF>
+position. We could move our   <LF>
+Hunters through the flux with <LF>
+the carrier…"                 <LF>
+                              <LF>
+                              <END>
 
 //Briefing M12-04 (0x46)
 //それとも、はやく機動ユニットを展開し、
 //通常の行路にひろがる宇宙機雷を
 //強行突破するか・・・である。
-xyz<END>
+"Or we could focus all our    <LF>
+forces to clear the space     <LF>
+mines from the outer path…"   <LF>
+                              <LF>
+                              <LF>
+                              <END>
 //--------------------------------------
 //Briefing M13-01 (0x47)
 //作戦「エレボス」の進行にともない

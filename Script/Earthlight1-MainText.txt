@@ -120,10 +120,10 @@ monoblade for melee combat    <LF>
 //単独での行動よりは、他のユニットとの
 //作戦行動にむいている。包囲効果や支援
 //効果を最大限に利用すること
-Requires support from other   <LF>
-unit types to be effective.   <LF>
-Relies on flanking and support<LF>
-effects.                      <LF>
+The Mars requires support from<LF>
+other unit types to be effec- <LF>
+tive. It relies on flanking   <LF>
+and support effects.          <LF>
                               <END>
 //-------------------------------------
 //10 Titan
@@ -190,45 +190,47 @@ greatest strength and weakness<LF>
                               <END>
 //-------------------------------------
 //19 Athena F
-   19Melee<END>
-
+   Convert  <LF>
+   Bomb<END>
+   
 //1a
 
+Convertible Hunter            <LF>
+(Fighter-Bomber Mode)         <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with a rapid-fire rail- <LF>
+gun and one anti-ship torpedo <LF>
                               <END>
 
 //1b
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The fighter-bomber form has   <LF>
+better mobility and bombard-  <LF>
+ment capability, whereas the  <LF>
+Hunter form is more versatile <LF>
+and can fight in melee.       <LF>
                               <END>
 //-------------------------------------
-//1c
-   1cMelee<END>
+//1c athena R
+   Convert  <LF>
+   Melee<END>
 
 //1d
 
+Convertible Hunter            <LF>
+(Hunter Mode)                 <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Armed with a rail rifle       <LF>
+and a monosaber for melee     <LF>
+combat                        <END>
 
 //1e
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The fighter-bomber form has   <LF>
+better mobility and bombard-  <LF>
+ment capability, whereas the  <LF>
+Hunter form is more versatile <LF>
+and can fight in melee.       <LF>
                               <END>
 //-------------------------------------
 //1f Lobster
@@ -294,88 +296,90 @@ support.                      <LF>
                               <END>
 //-------------------------------------
 //28 vulcan
-   28Melee<END>
+   Ranged   <LF>
+   Attack II<END>
 
 //29
 
+Pulse Gunboat                 <LF>
                               <LF>
+Armed with a long-range pulse <LF>
+beam cannon                   <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Can't fire after moving       <END>
 
 //2a
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+The Vulcan uses active radar  <LF>
+to accurately target and shoot<LF>
+down distant enemies. Its     <LF>
+attack power is immense and   <LF>
+makes a significant threat for<LF>
+Hunters.                      <END>
 //-------------------------------------
 //2b Phoibos / sniper
-  2belee<END>
-
+   Ranged   <LF>
+   Attack II<END>
 //2c
 
+Rail Gunboat                  <LF>
                               <LF>
+Armed with two four-barreled  <LF>
+battleship-grade railcannons  <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Can't fire after moving       <END>
 
 //2d
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+It attacks from outside the   <LF>
+range of rapid-fire weapons   <LF>
+to counter enemy warships,    <LF>
+but is always vulnerable to   <LF>
+Hunters and fighters.         <LF>
                               <END>
 //-------------------------------------
 //2e cyclops
-   2elee<END>
+   Ranged   <LF>
+   Attack II<END>
 
 //2f
 
+Missile Gunboat               <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with both rapid-fire and<LF>
+armor-piercing long-range     <LF>
+missile launchers             <LF>
                               <END>
 
 //30
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The long range of its missiles<LF>
+allows the Cyclops to attack  <LF>
+from behind obstacles before  <LF>
+it can be targetted           <LF>
                               <LF>
                               <END>
 //-------------------------------------
-//31
-   31lee<END>
+//31 wisp
+   No Attack<END>
 
 //32
 
+Space Mine                    <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Used to delay enemy movement. <LF>
+Vulnerable to rapid-fire      <LF>
+attacks.                      <LF>
+Deployed by transport ships.  <END>
 
 //33
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+A common strategy is to stop  <LF>
+an enemy invasion with Wisps  <LF>
+and then shell the area with  <LF>
+long-range weapons as the     <LF>
+enemies try to clear the      <LF>
+mines.                        <END>
 //-------------------------------------
 //34 Dragon
    <END>
@@ -386,7 +390,7 @@ Beam Turret                   <LF>
                               <LF>
 A long-range beam cannon that <LF>
 can be installed on fortress  <LF>
-decks, asteroid and bedrock.  <LF>
+decks, asteroids and bedrock. <LF>
 Transported as cargo.         <END>
 
 //36
@@ -591,16 +595,17 @@ eighteen units at once.       <LF>
                               <END>
 //-------------------------------------
 //52 siren CV
-   52lee<END>
+   Carrier  <LF>
+   Convert  <END>
 
 //53
 
+Convertible Carrier           <LF>
+(Carrier Mode)                <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+In carrier mode, the main guns<LF>
+are rotated below the flight  <LF>
+deck, so they can't be fired  <END>
 
 //54
 
@@ -612,24 +617,24 @@ eighteen units at once.       <LF>
                               <END>
 //-------------------------------------
 //55 Siren BB
-   55lee<END>
-
+   Carrier  <LF>
+   Convert  <END>
 //56
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+Convertible Carrier           <LF>
+(Battleship Mode)             <LF>
+In battleship mode, the main  <LF>
+guns are deployed on the      <LF>
+flight deck, so units can't   <LF>
+launch or land                <END>
 
 //57
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+As each of the modes has its  <LF>
+own strengths and weaknesses, <LF>
+the Siren must always consider<LF>
+what the tactical situation   <LF>
+requires.                     <LF>
                               <END>
 //-------------------------------------
 //58 Selene
@@ -980,7 +985,8 @@ of gas, dust and cosmic rays  <LF>
 The effect on each weapon     <LF>
 class is small, but the flow  <LF>
 of particles hinders the      <LF>
-movement of larger vessels.   <END>
+movement of all but the       <LF>
+largest vessels.              <END>
 
 //87 gravity
 //重力が、ランダムに発生している空
@@ -992,7 +998,9 @@ galactic gravity fields       <LF>
                               <LF>
 Large impact on railguns and  <LF>
 missiles                      <LF>
-Light units can't enter       <END>
+                              <LF>
+Hunters and fighters can't    <LF>
+enter                         <END>
 
 //88 atmosphere
 //地球の大気圏

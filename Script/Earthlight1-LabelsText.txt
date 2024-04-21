@@ -25,9 +25,9 @@
 //00
 //連邦軍は、ついに
 //ガルト軍の司令塔を破壊した!
-The Union has       <LF>
-destroyed Galt's    <LF>
-command center      <END>
+The Union has           <LF>
+destroyed Galt's        <LF>
+command center          <END>
 
 //01
 //連邦軍の強力な攻撃のまえに
@@ -41,25 +41,25 @@ of the Galt Empire      <LF>
 //02
 //連邦軍は戦いのすえ、ついに!
 //ガルト軍の要塞を破壊した!!
-The Union has       <LF>
-destroyed the       <LF>
-fortress of the Galt<LF>
-Army                <END>
+The Union has           <LF>
+destroyed the           <LF>
+fortress of the Galt    <LF>
+Army                    <END>
 
 //03
 //キミのカンペキな作戦で
 //ガルト軍の艦船は宇宙にちった!
-Thanks to your per- <LF>
-fect strategy,Galt's<LF>
-fleet was scattered <LF>
-in space            <END>
+Thanks to your per-     <LF>
+fect strategy,Galt's    <LF>
+fleet was scattered     <LF>
+in space                <END>
 
 //04
 //ガルト軍の戦艦は、しつような
 //連邦軍の攻撃に爆発した!!!
-Relentless Union    <LF>
-assaults destroyed  <LF>
-Galt's battleship   <END>
+Relentless Union        <LF>
+assaults destroyed      <LF>
+Galt's battleship       <END>
 
 //05
 //キミのみごとな攻撃で、ガルト軍の
@@ -71,29 +71,30 @@ carrier                 <END>
 //06
 //ガルト軍は、機動母艦のすべてを
 //うしない、ひきあげていった!!
-All of Galt's       <LF>
-carriers have with- <LF>
-drawn               <END>
+All of Galt's           <LF>
+carriers have with-     <LF>
+drawn                   <END>
 
 //07
 //旗艦をうしなったガルト艦隊は
 //戦意をなくし、ひきあげていった!
-The loss of their   <LF>
-flagship routed     <LF>
-Galt's forces       <END>
+The loss of their       <LF>
+flagship routed         <LF>
+Galt's forces           <END>
 
 //08
 //すべての司令塔をうしなった
 //ガルト軍は、降伏した!!
-Having lost all     <LF>
-command centers,    <LF>
-the Galt forces     <LF>
-surrendered         <END>
+Having lost all         <LF>
+command centers,        <LF>
+the Galt forces         <LF>
+surrendered             <END>
 
 //********************************************** lost Options
 //09
 //えらんでください
-Please Choose<END>
+What now?   <LF>
+            <END>
 
 //0A
 //もういちど たたかう
@@ -163,7 +164,7 @@ Don't Save<END>
 //18
 //どのファイルに
 //セーブしますか?
-Save Game    <LF>
+Save Game         <LF>
 Select Slot<END>
 
 //19
@@ -174,7 +175,8 @@ File 2<END>
 
 //1B
 //前のデータが、きえます
-Old data will be erased<END>
+Old data will be  <LF>
+erased<END>
 
 //1C
 //はい
@@ -318,76 +320,76 @@ Map<END>
 //44
 //ガルト軍の強大な攻撃力の前に
 //味方の部隊は、ほうかいした!
-The Union forces    <LF>
-perish before       <LF>
-Galt's assault      <END>
+The Union forces perish <LF>
+before the mighty       <LF>
+assault of Galt's army  <END>
 
 
 //45
 //地球の命運をかけた
 //ガルト 帝国に対する反抗作戦
 //「ヘラクレス」は、しっぱいした
-Operation Hercules, <LF>
-which was to deter- <LF>
-mine the fate of    <LF>
-Earth, ends in      <LF>
-failure.<END>
+Operation Hercules, a   <LF>
+rebel strike which could<LF>
+have turned Earth's     <LF>
+fate, ends in disaster. <LF>
+                        <END>
 
 //46
 //ほどなくして・・・
 //地球連邦政府は、ガルト帝国に
 //降伏を宣言した・・・
-Soon after, the gov-<LF>
-ernment of Earth    <LF>
-declares its surren-<LF>
-der to the Galt     <LF>
-Empire.             <END>
+Soon after, the govern- <LF>
+ment of the Terran Union<LF>
+declares its uncondi-   <LF>
+tional surrender to the <LF>
+Galt Empire.            <END>
 
 //47
 //ここに・・・
 //皇帝アーリマンによる、
 //人類しはいが、はじまった・・・
-Thus begins Emperor <LF>
-Ahriman's culling of<LF>
-mankind.            <LF>
-                    <LF>
-                    <END>
-
+Thus begins Emperor     <LF>
+Ahriman's long reign    <LF>
+over all of mankind.    <LF>
+                        <LF>
+                        <END>
+//-----------------------------
 //48
 //地球連邦軍の決死の攻撃も
 //強大なガルト 帝国艦隊の前に
 //ついに!カつきてしまった・・・
-The desperate attack<LF>
-of the Union fails  <LF>
-before the might of <LF>
-the Imperial Fleet  <LF>
-of Galt.<END>
+The desperate attack    <LF>
+of the Union fails      <LF>
+before the might of     <LF>
+the Imperial Fleet      <LF>
+of Galt.                <END>
 
 //49
 //かくして・・・
 //大要塞「バジリスク」攻略作戦
 //「エレボス」は、しっぱいに終った
-Thus, Operation    <LF>
-Erebos, the plan to<LF>
-capture Grand      <LF>
-Fortress Basilisk, <LF>
-ends in failure.   <END>
+Thus, Operation         <LF>
+Erebos, the plan to     <LF>
+capture Grand           <LF>
+Fortress Basilisk,      <LF>
+ends in failure.        <END>
 
 //4A
 //ガルト 帝国軍は、反撃をはじめ!
 //一気に、地球連邦軍艦隊を駆逐!!
-The counterattack  <LF>
-of Galt's Imperial <LF>
-Fleet crushes the  <LF>
-Union.             <LF>
-                   <END>
+The counterattack       <LF>
+of Galt's Imperial      <LF>
+Fleet crushes the       <LF>
+Union.                  <LF>
+                        <END>
 
 //4B
 //皇帝アーリマンは、
 //ふたたび、地球連邦政府に
 //降伏をするようにせまった!!
 loss4b<END>
-
+//-------------------------------
 //4C
 //そして、ほどなくして・・:
 //地球連邦政府は、ガルト帝国に
@@ -572,12 +574,13 @@ Lion's Den     <END>
 
 //Title M11 (6b)
 //迎撃！ノートン防衛艦隊
-Norton Closes  <LF>
-The Ring       <END>
+Not on         <LF>
+Norton's Watch <END>
 
 //Title M12 (6c)
 //ヴァン・ヴォクトの戦い
-The Battle     <LF>
+//Minefields at Van Vogt
+The Blockade   <LF>
 of Van Vogt    <END>
 
 //Title M13 (6d)
