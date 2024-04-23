@@ -136,3 +136,6 @@ $2116 0a62->0a61 04dbf4
 
 dock screen tilemap: data id 75
 02a8ca: weapopn names dock screen
+
+crab unit list:
+00df24 pt load, 01947e
