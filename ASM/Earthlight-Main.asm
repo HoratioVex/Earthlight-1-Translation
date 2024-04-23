@@ -105,8 +105,8 @@ org $04D2F6
 ;Hook pointers for English unit names, dock screen
 org $02A31C
 	jsl LoadPtrUnitNamesASL3
-
 ;-----
+
 ;************************************************************************************************************
 org $0099B0 ;hook into original kanji render
 	jml RenderMessage ;P is $30
@@ -227,7 +227,7 @@ RenderMessage:
 	sta !RAMBuffer,x
 	inx #2
 	tya
-	sta !RAMBuffer,x
+	sta !RAMBuffer,x ;DMA transfer size
 	inx #2
 	phx
 	sep #$20

@@ -113,6 +113,13 @@ org $71*10+!DataLength
 	dw GR_71_End-GR_71_Start
 org $71*10+!DataSource
 	dl GR_71_Start
+	
+org $117*10+!DataType
+	db $22&$f0
+org $117*10+!DataLength
+	dw GR_117_End-GR_117_Start
+org $117*10+!DataSource
+	dl GR_117_Start
 
 
 ;***********************************************************************************
@@ -157,6 +164,9 @@ GR_71_Start:
 	incbin "../Graphics/GR-71-Combat2.til" 
 GR_71_End:
 
+GR_117_Start:
+	incbin "../Graphics/GR-117-DockCapture1.til" 
+GR_117_End:
 
 
 ;for each: change location & change compression mode to uncompressed
