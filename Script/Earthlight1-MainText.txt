@@ -573,26 +573,26 @@ The Artemis can launch up to  <LF>
 eighteen units at once.       <LF>
                               <END>
 //-------------------------------------
-//4f
-   4flee<END>
-
+//4f iris
+   Carrier  <LF>
+   Large<END>
 //50
 
+Carrier                       <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Armed with medium-range rapid-<LF>
+fire missiles                 <LF>
                               <LF>
                               <END>
 
 //51
 
+The Iris is used as a front-  <LF>
+line base for Hunter and      <LF>
+fighter operations.           <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <END>
+As its defenses are weak, it  <LF>
+requires escort vessels.      <END>
 //-------------------------------------
 //52 siren CV
    Carrier  <LF>
@@ -609,11 +609,11 @@ deck, so they can't be fired  <END>
 
 //54
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+As each of the modes has its  <LF>
+own strengths and weaknesses, <LF>
+the Siren must always consider<LF>
+what the tactical situation   <LF>
+requires.                     <LF>
                               <END>
 //-------------------------------------
 //55 Siren BB
@@ -726,7 +726,7 @@ capable of close combat.      <END>
 
 //65
 
-Quantum Strike Ship           <LF>
+Quantum Bomber                <LF>
                               <LF>
 Carries one Quantum Decimator <LF>
 bomb                          <LF>
@@ -841,8 +841,8 @@ melee and bombing attacks.    <LF>
 
 //75
 
-A sector fortress serves the  <LF>
-local command center and      <LF>
+A sector fortress serves as   <LF>
+the local command center and  <LF>
 military headquarters.        <LF>
                               <LF>
                               <LF>
@@ -870,24 +870,25 @@ It can serve as a command     <LF>
 center even while under fire. <END>
 //-------------------------------------
 //79
-   79lee<END>
-
+   Defensive<LF>
+   Fire only<END>
 //7a
 
+Large Sector Fortress         <LF>
                               <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+Vulnerable to armor-piercing, <LF>
+melee and bombing attacks.    <LF>
                               <LF>
                               <END>
 
 //7b
 
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
-                              <LF>
+The Goliath fortress is       <LF>
+heavily armored and armed with<LF>
+powerful cannons for reaction <LF>
+fire.                         <LF>
+It's advisable to attack it   <LF>
+from a safe distance.         <LF>
                               <END>
 //-------------------------------------
 //7c Cortex /brain
@@ -1252,8 +1253,8 @@ No data to load   <LF>
 //ロードを完了しました
 //「戦闘に戻ります
 Load Complete     <LF>
-Resume Battle     <LF>
                   <LF>
+Resuming Battle   <LF>
                   <END>
 
 // System Message 03 (0xB3,)
@@ -1269,6 +1270,7 @@ Keep playing?     <LF>
 //電源を切ってください
 Thank you for     <LF>
 playing!          <LF>
+                  <LF>
 You can turn off  <LF>
 the console       <END>
 

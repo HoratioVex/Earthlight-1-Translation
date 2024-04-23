@@ -79,7 +79,7 @@ Claw Cruiser               <END>
 //13 abaddon
 //核爆弾をもつ特殊ミサイル艦
 //Nuclear Strike Ship<END>
-Quantum Strike Ship        <END>
+Quantum Bomber             <END>
 
 //14 fenrir
 Interdiction Destroyer     <END>
@@ -176,7 +176,7 @@ Even in Foundries already     <LF>
 occupied by the Galt Empire,  <LF>
 there are pockets of resis-   <LF>
 tance against the Imperial    <LF>
-Army. <END>
+Fleet.<END>
 
 // 20
 //かれらは、ハードユニットをうばって、
@@ -250,7 +250,7 @@ and take back Fort Rucker!"   <LF>
 //そのコマをレイモンド星域へと進めた!
 The Liberation Union has      <LF>
 finally initiated Operation   <LF>
-"Hercules" against Assault    <LF>
+Hercules against Assault      <LF>
 Fortress Nemea. Union forces  <LF>
 are advancing into the Raymond<LF>
 sector.<END>
@@ -366,7 +366,7 @@ matter the cost!"             <END>
 //作戦「ヘラクレス」をスタートさせた!!
 //Heinlein
 The main phase of Operation   <LF>
-"Hercules" is under way.      <END>
+Hercules is under way.        <END>
 
 //Briefing M08-02 (0x34)
 //主力艦隊は、攻撃目標「ネメア」のある
@@ -375,8 +375,8 @@ The main phase of Operation   <LF>
 The main fleet of the Union   <LF>
 departs from Olympos in       <LF>
 multiple waves, heading for   <LF>
-F2 Eden, the present location <LF>
-of Assault Fortress Nemea.    <END>
+F2 Eden, the location of      <LF>
+Assault Fortress Nemea.       <END>
 
 //Briefing M08-03 (0x35)
 //作戦司令官を失ったガルト艦隊は、
@@ -395,8 +395,8 @@ thin.                         <END>
 //ガルト艦隊はそうくずれになるだろう!!
 The remaining Union vessels   <LF>
 coordinate for a bold sortie. <LF>
-If it succeeds, the Imperial  <LF>
-command structure might       <LF>
+If it succeeds, the morale of <LF>
+the Imperial Fleet might      <LF>
 collapse entirely.            <LF>
                               <END>
 //--------------------------------------
@@ -419,7 +419,7 @@ known as the Gate of Eden.    <END>
 Assault Fortress Nemea has    <LF>
 been spotted just beyond Brad-<LF>
 bury. This is the decisive mo-<LF>
-ment for Operation "Hercules".<LF>
+ment for Operation Hercules.  <LF>
                               <END>
 
 //Briefing M09-03 (0x39)
@@ -572,73 +572,117 @@ mines from the outer path…"   <LF>
 //作戦「エレボス」の進行にともない
 //連邦軍は、F6「ラグナグ」の入口
 //「アーサー」星域に突入した!!
-xyz<END>
+Operation Erebos is progress- <LF>
+ing. The Union fleet arrives  <LF>
+in Arthur's Belt at the       <LF>
+entrance of F6 Luggnagg.      <END>
 
 //Briefing M13-02 (0x48)
 //ここを守るガルト艦隊のすがたはなかった
 //連邦軍は、このときとばかりに
 //「アーサー」星域攻略にかかった!!
-xyz<END>
+Scouts report no Galt vessels <LF>
+in the sector. Hoping to seize<LF>
+this opportunity, Union forces<LF>
+swiftly push forward into     <LF>
+Arthur's Belt.                <END>
 
 //Briefing M13-03 (0x49)
 //だが!それはワナだった・・・
 //ガルト軍は、機動艦隊を近くにかくし、
 //攻撃のチャンスをねらっていたのだ!!
-xyz<END>
+But it is a trap. Galt Hunter <LF>
+squadrons are lying in wait   <LF>
+for the perfect moment to     <LF>
+attack.                       <LF>
+                              <END>
 
 //Briefing M13-04 (0x4a)
 //敵艦隊がくるまでに要塞を落せればいいが
 //敵の艦隊は、いつ、どこから、
 //あらわれるのかわからないのだ!!
-xyz<END>
+"If only we could destroy the <LF>
+fortress before the Imperial  <LF>
+fleet arrives! But we don't   <LF>
+know when or where they will  <LF>
+appear!"                      <END>
 //--------------------------------------
 //Briefing M14-01 (0x4b)
 //ガルト 帝国軍は、
 //連邦軍の進撃をおさえるため、再び
 //「オリンポス」攻略作戦をはじめた。
-xyz<END>
+In order to slow down the     <LF>
+advance of the Union's        <LF>
+campaign, the Galt Empire     <LF>
+attacks Olympos once again.   <END>
 
 //Briefing M14-02 (0x4c)
 //これに対し、地球連邦軍は
 //「オリンポス」から艦隊を発進させ、
 //ガルト艦隊を迎え撃った!!
-xyz<END>
+The Terran Union dispatches   <LF>
+a fleet from Olympos to inter-<LF>
+cept the attackers.           <LF>
+                              <END>
 
 //Briefing M14-03 (0x4d)
 //ガルト艦隊は、大型機動母艦を
 //主軸にした機動艦隊だ!!
 //攻撃の主力は、その艦載機である!!
-xyz<END>
+The Galt fleet is a carrier   <LF>
+task force controlling        <LF>
+several fighter squadrons.    <LF>
+                              <END>
 
 //Briefing M14-04 (0x4e)
 //HU兵器で敵の艦載機の攻撃をふせぎ、
 //爆撃機で敵の艦船を攻撃すれば、
 //戦いをうまく進めれるだろう。
-xyz<END>
+"If we use our Hunters to     <LF>
+counter the enemy fighters,   <LF>
+our bombers should have a     <LF>
+chance to attack their        <LF>
+carriers."                    <END>
 //--------------------------------------
 //Briefing M15-01 (0x4f)
 //連邦軍は、F6「ラグナグ」へ突入した。
 //多くの工業ドックをもつ「ラグナグ」は
 //大工業ファクトリーである。
-xyz<END>
+Union forces are invading the <LF>
+occupied Foundry Luggnagg, a  <LF>
+large industrial complex con- <LF>
+sisting of many production    <LF>
+facilities and docks.         <END>
 
 //Briefing M15-02 (0x50)
 //ここでの戦いは、どちらの部隊が、
 //どれだけ、多くの浮きドックを
 //制圧するかで決まるだろう。
-xyz<END>
-
+This battle will be decided by<LF>
+control over the docks. The   <LF>
+side which holds the most has <LF>
+a definitive advantage.       <LF>
+                              <END>
+ 
 //Briefing M15-03 (0x51)
 //かくして、ここに!!
 //ラグナグ攻防戦!!
 //「浮きドック争奪戦」がはじまった。
-xyz<END>
+"Here we are! The battle for  <LF>
+Luggnagg is about to begin!   <LF>
+Every dock matters! Make      <LF>
+every shot count!"            <LF>
+                              <END>
 
 //Briefing M15-04 (0x52)
 //ユニットの特性をうまくつかい、
 //すばやく!多くの浮きドックを制圧し、
 //敵の要塞を撃破するのだ!!!
-xyz<END>
+"Use every unit to the best of<LF>
+its abilities! Capture those  <LF>
+docks and destroy the enemy   <LF>
+fortress! And do it fast!     <LF>
+Freedom for Luggnagg!"        <END>
 //--------------------------------------
 //Briefing M16-01 (0x53)
 //ラグナグ攻防戦で、やぶれたガルト軍は

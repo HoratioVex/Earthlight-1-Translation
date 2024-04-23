@@ -116,3 +116,33 @@ skeleton
 #JMP($435CB)
 hellhound 
 
+//Overwrite original name list too, for 7 length names for transport plane (8 don't fit, but neither do the units)
+#JMP($00EE66)
+mars   <E>
+titan  <E>
+talos  <E>
+medusa <E>
+athena <E>
+athena <E>
+athena <E>
+athena <E>
+lobster<E>
+crane  <E>
+brontes<E>
+brontes<E>
+horus  <E>
+horus  <E>
+vulcan <E>
+phoibos<E>
+cyclops<E>
+pandora<E>
+wisp   <E>
+remora <E>
+echidna<E>
+naga   <E>
+rockeye<E>
+dragon <E>
+hydra  <E>
+rahab  <E>
+crab   <E>
+crab   <E>
