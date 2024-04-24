@@ -139,3 +139,13 @@ dock screen tilemap: data id 75
 
 crab unit list:
 00df24 pt load, 01947e
+
+command menu tile maps:
+$01d8ea-1d9c9: select command
+
+(hook)
+rapid (1): 0f: 1daba  -> 6b016c016d016e01
+bomb (2): 07: 1da42 -> 6f01700171017201
+shift (2): 06: 1da32 -> 7301740175017601
+ 
+$01d9ca: tilemaps (length 0x10)
