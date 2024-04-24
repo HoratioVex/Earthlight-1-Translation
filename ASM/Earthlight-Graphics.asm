@@ -42,7 +42,20 @@ org $02A8D6
 	db $2b,$00,$2c,$00,$2d,$00,$2e,$00,$2f,$00
 ;-> BOMB  : 02000f000d0002000000
 org $02A8EE
-	db $02,$00,$0f,$00,$0d,$00,$02,$00,$00,$00	
+	db $02,$00,$0f,$00,$0d,$00,$02,$00,$00,$00
+
+;Command Menu
+;Rapid
+org $1DABA
+	db $6b,$01,$6c,$01,$6d,$01,$6e,$01
+;Bomb
+org $1DA42
+	db $6f,$01,$70,$01,$71,$01,$72,$01
+;Shift
+org $1DA32
+	db $73,$01,$74,$01,$75,$01,$76,$01
+
+	
 ;************************************************************************************
 org $7D*10+!DataType
 	db $60 ;$61 & $f0
@@ -121,6 +134,26 @@ org $117*10+!DataLength
 org $117*10+!DataSource
 	dl GR_117_Start
 
+org $7E*10+!DataType
+	db $11&$f0
+org $7E*10+!DataLength
+	dw GR_7E_End-GR_7E_Start
+org $7E*10+!DataSource
+	dl GR_7E_Start
+	
+org $7F*10+!DataType
+	db $11&$f0
+org $7F*10+!DataLength
+	dw GR_7F_End-GR_7F_Start
+org $7F*10+!DataSource
+	dl GR_7F_Start
+	
+org $81*10+!DataType
+	db $11&$f0
+org $81*10+!DataLength
+	dw GR_81_End-GR_81_Start
+org $81*10+!DataSource
+	dl GR_81_Start
 
 ;***********************************************************************************
 org $A48000
@@ -168,5 +201,17 @@ GR_117_Start:
 	incbin "../Graphics/GR-117-DockCapture1.til" 
 GR_117_End:
 
+GR_7E_Start:
+	incbin "../Graphics/GR-7E-TerrainInfo1.til" 
+GR_7E_End:
+
+GR_7F_Start:
+	incbin "../Graphics/GR-7F-TerrainInfo2.til" 
+GR_7F_End:
+
+GR_81_Start:
+	incbin "../Graphics/GR-81-UnitsList.til" 
+GR_81_End:
 
 ;for each: change location & change compression mode to uncompressed
+;todo: dock?,
