@@ -688,121 +688,214 @@ Freedom for Luggnagg!"        <END>
 //ラグナグ攻防戦で、やぶれたガルト軍は
 //おそろしい作戦を強行する!!
 //「核兵器」をもち出そうというのだ!!
-xyz<END>
+Disillusioned after their     <LF>
+crushing defeat during the    <LF>
+liberation of Luggnagg, the   <LF>
+commanders of the Galt fleet  <LF>
+resort to a terrifying option:<LF>
+Quantum Decimators!           <END>
 
 //Briefing M16-02 (0x54)
 //ガルト軍は、ラグナグのはずれのある
 //核のねむる「ヴェルヌ・ドック」に
 //艦隊をむかわせた!
-xyz<END>
+Imperial warships are invading<LF>
+the Verne Docks, a quantum    <LF>
+facility at the outskirts of  <LF>
+Luggnagg.                     <LF>
+                              <LF>
+                              <END>
 
 //Briefing M16-03 (0x55)
 //連邦軍も、それを阻止すべく!
 //艦隊をおくり、「ヴェルヌ・ドック」の
 //制圧・防衛にあたらせた!!
-xyz<END>
+The Union dispatches its fleet<LF>
+in order to defend the Verne  <LF>
+Docks and secure their        <LF>
+arsenals.                     <LF>
+                              <END>
 
 //Briefing M16-04 (0x56)
 //敵のドック制圧を阻止できなければ、
 //核兵器自体を破壊するしかない!!
 //急げ!!ヴェルヌ・ドックへ!!
-xyz<END>
+"If we can't prevent Galt from<LF>
+taking control of the docks,  <LF>
+we have no choice but to      <LF>
+destroy the quantum bombs     <LF>
+themselves! The threat is     <LF>
+huge! Hurry!"                 <END>
 //--------------------------------------
 //Briefing M17-01 (0x57)
 //「ヴェルヌ・ドック」での戦いにやぶれた
 //ガルト軍は「ラグナグ」最後のとりで
 //「スタンレィ」で、決死の反撃に出る!!
-xyz<END>
+Having lost the battle of the <LF>
+Verne Docks, the Galt fleet   <LF>
+throws its last reserves into <LF>
+a desperate counterattack     <LF>
+against Fort Stanley, the last<LF>
+stronghold of Luggnagg.       <END>
 
 //Briefing M17-02 (0x58)
 //皇帝アーリマンは、ガルト 本国より
 //特殊巡洋艦「コルバス」をよびよせ、
 //援軍として「スタンレィ」に送りこんだ。
-xyz<END>
+By decree of Emperor Ahriman, <LF>
+cru[is]ers from the secret Corvus<LF>
+project are activated and sent<LF>
+from Foundry Galt to reinforce<LF>
+the Stanley invasion.         <LF>
+                              <END>
 
 //Briefing M17-03 (0x59)
 //連邦軍は、敵の侵攻路に固定砲を設置して
 //「ラグナグ」最後の決戦を迎え撃つ!!
 //だが・・・「コルバス」とは?
-xyz<END>
+"We have set up turrets along <LF>
+the invasion route. This will <LF>
+surely be the final battle for<LF>
+Luggnagg! But… What could this<LF>
+Corvus thing be?!"            <LF>
+                              <END>
 
 //Briefing M17-04 (0x5a)
 //いずれにせよ、近くの浮きドックを制圧し
 //全兵器で総力戦をいどむしかない!!
 //要塞さえ落せば、敵は、降伏してこよう。
-xyz<END>
+"In any case, we will have to <LF>
+seize the remaining docks     <LF>
+quickly and engage the in-    <LF>
+vaders head-on! Once their    <LF>
+fortress falls, they will be  <LF>
+forced to surrender."         <END>
 //--------------------------------------
 //Briefing M18-01 (0x5b)
 //連邦軍は、大要塞「バジリスク」にむけて
 //別動艦隊を発進させた。大気圏ギリギリの
 //進路をとり、回りこむ作戦だった。
-xyz<END>
+The Terran Union has launched <LF>
+an assault fleet against Grand<LF>
+Fortress Basilisk. The plan is<LF>
+to skim the edge of the atmo- <LF>
+sphere in order to flank the  <LF>
+enemy position.               <END>
 
 //Briefing M18-02 (0x5c)
 //しかし、その別動艦隊が大気圏ちかくで
 //敵艦隊に見つかってしまったのだ!!
 //ガルト艦隊は、すぐに攻撃してきた!!
-xyz<END>
+However, Galt vessels discover<LF>
+the Union ships near the atmo-<LF>
+sphere and move to block their<LF>
+route.                        <LF>
+                              <LF>
+                              <END>
 
 //Briefing M18-03 (0x5d)
 //連邦軍艦隊の目的は、「バジリスク」た!
 //ここで、戦力を失うわけにはいかない!
 //うまく、かわしたいところだ!!
-xyz<END>
+"Our objective is Basilisk! We<LF>
+can't be tied down here!      <LF>
+Evade these Imperials and deal<LF>
+with this complication."      <LF>
+                              <END>
 
 //Briefing M18-04 (0x5e)
 //スピードのあるセレネで大気圏をかけぬけ
 //敵の艦隊へ突入し、旗艦を破壊せよ!!
 //ただし、地球の重力には気をつけろ!!
-xyz<END>
+"Use the Selene to rush our   <LF>
+troops through the atmosphere <LF>
+and break through to the enemy<LF>
+flagship. But watch out for   <LF>
+Earth's gravity!"             <END>
 //--------------------------------------
 //Briefing M19-01 (0x5f)
 //地球連邦軍の主力艦隊は、ついに!!
 //F4「アルカディア」についた。
 //作戦目標「バジリスク」は、目の前だ!!
-xyz<END>
+The main fleet of the Union   <LF>
+has finally arrived at        <LF>
+F4 Arcadia. Grand Fortress    <LF>
+Basilisk, their primary       <LF>
+target, looms near.           <END>
 
 //Briefing M19-02 (0x60)
 //作戦「エレボス」は、最終レベルに入り
 //別動艦隊と合流すべく、指定ポイントで
 //艦隊がくるのをまっていた・・・
-xyz<END>
+The ships are waiting at the  <LF>
+designated meeting point where<LF>
+the two fleets are supposed to<LF>
+merge for the final stage of  <LF>
+Operation Erebos.             <END>
 
 //Briefing M19-03 (0x61)
 //だが、その連邦軍の艦隊に、とつぜん!!
 //ガルト軍が、攻撃をしかけてきたのだ!!
 //そのかず、やく1.5倍!!
-xyz<END>
+Suddenly, the ships are under <LF>
+fire, as the Galt Empire      <LF>
+mounts a surprise attack, and <LF>
+the Union finds itself greatly<LF>
+outnumbered.                  <END>
 
 //Briefing M19-04 (0x62)
 //別動艦隊がくるまでは、前へ出ず!
 //ただ、ひたすら、防戦だけをして、
 //援軍のくるのをまつしかない!!
-xyz<END>
+"Don't advance until our      <LF>
+allies arrive! Just hold the  <LF>
+position and defend, then we  <LF>
+might have a chance…"         <LF>
+                              <END>
 //--------------------------------------
 //Briefing M20-01 (0x63)
 //大要塞「バジリスク」・・・
 //全ファクトリー中、最大の要塞である。
 //ここにガルト軍の地球侵略本部がある。
-xyz<END>
+Grand Fortress Basilisk is the<LF>
+largest fortress among all    <LF>
+Foundries and the headquarters<LF>
+where the Imperial army is    <LF>
+preparing the invasion of     <LF>
+Earth.                        <END>
 
 //Briefing M20-02 (0x64)
 //地球連邦軍は、ついに作戦「エレボス」の
 //最終目標「バジリスク」にたどりついた。
 //連邦軍の全艦隊は、要塞前に集結した!!
-xyz<END>
+The forces of the Terran Union<LF>
+have finally reached Basilisk,<LF>
+the target of Operation       <LF>
+Erebos. The entire fleet of   <LF>
+the Union is assembling at the<LF>
+gates of the fortress.        <END>
 
 //Briefing M20-03 (0x65)
 //要塞の最大の武器は長距離レーザー砲
 //「バッカニア」である。直撃されれば、
 //艦隊は、宇宙のチリとなるだろう!!
-xyz<END>
+The greatest weapon of the    <LF>
+fortress is the long-range    <LF>
+laser cannon Buccaneer. Any-  <LF>
+thing it hits is turned into  <LF>
+space dust.                   <LF>
+                              <END>
 
 //Briefing M20-04 (0x66)
 //バッカニア砲は、つづけて発射できない!
 //そのスキをついて、要塞の内部に入り込み
 //要塞のコントロールタワーを破壊せよ!
-xyz<END>
+"The Buccaneer Cannon can't   <LF>
+fire continuously! Time your  <LF>
+approach carefully, get inside<LF>
+the fortress and destroy the  <LF>
+command center!"              <LF>
+                              <END>
 //--------------------------------------
 //Briefing M21-01 (0x67)
 //皇帝アーリマンが、「アルカディア」を

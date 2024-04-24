@@ -502,19 +502,21 @@ possible conclusion.    <LF>
 //ガルト軍の援軍が
 //この星域に接近中!!
 ALERT             <LF>
-Galt reinforce-   <LF>
-ments are arriving<LF>
-in this sector    <END>
+                  <LF>
+Galt re[in]forcements<LF>
+are arriving in   <LF>
+this sector!      <END>
 
 //58
 //インフォメーション!!
 //味方の援軍が
 //この星域に接近中!!
 INFORMATION       <LF>
+                  <LF>
 Union reinforce-  <LF>
 ments are ap-     <LF>
 proaching this    <LF>
-sector            <END>
+sector!           <END>
 
 //59
 //バーナーのエネルギー!
@@ -523,7 +525,7 @@ sector            <END>
 Afterburner fuel  <LF>
 depleted.         <LF>
                   <LF>
-Separate the      <LF>
+Detach the        <LF>
 burner module.    <END>
 
 //5A
@@ -661,7 +663,10 @@ Luggnagg       <END>
 
 //Title M16 (70)
 //核のヴェルヌ・ドック (doggu/dokku?)
-The Heart of   <LF>
+// nucleus? core?
+//The Heart of   <LF>
+//Verne Docks    <END>
+Shadows over   <LF>
 Verne Docks    <END>
 
 //Title M17 (71)
@@ -677,8 +682,9 @@ Earthlight     <END>
 
 //Title M19 (73)
 //援軍、きたりなば・・
-Awaiting       <LF>
-Reinforcements <END>
+//long wait, hope fades, on the brink
+As Hope        <LF>
+Fades          <END>
 
 //Title M20 (74)
 //せん光！バッカニア砲！
