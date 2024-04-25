@@ -149,3 +149,6 @@ bomb (2): 07: 1da42 -> 6f01700171017201
 shift (2): 06: 1da32 -> 7301740175017601
  
 $01d9ca: tilemaps (length 0x10)
+
+main menu:
+0ddee9: first letter, id 97, start 0ddc96, len 700
