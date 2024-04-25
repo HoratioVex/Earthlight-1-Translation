@@ -595,7 +595,7 @@ Breakthrough   <END>
 
 //Title M03 (63)
 //バートラム脱出
-Escape From    <LF>
+Escape from    <LF>
 Bertram        <END>
 
 //Title M04 (64)
@@ -666,8 +666,8 @@ Luggnagg       <END>
 // nucleus? core?
 //The Heart of   <LF>
 //Verne Docks    <END>
-Shadows over   <LF>
-Verne Docks    <END>
+In the Shadows <LF>
+of Verne Docks <END>
 
 //Title M17 (71)
 //特殊巡洋艦コルバス
@@ -703,18 +703,24 @@ Parallax       <END>
 
 //Title M23 (77)
 //鋼鉄の砲塔なき戦艦
-A New Kind of  <LF>
-Battleship     <END>
+//A New Kind of  <LF>
+//Battleship     <END>
+//Battleships    <LF>
+//Sleek as Marble<END>
+Battleships    <LF>
+Without Turrets<END>
 
 //Title M24 (78)
 //すい星をこえて・・
-Beyond the     <LF>
-Comet          <END>
+//Beyond the     <LF>
+//Comet          <END>
+A Wish upon a  <LF>
+Shooting Star  <END>
 
 //Title M25 (79)
 //突撃！アルフレッド攻略戦
 //charge!, alfred Bester
-Attack on      <LF>
+Assault on     <LF>
 Alfred         <END>
 
 //Title M26 (7a)
@@ -735,13 +741,13 @@ Balam          <END>
 
 //Title M29 (7d)
 //アスガルド・工業プラント
-Asgard Factory <LF>
-Factory        <END>
+The Wharfs of  <LF>
+Asgard         <END>
 
 //Title M30 (7e)
 //バビロンとぶ！
 // Tell the King of Babylon
-Render Unto    <LF>
+Render unto    <LF>
 Babylon        <END>
 
 // *************************************** Objectives

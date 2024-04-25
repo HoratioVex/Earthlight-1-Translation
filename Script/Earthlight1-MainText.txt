@@ -866,8 +866,8 @@ Carthago is equipped with     <LF>
 extra armor plates to allow   <LF>
 deployment at the front line. <LF>
                               <LF>
-It can serve as a command     <LF>
-center even while under fire. <END>
+It can serve as a command cen-<LF>
+ter even while under fire.    <END>
 //-------------------------------------
 //79
    Defensive<LF>
@@ -888,8 +888,7 @@ heavily armored and armed with<LF>
 powerful cannons for reaction <LF>
 fire.                         <LF>
 It's advisable to attack it   <LF>
-from a safe distance.         <LF>
-                              <END>
+from a safe distance.         <END>
 //-------------------------------------
 //7c Cortex /brain
    Unarmed<END>

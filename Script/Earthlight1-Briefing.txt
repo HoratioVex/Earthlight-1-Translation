@@ -440,7 +440,7 @@ The siege fleet of the Union  <LF>
 led by the Asura-II flagship  <LF>
 heads in from the left, while <LF>
 Hunter squadrons try to       <LF>
-capture the docks.            <END> 
+capture the docks.            <END>
 //--------------------------------------
 //Briefing M10-01 (0x3b)
 //「エデンの門」を突破した連邦軍は、
@@ -514,7 +514,7 @@ The fleet is led by an        <LF>
 Iris-class carrier. If it is  <LF>
 destroyed, the fleet will     <LF>
 probably disband.             <LF>
-                              <END> 
+                              <END>
 
 //Briefing M11-04 (0x42)
 //イリスは、対艦攻撃力をもっていない!
@@ -901,121 +901,211 @@ command center!"              <LF>
 //皇帝アーリマンが、「アルカディア」を
 //脱出したころ、大要塞「バジリスク」の
 //「ゴットリーブ」では戦いが続いていた。
-xyz<END>
+As Emperor Ahriman flees from <LF>
+Arcadia, the battle over Grand<LF>
+Fortress Basilisk rages on in <LF>
+the Gottlieb sector.          <END>
 
 //Briefing M21-02 (0x68)
 //連邦軍は、要塞の中核を制圧したとはいえ
 //ここでやぶれれば、「バジリスク」は、
 //ふたたび、ガルト軍のものとなろう!
-xyz<END>
+Although Union forces now     <LF>
+control the core of the fort- <LF>
+ress, the outer section are   <LF>
+still contested, and the Galt <LF>
+Empire might yet be able to   <LF>
+retake Basilisk.              <END>                     
+
 
 //Briefing M21-03 (0x69)
 //ガルト軍は要塞基部にそって、
 //正面から突破をはかるつもりらしい!!
 //これだけなら、迎撃できるが・・・
-xyz<END>
+"It looks like Galt forces    <LF>
+intend to make a frontal      <LF>
+breakthrough at the base of   <LF>
+the fortress! We barely have  <LF>
+enough to hold them off…"     <LF>
+                              <END>
 
 //Briefing M21-04 (0x6a)
 //アーリマンは援軍として、
 //新兵器艦隊を送りこんできた!!
 //ガルト 帝国軍のほこる新兵器とは!!!
-xyz<END>
+"And it gets worse! Ahriman   <LF>
+sent a new fleet with secret  <LF>
+weapons as reinforcements!    <LF>
+What have these Imperials     <LF>
+cooked up now?!"              <LF>
+                              <END>
 //--------------------------------------
 //Briefing M22-01 (0x6b)
 //「エデン」と「ガルト」を結ぶ行路は
 //前の大戦で、多くの宇宙機雷がまかれ
 //通常行路として、とざされてひさしい。
-xyz<END>
+The path connecting Eden and  <LF>
+Galt was blocked with many    <LF>
+space mines during the last   <LF>
+war and has been closed since <LF>
+then.                         <END>
 
 //Briefing M22-02 (0x6c)
 //人はこの星域を「バンドラ」とよんだ。
 //地球への行路をうしなったアーリマンは
 //この「パンドラ」の突破作戦を展開した。
-xyz<END>
+The sector is called Pandora. <LF>
+Ahriman, who has lost the     <LF>
+route to Earth, orders a      <LF>
+task force to break through   <LF>
+Pandora.                      <END>
 
 //Briefing M22-03 (0x6d)
 //連邦軍も「エデン」、「ラグナグ」の
 //両ファクトリーから艦隊をはけんして
 //「パンドラ」星域の防戦にむかわせた!
-xyz<END>
+The Union dispatches fleets   <LF>
+from both Foundry Eden and    <LF>
+Foundry Luggnagg to defend    <LF>
+Pandora.                      <LF>
+                              <END>
 
 //Briefing M22-04 (0x6e)
 //「パンドラ」星域にひろがる宇宙機雷は
 //両軍の進攻をさまたげるだろう!
 //すばやく機雷を破壊し、敵をたたけ!!
-xyz<END>
+"The space mines spread       <LF>
+throughout the Pandora sector <LF>
+will hinder the movement of   <LF>
+both sides. Destroy them      <LF>
+quickly and defeat the enemy."<END>
 //--------------------------------------
 //Briefing M23-01 (0x6f)
 //「バジリスク」では、地球連邦軍が
 //ガルト 帝国首都「バラム」への侵攻作戦!
 //作戦名「ラグナログ」の準備を進めていた
-xyz<END>
+In Fortress Basilisk, the     <LF>
+Terran Union is preparing     <LF>
+Operation Ragnarok, the       <LF>
+invasion of Balam, capital of <LF>
+the Galt Empire.              <END>
 
 //Briefing M23-02 (0x70)
 //一方、ガルト軍は新たな戦艦の開発!
 //アーリマンは、直ちに新型艦を出撃させ、
 //「パンシン」星域に、侵攻した!!
-xyz<END>
+Meanwhile, the Galt Empire has<LF>
+finished the development of a <LF>
+new class of battleships.     <LF>
+Ahriman immediately sends the <LF>
+new ships to spearhead the in-<LF>
+vasion of the Panshin sector. <END>
 
 //Briefing M23-03 (0x71)
 //ガルト軍の新型艦は、鋼鉄につつまれた
 //砲搭をもたぬ変わった形の戦艦・・・
 //一体、どのような力があるのだろう?
-xyz<END>
+"Our scouts report ships of   <LF>
+a strange shape, steel-clad,  <LF>
+sleek, but without visible    <LF>
+gun turrets. We can't tell how<LF>
+powerful they are."           <LF>
+                              <END>
 
 //Briefing M23-04 (0x72)
 //連邦軍は、戦艦アスラⅡを旗艦とする
 //攻撃艦隊を迎撃にむかわせた。
 //だが、そこでまっていたのは・・・
-xyz<END>
+"One of our patrol fleets led <LF>
+by an Asura-II class flagship <LF>
+will engage them, but the     <LF>
+tactical parameters of this   <LF>
+mission are completely un-    <LF>
+known."                       <END>
 //--------------------------------------
 //Briefing M24-01 (0x73)
 //「ラグナロク」作戦は、スタートした。
 //第1目標は「ガルト」と「アルカディア」の
 //中間にある要塞「スタージョン」である。
-xyz<END>
+Operation Ragnarok has begun. <LF>
+The first target is Fortress  <LF>
+Sturgeon, located between Galt<LF>
+and Arcadia.                  <END>
 
 //Briefing M24-02 (0x74)
 //しかし、要塞の守りと敵の新兵器の前に
 //連邦軍は、おもうように進撃できずに
 //すでに、3日がすぎていた。
-xyz<END>
+But due to Sturgeon's strong  <LF>
+defenses and Galt's new ships,<LF>
+the Union fleet has been un-  <LF>
+able to make any progress.    <LF>
+Three days have passed        <LF>
+already.                      <END>
 
 //Briefing M24-03 (0x75)
 //だが、そこに幸運の女神が、あらわれた。
 //すい星が、要塞「スタージョン」を
 //直撃して、通過するのだ!!
-xyz<END>
+Then, probes suddenly show the<LF>
+possibility for a turnaround: <LF>
+A large comet will pass       <LF>
+straight through Fortress     <LF>
+Sturgeon.                     <LF>
+                              <END>
 
 //Briefing M24-04 (0x76)
 //連邦軍は、すい星を来るのをまって、
 //攻撃をはじめた!うまくすれば、
 //敵の新兵器をうばえるかもしれない!!
-xyz<END>
+"We'll wait for the comet and <LF>
+attack where it clears a path <LF>
+for us! We might even be able <LF>
+to grab some of Galt's new    <LF>
+toys."                        <LF>
+                              <END>
 //--------------------------------------
 //Briefing M25-01 (0x77)
 //「スタージョン」要塞を攻略した連邦軍は
 //一気に「アルフレッド」要塞へ侵攻した!
 //艦隊の主力は、4隻の機動母艦だ!!
-xyz<END>
+Having secured Fortress Stur- <LF>
+geon, the Union fleet carries <LF>
+this momentum forward and     <LF>
+immediately attacks Fortress  <LF>
+Alfred with a task force con- <LF>
+sisting of four carriers.     <END>
 
 //Briefing M25-02 (0x78)
 //一方、連邦軍の動きをキャッチした
 //アーリマンは「アルフレッド」要塞へ
 //直ちに、迎撃艦隊を向かわせた。
-xyz<END>
+Ahriman, however, learns of   <LF>
+this plan in advance and      <LF>
+immediately sends a fleet to  <LF>
+Fortress Alfred to intercept  <LF>
+the attackers.                <LF>
+                              <END>
 
 //Briefing M25-03 (0x79)
 //連邦軍は、電撃作戦を展開!!
 //重爆撃機ブロンテスを主軸とする艦載機で
 //要塞におそいかかろうとした!!
-xyz<END>
+The Union fleet uses blitz-   <LF>
+krieg tactics. Relentless     <LF>
+bombardments by carrier-based <LF>
+Brontes squadrons shake the   <LF>
+walls of the fortress.        <END>
 
 //Briefing M25-04 (0x7a)
 //まさに、そのとき!
 //連邦軍機動母艦艦隊の後方に、
 //ガルト軍の迎撃艦隊があらわれた!
-xyz<END>
+Just then, Galt's interception<LF>
+fleet appears behind the      <LF>
+Union's carrier group.        <LF>
+                              <LF>
+                              <END>
 //--------------------------------------
 //Briefing M26-01 (0x7b)
 //小惑星の密集する「オールディス」星域!
