@@ -154,6 +154,34 @@ org $81*10+!DataLength
 	dw GR_81_End-GR_81_Start
 org $81*10+!DataSource
 	dl GR_81_Start
+	
+org $97*10+!DataType
+	db $61&$f0
+org $97*10+!DataLength
+	dw TM_97_End-TM_97_Start
+org $97*10+!DataSource
+	dl TM_97_Start
+	
+org $86*10+!DataType
+	db $21&$f0
+org $86*10+!DataLength
+	dw GR_86_End-GR_86_Start
+org $86*10+!DataSource
+	dl GR_86_Start
+	
+org $187*10+!DataType
+	db $02&$f0
+org $187*10+!DataLength
+	dw GR_187_End-GR_187_Start
+org $187*10+!DataSource
+	dl GR_187_Start
+	
+org $C4*10+!DataType
+	db $02&$f0
+org $C4*10+!DataLength
+	dw GR_C4_End-GR_C4_Start
+org $C4*10+!DataSource
+	dl GR_C4_Start	
 
 ;***********************************************************************************
 org $A48000
@@ -213,5 +241,23 @@ GR_81_Start:
 	incbin "../Graphics/GR-81-UnitsList.til" 
 GR_81_End:
 
+TM_97_Start:
+	incbin "../Graphics/TM-97-MainMenu.bin" 
+TM_97_End:
+
+;### new bank ###
+org $A58000
+
+GR_187_Start:
+	incbin "../Graphics/GR-187-MapWinKanji.til" 
+GR_187_End:
+
+GR_86_Start:
+	incbin "../Graphics/GR-86-LoadMenu.til" 
+GR_86_End:
+
+GR_C4_Start:
+	incbin "../Graphics/GR-C4-TurnStart.til" 
+GR_C4_End:
 ;for each: change location & change compression mode to uncompressed
 ;todo: dock?,
