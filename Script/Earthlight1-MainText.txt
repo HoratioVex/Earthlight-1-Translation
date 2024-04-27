@@ -1094,8 +1094,8 @@ No shots can pass through     <END>
 //移動・攻撃には、ほとんど影響がない
 //ただし、艦船は進入できないので
 //HU兵器による作戦が必要
-Hull of the super-heavy       <LF>
-dreadnought Babylon           <LF>
+Hull of the superdreadnought  <LF>
+Babylon                       <LF>
                               <LF>
 Small effect on movement and  <LF>
 attack                        <LF>

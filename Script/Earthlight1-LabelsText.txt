@@ -707,8 +707,8 @@ Parallax       <END>
 //Battleship     <END>
 //Battleships    <LF>
 //Sleek as Marble<END>
-Battleships    <LF>
-Without Turrets<END>
+Warships       <LF>
+without Turrets<END>
 
 //Title M24 (78)
 //すい星をこえて・・
@@ -725,24 +725,25 @@ Alfred         <END>
 
 //Title M26 (7a)
 //オールディス星域攻防戦
-Aldiss Star    <LF>
-Battle         <END>
+New Paths      <LF>
+through Aldiss <END>
 
 //Title M27 (7b)
 //発射！ダーレス砲撃戦
 //August William Derleth
-Bombs on       <LF>
+Standoff at    <LF>
 Derleth        <END>
 
 //Title M28 (7c)
 //バラム決戦
-Decision at    <LF>
+//showdown, moment of truth
+Showdown at    <LF>
 Balam          <END>
 
 //Title M29 (7d)
 //アスガルド・工業プラント
-The Wharfs of  <LF>
-Asgard         <END>
+The Shipyards  <LF>
+of Asgard      <END>
 
 //Title M30 (7e)
 //バビロンとぶ！
@@ -838,33 +839,47 @@ Galt<END>
 //「『バビロン』が落ちるとはな・・・
 //だが、これで終わったわけではない。を
 //いつか、かならず・・・・・」
-"I didn't think I would see Babylon fall…<LF>
-But this is not the end! <LF>
-Some day… Surely…" <END>
+"I didn't think I would see<LF>
+Babylon lose…              <LF>
+But this is not the end!   <LF>
+Some day… Surely…"         <END>
 
 //8c
 //コントロールをうしなった「バビロン」は
 //地球の重力にひかれ、落下しはじめた。
-Babylon spins out of control and is pulled down by Earth's gravity.<END>
+Babylon spins out of control <LF>
+and is pulled down by Earth's<LF>
+gravity.                     <LF>
+                             <END>
 
 //8d
-//破壊ユニットポイント
-Destruction Unit Points??<END>
+//もはや、その落下を
+//とめることはできない・・・
+Its descent can no longer be <LF>
+stopped.                     <END>
 
 //8e
 //超ド級機動攻撃母艦「バビロン」は
 //その主砲の光跡を
 //一度も、発することはなく・・
-Superdreadnought Babylon has not once spewed light from its main cannon.<END>
+Superdreadnought Babylon<LF>
+has not once spewed fire<LF>
+from its main cannon.   <END>
 
 //8f
 //皇帝アーリマンの
 //野望とともにもえ落ち、
 //大海へと沈んでいった。
-Along with the dreams of Emperor Ahriman, it falls from the sky and is swallowed by the sea.<END>
+Along with the dreams   <LF>
+of Emperor Ahriman, it  <LF>
+falls from the sky and  <LF>
+is swallowed by the sea.<END>
 
 
 //90
 //ALL MISSION COMPLETED
 //RETURN TO FACTORY
-All Missions Completed  Return to your Foundry<END>
+All Missions Completed    <LF>
+                          <LF>
+Return to Your            <LF>
+Home Foundry              <END>

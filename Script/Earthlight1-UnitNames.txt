@@ -146,3 +146,38 @@ hydra  <E>
 rahab  <E>
 crab   <E>
 crab   <E>
+
+// Map names (8chars, no separator)
+#JMP($00DB3A)
+
+hamilton
+gallun  
+bertram 
+rucker  
+raymond 
+heinlein
+le guin 
+olympos 
+bradbury
+nemea   
+norton  
+van vogt
+arthur  
+moore   
+luggnagg
+verne   
+stanley 
+clarke  
+arcadia 
+basilisk
+gotlieb 
+pandora 
+panshin 
+sturgeon
+alfred  
+aldiss  
+derleth 
+balam   
+asgardhr
+babylon 
+

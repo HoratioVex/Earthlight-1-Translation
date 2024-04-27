@@ -820,7 +820,7 @@ Earth's gravity!"             <END>
 The main fleet of the Union   <LF>
 has finally arrived at        <LF>
 F4 Arcadia. Grand Fortress    <LF>
-Basilisk, their primary       <LF>
+Basilisk, the Union's primary <LF>
 target, looms near.           <END>
 
 //Briefing M19-02 (0x60)
@@ -904,7 +904,7 @@ command center!"              <LF>
 As Emperor Ahriman flees from <LF>
 Arcadia, the battle over Grand<LF>
 Fortress Basilisk rages on in <LF>
-the Gottlieb sector.          <END>
+the Gotlieb sector.          <END>
 
 //Briefing M21-02 (0x68)
 //連邦軍は、要塞の中核を制圧したとはいえ
@@ -1092,10 +1092,11 @@ the attackers.                <LF>
 //重爆撃機ブロンテスを主軸とする艦載機で
 //要塞におそいかかろうとした!!
 The Union fleet uses blitz-   <LF>
-krieg tactics. Relentless     <LF>
-bombardments by carrier-based <LF>
-Brontes squadrons shake the   <LF>
-walls of the fortress.        <END>
+krieg tactics. Several        <LF>
+carrier-based Brontes         <LF>
+squadrons bombard the         <LF>
+fortress in waves to soften   <LF>
+its defenses.                 <END>
 
 //Briefing M25-04 (0x7a)
 //まさに、そのとき!
@@ -1111,121 +1112,213 @@ Union's carrier group.        <LF>
 //小惑星の密集する「オールディス」星域!
 //この星域は、宇宙艦船一隻が、なんとか
 //通れるだけの航行路があるだけである。
-xyz<END>
+The Aldiss sector contains    <LF>
+several dense asteroid fields.<LF>
+There is only one navigable   <LF>
+route where a spaceship can   <LF>
+barely pass through.          <END>
 
 //Briefing M26-02 (0x7c)
 //このまま、星域に進入すれば、
 //艦隊に多大ダメージ出るのは必死である。
 //しかし、連邦軍は強行突破にでた!!
-xyz<END>
+A maneuvering fleet would sus-<LF>
+tain signficant damage from   <LF>
+the asteroids. Nonetheless,   <LF>
+the Union captains are re-    <LF>
+solved to force their way     <LF>
+through.                      <END>
 
 //Briefing M26-03 (0x7d)
 //連邦軍は、戦線にアバドンをはけんした。
 //核兵器をつかって、小惑星を爆破して、
 //新たな航行路を作ろうというのだ!!
-xyz<END>
+Abaddon bombers are moving to <LF>
+the front. The Union will use <LF>
+Quantum Decimators to destroy <LF>
+the asteroids and create a new<LF>
+path for the fleet.           <LF>
+                              <END>
 
 //Briefing M26-04 (0x7e)
 //どこに航行路を作るかによって、
 //戦術は、大きく変わってこよう・・・
 //さて、いかに??
-xyz<END>
+"The tactics here will change <LF>
+significantly depending on    <LF>
+where we clear the path. What <LF>
+should we do?"                <LF>
+                              <LF>
+                              <END>
 //--------------------------------------
 //Briefing M27-01 (0x7f)
 //「オールディス」星域を突破した連邦軍は
 //首都小惑星「バラム」のノドもと!!
 //「ダーレス」前線基地にコマを進めた。
-xyz<END>
+The Union forces have broken  <LF>
+through Aldiss and approach   <LF>
+the capital asteroid of Galt, <LF>
+Balam. They meet resistance   <LF>
+at forward base Derleth on    <LF>
+Galt's frontier.              <END>
 
 //Briefing M27-02 (0x80)
 //これに対し、ガルト帝国皇帝アーリマンは
 //最後の防衛線を守るべく、砲撃艦を
 //主軸とする迎撃艦隊を送りこんできた。
-xyz<END>
+Galt Emperor Ahriman sends    <LF>
+a gunboat fleet to fortify    <LF>
+his last line of defense.     <LF>
+                              <LF>
+                              <LF>
+                              <END>
 
 //Briefing M27-03 (0x81)
 //一方、連邦軍も砲撃艦を主軸とした艦隊で
 //ガルト軍の砲撃艦隊を迎え撃つ!!
 //砲撃艦どうしの大艦隊戦がはじまった!
-xyz<END>
+"We'll meet their gunboats    <LF>
+with our own! Looks like this <LF>
+is going to be a long-range   <LF>
+artillery duel!"              <END>
 
 //Briefing M27-04 (0x82)
 //なんとかして、敵艦隊の一角をつきくずし
 //要塞までの侵攻路を作ることが、
 //要塞攻略のポイントになるだろう!!
-xyz<END>
+"Somehow we must find a way to<LF>
+punch a hole through their    <LF>
+fleet, so that we can invade  <LF>
+and capture this base!"       <END>
 //--------------------------------------
 //Briefing M28-01 (0x83)
 //連邦軍は、「ラグナログ」作戦の最終目標!
 //第3ファクトリー「ガルト帝国」の首都
 //小惑星「バラム」にたどりついた!!
-xyz<END>
+The Union forces have reached <LF>
+the final target of Operation <LF>
+Ragnarok. The fleet approaches<LF>
+Balam, capital asteroid of    <LF>
+F3 Galt.                      <END>
 
 //Briefing M28-02 (0x84)
 //小惑星「バラム」は、要塞ではない!!
 //したがって、防衛力は、それほどないが、
 //その地形が、侵攻上のモンダイだ!!
-xyz<END>
+Asteroid Balam is not a       <LF>
+fortress. Its defenses are    <LF>
+not very strong, but the      <LF>
+difficult terrain complicates <LF>
+an invasion.                  <END>
 
 //Briefing M28-03 (0x85)
 //バラム内部への侵入路は、5つ!!
 //いずれかの侵入路に攻撃を集中して、
 //内部への突入をはかるか?!
-xyz<END>
+"We have spotted five differ- <LF>
+ent paths into Balam. Perhaps <LF>
+we should focus our attacks on<LF>
+one of them, so that we can   <LF>
+break through quickly."       <END>
 
 //Briefing M28-04 (0x86)
 //それとも5つ全てより侵入して、
 //一気に内部のかく乱をはかるか?!!
 //最後の決戦が、いま!はじまった!!
-xyz<END>
+"Or would it be better to go  <LF>
+in through all routes at once <LF>
+and overwhelm them on the in- <LF>
+side? Either way, this is the <LF>
+final battle for our liberty! <LF>
+This is the moment of truth!" <END>
 //--------------------------------------
 //Briefing M29-01 (0x87)
 //機動攻擊母艦「バビロン」の巨体をもとめ
 //連邦軍は、第7F「アスガルド」にある
 //工業プラントへと艦隊をすすめた・・・
-xyz<END>
+Having uncovered alarming in- <LF>
+telligence at Balam, Union    <LF>
+forces rush to the factories  <LF>
+of F7 Asgard in search of the <LF>
+hull of a huge warship called <LF>
+Babylon.                      <END>
 
 //Briefing M29-02 (0x88)
 //第7ファクトリー「アスガルド」に
 //ガルト軍の守る工業ブラントを発見!!
 //連邦軍は、ただちに攻撃に移った!!
-xyz<END>
+One of the shipyards at       <LF>
+F7 Asgard is heavily guarded  <LF>
+by Galt vessels. The Union    <LF>
+fleet immediately launches an <LF>
+attack.                       <LF>
+                              <END>
 
 //Briefing M29-03 (0x89)
 //連邦軍は、HU部隊にこうそく移動用の
 //バーナーをつけ、工業ブラントを守る
 //ガルト艦隊の後ろを突く作戦にでた!!
-xyz<END>
+"Our Hunters have been fitted <LF>
+with afterburner modules for  <LF>
+rapid deployment. They are to <LF>
+strike the Galt fleet protec- <LF>
+ting the shipyard from        <LF>
+behind."                      <END>
 
 //Briefing M29-04 (0x8a)
 //この作戦では、いかに気づかれずに後ろに
 //回りこむかが、ポイントである。
 //いそげ!バビロンの発進を阻止せよ!!
-xyz<END>
+"The key to this operation is <LF>
+to flank the enemy unnoticed. <LF>
+Hurry and prevent the launch  <LF>
+of Babylon!"                  <LF>
+                              <LF>
+                              <END>
 //--------------------------------------
 //Briefing M30-01 (0x8b)
 //ついに!!皇帝アーリマンの切札!
 //超ド級機動攻撃母艦「バビロン」が、
 //地球にむけて、動きはじめた!!
-xyz<END>
+The last ace up Emperor       <LF>
+Ahriman's sleeve is finally   <LF>
+revealed.                     <LF>
+The superdreadnought Babylon  <LF>
+is heading towards Earth.     <LF>
+                              <END>
 
 //Briefing M30-02 (0x8c)
 //20キロにおよぶ船体を破壊することは
 //できないが、コントロールしている
 //全ての司令塔を破壊すれば・・・
-xyz<END>
+"This thing is 20 kilometers  <LF>
+long! The hull probably can't <LF>
+be destroyed, but perhaps if  <LF>
+we take out all of the command<LF>
+centers…"                     <LF>
+                              <END>
 
 //Briefing M30-03 (0x8d)
 //その巨大な船体の前に、戦略はない!
 //もはや!総力戦しかない!!
 //なんとしても、「バビロン」を落とせ!
-xyz<END>
+"There's no more room for     <LF>
+strategies against such a     <LF>
+massive warship! We must go   <LF>
+all-in! Bring Babylon down by <LF>
+any means necessary!"         <LF>
+                              <END>
 
 //Briefing M30-04 (0x8e)
 //「バビロン」が地球衛星軌道上につくまで
 //あと18ターンしかない!!
 //地球の運命は、君たちにかかっている!!
-xyz<END>
+"Babylon will enter Earth's   <LF>
+orbit in 18 ticks. The fate of<LF>
+mankind rests in your hands." <LF>
+                              <LF>
+                              <LF>
+                              <END>
 //--------------------------------------
 
 
