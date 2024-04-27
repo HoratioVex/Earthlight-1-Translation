@@ -14,8 +14,10 @@ org $1DE06 ;squad counter title
 ;longer unit names in combat screen
 org $04DBF4
 	lda.b #$01
-
-
+;clear one more tile for unit name
+org $04D2DA
+	lda.b #$16
+	
 ; Weapon Class names for unit description
 ;04f0d8: -> RAPID : 12000100100009000400
 org $04F0D8
@@ -55,7 +57,13 @@ org $1DA42
 org $1DA32
 	db $73,$01,$74,$01,$75,$01,$76,$01
 
-	
+;Intro Map Screen, move stars down to uncover Asgard name (was $F8)
+org $00F16B
+	db $FE
+
+;Briefing Titles, ELEBOS -> EREBOS
+org $79425
+	db $E9,$F8,$04
 ;************************************************************************************
 org $7D*10+!DataType
 	db $60 ;$61 & $f0
@@ -181,7 +189,14 @@ org $C4*10+!DataType
 org $C4*10+!DataLength
 	dw GR_C4_End-GR_C4_Start
 org $C4*10+!DataSource
-	dl GR_C4_Start	
+	dl GR_C4_Start
+
+org $1D*10+!DataType
+	db $02&$f0
+org $1D*10+!DataLength
+	dw GR_1D_End-GR_1D_Start
+org $1D*10+!DataSource
+	dl GR_1D_Start	
 
 ;***********************************************************************************
 org $A48000
@@ -259,5 +274,9 @@ GR_86_End:
 GR_C4_Start:
 	incbin "../Graphics/GR-C4-TurnStart.til" 
 GR_C4_End:
+
+GR_1D_Start:
+	incbin "../Graphics/GR-1D-IntroMap.til" 
+GR_1D_End:
 ;for each: change location & change compression mode to uncompressed
 ;todo: dock?,
