@@ -152,3 +152,11 @@ $01d9ca: tilemaps (length 0x10)
 
 main menu:
 0ddee9: first letter, id 97, start 0ddc96, len 700
+
+4D018: empty string, long enough?
+4d2da lda 16
+
+intro map sprite table: f13f
+asgardh: f16b -> ram df0 -> FE or
+
+erebos: $79425 -> E9 F8 04
