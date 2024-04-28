@@ -317,7 +317,7 @@ Map<END>
 //味方の部隊は、ほうかいした!
 The Union forces perish <LF>
 before the might of     <LF>
-Galt's Imperial fleet.  <END>
+Galt's Imperial Fleet.  <END>
 
 
 //45
@@ -355,7 +355,7 @@ over all of mankind.    <LF>
 //強大なガルト 帝国艦隊の前に
 //ついに!カつきてしまった・・・
 The Terran Union's      <LF>
-desparate attack        <LF>
+desperate attack        <LF>
 crumbles before the     <LF>
 mighty Imperial Fleet   <LF>
 of Galt.                <END>
@@ -405,7 +405,7 @@ to the Galt Empire.     <END>
 //地球連邦艦隊は、かいめつした!!
 The fleet of the Terran <LF>
 Union crumbles before   <LF>
-the desparate counter-  <LF>
+the desperate counter-  <LF>
 attack of the cornered  <LF>
 Galt forces.            <END>
 

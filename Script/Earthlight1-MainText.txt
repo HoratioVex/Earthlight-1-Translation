@@ -356,7 +356,7 @@ missile launchers             <LF>
 The long range of its missiles<LF>
 allows the Cyclops to attack  <LF>
 from behind obstacles before  <LF>
-it can be targetted           <LF>
+it can be targeted            <LF>
                               <LF>
                               <END>
 //-------------------------------------
@@ -722,7 +722,8 @@ It is the only capital ship   <LF>
 capable of close combat.      <END>
 //-------------------------------------
 //64 Abaddon
-   64lee<END>
+   Quantum <LF>
+   Bomb<END>
 
 //65
 
@@ -983,8 +984,8 @@ Interstellar medium consisting<LF>
 of gas, dust and cosmic rays  <LF>
                               <LF>
 The effect on each weapon     <LF>
-class is small, but the flow  <LF>
-of particles hinders the      <LF>
+type is small, but the flow   <LF>
+of particles slows down the   <LF>
 movement of all but the       <LF>
 largest vessels.              <END>
 
@@ -1104,76 +1105,76 @@ will be required              <END>
 
 // ************************************************ Terrain names
 //91
-//無空間
+//無空間 1 1
 //Open Space<END>
 Void<END>
 
 //92
-//磁気帯
+//磁気帯 1 3
 Magnetic <LF>
 Field<END>
 
 //93
-//流星地帯
+//流星地帯 1 1
 Meteoroid<LF>
 Field<END>
 
 //94
-//小惑星
+//小惑星 1 2
 Asteroid<END>
 
 //95
-//星間物質帯
+//星間物質帯 1 1
 //Interstellar medium
 Galactic <LF>
 Plasma   <END>
 
 
 //96
-//重力地帯
+//重力地帯 1 1
 Gravity  <LF>
 Flux     <END>
 
 //97
-//大気圏
+//大気圏 1 1
 Atmo-    <LF>
 sphere<END>
 
 //98 
-//岩盤地形
+//岩盤地形 1 1
 Bedrock<END>
 
 //99
-//要塞甲板
+//要塞甲板 1 1
 Fortress <LF>
 Deck     <END>
 
 //9a
-//砲搭レール
+//砲搭レール 1 1
 Turret   <LF>
 Railway  <END>
 
 //9b
-//要塞防御壁
+//要塞防御壁 1 2
 Fortress <LF>
 Wall<END>
 
 //9c
-//すい星ガス帯
+//すい星ガス帯 1 1
 Comet    <LF>
 Tail     <END>
 
 //9d
-//すい星本体
+//すい星本体 1 2
 Comet    <LF>
 Body     <END>
 
 //9e
-//地球地形
+//地球地形 1 2
 Earth<END>
 
 //9f
-//バビロン船体
+//バビロン船体 1 1
 Babylon  <LF>
 Hull<END>
 //**************************************************** percentage numbers

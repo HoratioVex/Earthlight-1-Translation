@@ -384,7 +384,7 @@ Assault Fortress Nemea.       <END>
 //起死回生の特攻戦をかけていた!!
 The Galt fleet, in severe dis-<LF>
 array after the loss of its   <LF>
-flagship, launches a desparate<LF>
+flagship, launches a desperate<LF>
 all-out attack aga[in]st Olympos,<LF>
 whose defense is now stretched<LF>
 thin.                         <END>
@@ -1123,7 +1123,7 @@ barely pass through.          <END>
 //艦隊に多大ダメージ出るのは必死である。
 //しかし、連邦軍は強行突破にでた!!
 A maneuvering fleet would sus-<LF>
-tain signficant damage from   <LF>
+tain siginficant damage from  <LF>
 the asteroids. Nonetheless,   <LF>
 the Union captains are re-    <LF>
 solved to force their way     <LF>
