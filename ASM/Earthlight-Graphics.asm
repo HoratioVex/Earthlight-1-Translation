@@ -196,7 +196,14 @@ org $1D*10+!DataType
 org $1D*10+!DataLength
 	dw GR_1D_End-GR_1D_Start
 org $1D*10+!DataSource
-	dl GR_1D_Start	
+	dl GR_1D_Start
+
+org $73*10+!DataType
+	db $11&$f0
+org $73*10+!DataLength
+	dw GR_73_End-GR_73_Start
+org $73*10+!DataSource
+	dl GR_73_Start	
 
 ;***********************************************************************************
 org $A48000
@@ -278,5 +285,10 @@ GR_C4_End:
 GR_1D_Start:
 	incbin "../Graphics/GR-1D-IntroMap.til" 
 GR_1D_End:
+
+GR_73_Start:
+	incbin "../Graphics/GR-73-DockView.til" 
+GR_73_End:
+
 ;for each: change location & change compression mode to uncompressed
 ;todo: dock?,
