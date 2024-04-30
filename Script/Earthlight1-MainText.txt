@@ -161,12 +161,12 @@ on both arms                  <LF>
 //白兵で敵をたたき切るのをとくいとするが
 //武装がビーム兵器のみなので、磁気空間では
 //完全に無力化する
-Talos tries to engage enemies <LF>
-in melee combat, but since it <LF>
-relies entirely on beam       <LF>
-weapons, this unit is com-    <LF>
-pletely ineffective in mag-   <LF>
-netic fields.                 <END>
+The Talos tries to engage     <LF>
+enemies in melee combat, but  <LF>
+since it relies entirely on   <LF>
+beam weapons, this unit is    <LF>
+completely ineffective in     <LF>
+magnetic fields.              <END>
 //-------------------------------------
 //16 Medusa
    Melee<END>
@@ -182,12 +182,12 @@ combat                        <END>
 
 //18
 
-Medusa's primary role is the  <LF>
-defense of fortresses and     <LF>
+The Medusa's primary role is  <LF>
+the defense of fortresses and <LF>
 capital ships. The exposed    <LF>
 missile pods are both its     <LF>
-greatest strength and weakness<LF>
-                              <END>
+greatest strength and weak-   <LF>
+ness.                         <END>
 //-------------------------------------
 //19 Athena F
    Convert  <LF>
@@ -314,7 +314,7 @@ The Vulcan uses active radar  <LF>
 to accurately target and shoot<LF>
 down distant enemies. Its     <LF>
 attack power is immense and   <LF>
-makes a significant threat for<LF>
+poses a significant threat to <LF>
 Hunters.                      <END>
 //-------------------------------------
 //2b Phoibos / sniper
@@ -722,7 +722,7 @@ It is the only capital ship   <LF>
 capable of close combat.      <END>
 //-------------------------------------
 //64 Abaddon
-   Quantum <LF>
+   Quantum  <LF>
    Bomb<END>
 
 //65
@@ -744,7 +744,7 @@ all units and terrain in a two<LF>
 hex radius.                   <END>
 //-------------------------------------
 //67 Fenrir
-   Fire and<LF>
+   Fire and <LF>
    Move<END>
 //68
 
@@ -760,12 +760,12 @@ Excels at h[it]-and-run tactics <END>
 Utilizing its high mobility,  <LF>
 the Fenrir is capable of con- <LF>
 ducting preemptive attacks    <LF>
-against enemy Hunters and     <LF>
+against enemy Hunters while   <LF>
 maneuvering difficult terrain.<LF>
                               <END>
 //-------------------------------------
 //6a Cerberus
-   Fire and<LF>
+   Fire and <LF>
    Move<END>
 //6b
 
@@ -786,7 +786,7 @@ enemy vessels.                <LF>
                               <END>
 //-------------------------------------
 //6d Gulon
-   Fire and<LF> 
+   Fire and <LF> 
    Move    <END>
 //6e
 
@@ -1000,8 +1000,8 @@ galactic gravity fields       <LF>
 Large impact on railguns and  <LF>
 missiles                      <LF>
                               <LF>
-Hunters and fighters can't    <LF>
-enter                         <END>
+Hunters can't enter           <LF>
+                              <END>
 
 //88 atmosphere
 //地球の大気圏

@@ -201,10 +201,10 @@ Olympos.                      <END>
 //敵のドックを制圧すれば、
 //こちらの機体のしゅうりもできる!!
 //その上で、司令搭をたたいて、脱出だ!!
-"Let's capture the dock and  <LF>
-take our fighters back. Then <LF>
-we can hit the command center<LF>
-and get out of here!         <END>
+"Let's capture that dock and  <LF>
+repair our Hunters. Then we   <LF>
+can hit the command center and<LF>
+get out of here!"             <END>
 
 //------------------------------
 //Briefing M04-01 (23)
@@ -239,7 +239,7 @@ restore order.                <LF>
 //内戦のひろがるのをおさえ,
 //敵のたてこもるラッカー要塞を攻略せよ!
 "We must capture the neutral  <LF>
-dock, stop this insurrection  <LF>
+docks, stop this insurrection <LF>
 and take back Fort Rucker!"   <LF>
                               <END>
 

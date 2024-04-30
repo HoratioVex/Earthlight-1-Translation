@@ -32,7 +32,7 @@ Galt's command center.  <END>
 //連邦軍の強力な攻撃のまえに
 //ガルト軍は、全滅した!!
 The Union has completely<LF>
-annihilated all forces  <LF>
+annihilated the forces  <LF>
 of the Galt Empire.     <LF>
                         <LF>
                         <END>
@@ -586,7 +586,7 @@ Earth's orbit in <LF>
 // Title M01 (2: 61,61) (first title to calculate offsets for quotation marks)-width 18
 //死守!ハミルトン防衛線
 Hamilton Must  <LF>
-Hold           <END>
+Stand Fast  <END>
 
 //Title M02 (62)
 //ガラン突破作戦
