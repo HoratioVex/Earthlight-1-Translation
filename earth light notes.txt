@@ -160,3 +160,8 @@ intro map sprite table: f13f
 asgardh: f16b -> ram df0 -> FE or
 
 erebos: $79425 -> E9 F8 04
+
+load game tm: #1 id 87(type 61), #2 88 (type 61) -> 1c8
+
+
+
