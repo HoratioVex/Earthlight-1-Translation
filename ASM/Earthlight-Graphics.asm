@@ -203,7 +203,28 @@ org $73*10+!DataType
 org $73*10+!DataLength
 	dw GR_73_End-GR_73_Start
 org $73*10+!DataSource
-	dl GR_73_Start	
+	dl GR_73_Start
+
+org $87*10+!DataType
+	db $61&$f0
+org $87*10+!DataLength
+	dw TM_87_End-TM_87_Start
+org $87*10+!DataSource
+	dl TM_87_Start
+
+org $88*10+!DataType
+	db $61&$f0
+org $88*10+!DataLength
+	dw TM_88_End-TM_88_Start
+org $88*10+!DataSource
+	dl TM_88_Start
+
+org $8B*10+!DataType
+	db $11&$f0
+org $8B*10+!DataLength
+	dw GR_8B_End-GR_8B_Start
+org $8B*10+!DataSource
+	dl GR_8B_Start	
 
 ;***********************************************************************************
 org $A48000
@@ -289,6 +310,18 @@ GR_1D_End:
 GR_73_Start:
 	incbin "../Graphics/GR-73-DockView.til" 
 GR_73_End:
+
+TM_87_Start:
+	incbin "../Graphics/TM-87-LoadMenu1.bin" 
+TM_87_End:
+
+TM_88_Start:
+	incbin "../Graphics/TM-88-LoadMenu2.bin" 
+TM_88_End:
+
+GR_8B_Start:
+	incbin "../Graphics/GR-8B-VPLabels.til" 
+GR_8B_End:
 
 ;for each: change location & change compression mode to uncompressed
 ;todo: dock?,
