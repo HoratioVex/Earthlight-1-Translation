@@ -319,10 +319,11 @@ their struggling allies.      <END>
 //味方の巡洋艦を、戦線より離脱させ、
 //HU兵器で敵艦に「白兵」をいどめ!!
 "The Imperials only have capi-<LF>
-tal ships, no fighter support!<LF>
-Pull our ships from the front <LF>
-line and engage the enemy in  <LF>
-close combat with Hunters!"   <END>
+tal ships, but no fighter sup-<LF>
+port. Pull our ships from the <LF>
+front line and engage their   <LF>
+ships in close combat with    <LF>
+Hunters!"                     <END>
 //------------------------------------
 //Briefing M07-01 (0x2f)
 //ガルト 帝国皇帝アーリマンは、
@@ -347,7 +348,8 @@ Liberation Union.             <LF>
 //「ル・グィン」星域で発見!!
 //ただちに攻撃かけたのだった!!
 Union scouts have discovered  <LF>
-the Galt flagship in the      <LF>
+the new Galt flagship during  <LF>
+its transfer through the      <LF>
 Le Guin sector and immediately<LF>
 opened the attack.            <END>
 
@@ -511,9 +513,9 @@ for Nemea.                    <LF>
 //機動母艦さえやっつけてしまえば
 //艦隊は降伏してくるだろう!!
 The fleet is led by an        <LF>
-Iris-class carrier. If it is  <LF>
-destroyed, the fleet will     <LF>
-probably disband.             <LF>
+Iris-class carrier. If the    <LF>
+flagship is destroyed, the    <LF>
+fleet will probably disband.  <LF>
                               <END>
 
 //Briefing M11-04 (0x42)
@@ -541,10 +543,10 @@ in the Van Vogt sector.       <END>
 //機動艦隊を展開してきた。
 The Galt vessels block a part <LF>
 of the sector with space mines<LF>
-and take position behind      <LF>
-gravity fluxes and magnetic   <LF>
-fields to obstruct the        <LF>
-approaching Union fleet.      <END>
+and wait behind gravity fluxes<LF>
+and magnetic fields which ob- <LF>
+struct the approaching Union  <LF>
+fleet.                        <END>
 
 //Briefing M12-03 (0x45)
 //攻略作戦としては、
@@ -592,10 +594,10 @@ Arthur's Belt.                <END>
 //ガルト軍は、機動艦隊を近くにかくし、
 //攻撃のチャンスをねらっていたのだ!!
 But it is a trap. Galt Hunter <LF>
-squadrons are lying in wait   <LF>
-for the perfect moment to     <LF>
-attack.                       <LF>
-                              <END>
+squadrons have been lying in  <LF>
+wait for the invaders, and a  <LF>
+larger Galt fleet is closing  <LF>
+in.                           <END>
 
 //Briefing M13-04 (0x4a)
 //敵艦隊がくるまでに要塞を落せればいいが

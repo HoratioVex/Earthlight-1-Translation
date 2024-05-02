@@ -281,8 +281,8 @@ to advance.                   <LF>
 
 Heavy Bomber                  <LF>
                               <LF>
-Armed with large anti-ship    <LF>
-torpedoes.                    <LF>
+Armed with a large anti-ship  <LF>
+torpedo.                      <LF>
 Mobility and defense change   <LF>
 depending on payload.         <END>
 
@@ -410,16 +410,16 @@ fields.                       <LF>
 Missile Turret                <LF>
                               <LF>
 Armed with long-range rapid-  <LF>
-fire missiles                 <LF>
+fire missiles.                <LF>
 The strongest counter to      <LF>
-fighters and Hunters          <END>
+fighters and Hunters.         <END>
 
 //39
 
-Hydra's missiles can intercept<LF>
-enemy Hunters outside their   <LF>
-engagement range.             <LF>
-It's primary functions are    <LF>
+The Hydra can intercept enemy <LF>
+Hunters outside of their en-  <LF>
+gagement range.               <LF>
+Its primary functions are     <LF>
 fortress defense and sup-     <LF>
 porting the front line.       <END>
 //-------------------------------------
@@ -449,11 +449,11 @@ part of the fortress itself.  <LF>
 
 //3e
 
-High-speed Transport Ship     <LF>
+Transport Ship                <LF>
                               <LF>
-The Crab has a large cargo    <LF>
-hold and can load a variety of<LF>
-ships, fighters and bombers.  <LF>
+The Crab is fast and can load <LF>
+a small unit into its cargo   <LF>
+bay.                          <LF>
                               <END>
 
 //3f
@@ -463,7 +463,7 @@ and turrets to their deploy-  <LF>
 ment area. Slow-moving units  <LF>
 can be brought to the front   <LF>
 line.                         <LF>
-Loaded Units can't attack.    <END>
+Can't attack while full.      <END>
 //-------------------------------------
 //40 Tiamat
    Large    <LF>
@@ -674,7 +674,7 @@ railguns for point-defense    <END>
 
 A mainstay of fleet battles   <LF>
 and support operations, the   <LF>
-Hannibal serves as fire       <LF>
+Hannibal serves as a fire     <LF>
 support and escort vessel.    <LF>
                               <LF>
                               <END>
@@ -786,7 +786,7 @@ enemy vessels.                <LF>
                               <END>
 //-------------------------------------
 //6d Gulon
-   Fire and <LF> 
+   Fire and <LF>
    Move    <END>
 //6e
 
@@ -905,11 +905,11 @@ melee and bomb attacks        <LF>
 
 //7e
 
-A field headquarters through  <LF>
-which all troop movements are <LF>
-coordinated. Larger areas     <LF>
-require more than one command <LF>
-center.                       <LF>
+A field headquarters that co- <LF>
+ordinates all troop movement. <LF>
+Larger areas require more than<LF>
+one command center.           <LF>
+                              <LF>
                               <END>
 //-------------------------------------
 //7f adzam
@@ -1283,10 +1283,10 @@ Select Slot       <LF>
                   <END>
 
 // B6
-File 1<END>
+File1<END>
 
 // B7
-File 2<END>
+File2<END>
 
 // System Message 06 (B8,)
 //前のデータが、きえますが

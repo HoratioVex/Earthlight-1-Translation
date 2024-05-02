@@ -163,10 +163,10 @@ Save Game         <LF>
 Select Slot<END>
 
 //19
-File 1<END>
+File1<END>
 
 //1A
-File 2<END>
+File2<END>
 
 //1B
 //前のデータが、きえます
@@ -374,8 +374,8 @@ ends in failure.        <LF>
 //ガルト 帝国軍は、反撃をはじめ!
 //一気に、地球連邦軍艦隊を駆逐!!
 The remnants of the     <LF>
-Union's fleet are power-<LF>
-less to stop the relent-<LF>
+Union's fleet are un-   <LF>
+able to stop the relent-<LF>
 less counterattack of   <LF>
 the Imperial Fleet.     <END>
 
@@ -398,7 +398,7 @@ government of the Terran<LF>
 Union declares its      <LF>
 unconditional surrender <LF>
 to the Galt Empire.     <END>
-
+//-------------------------------
 //4D
 //追いつめられたガルト 帝国軍の
 //決死の反撃のまえに!
@@ -409,7 +409,6 @@ the desperate counter-  <LF>
 attack of the cornered  <LF>
 Galt forces.            <END>
 
-//-----------------------------
 //4E
 //第3ファクトリー「ガルト帝国」
 //首都小惑星「バラム」攻略作戦は
@@ -417,7 +416,8 @@ Galt forces.            <END>
 The operation to capture<LF>
 Balam, the capital as-  <LF>
 teroid of F3 Galt, has  <LF>
-failed.                 <END>
+failed.                 <LF>
+                        <END>
 
 //4F
 //この作戦「ラグナロク」の
@@ -431,11 +431,12 @@ the Galt Empire.        <END>
 //50
 //連邦軍は、その統制をうしない
 //戦いのながれは、変わっていった
-The Terran Union slowly <LF>
-loses control of the    <LF>
-war.                    <LF>
+Slowly but surely, the  <LF>
+Terran Union loses con- <LF>
+trol of the war.        <LF>
                         <END>
 
+//-----------------------------------
 //51
 //おそらく・・・
 //アーリマンのわらいが、宇宙に
@@ -443,7 +444,8 @@ war.                    <LF>
 It probably won't be    <LF>
 long before Ahriman's   <LF>
 laughter echoes through-<LF>
-out the entire galaxy.  <END>
+out the entire galaxy.  <LF>
+                        <END>
 //---------------------------------
 
 //52
@@ -848,8 +850,8 @@ Some day… Surely…"         <END>
 //コントロールをうしなった「バビロン」は
 //地球の重力にひかれ、落下しはじめた。
 Babylon spins out of control <LF>
-and is pulled down by Earth's<LF>
-gravity.                     <LF>
+and is pulled down by        <LF>
+Earth's gravity.             <LF>
                              <END>
 
 //8d
