@@ -69,7 +69,7 @@ carrier.                <END>
 //ガルト軍は、機動母艦のすべてを
 //うしない、ひきあげていった!!
 All of Galt's carriers  <LF>
-have withdrawn          <END>
+have been destroyed.    <END>
 
 //07
 //旗艦をうしなったガルト艦隊は
@@ -171,7 +171,7 @@ File2<END>
 //1B
 //前のデータが、きえます
 Old data will be  <LF>
-erased<END>
+overwritten<END>
 
 //1C
 //はい
@@ -639,7 +639,7 @@ Lion's Den     <END>
 //Title M11 (6b)
 //迎撃！ノートン防衛艦隊
 Not on         <LF>
-Norton's Watch!<END>
+Norton's Watch <END>
 
 //Title M12 (6c)
 //ヴァン・ヴォクトの戦い

@@ -671,7 +671,7 @@ a definitive advantage.       <LF>
 //ラグナグ攻防戦!!
 //「浮きドック争奪戦」がはじまった。
 "Here we are! The battle for  <LF>
-Luggnagg is about to begin!   <LF>
+Luggnagg is about to begin.   <LF>
 Every dock matters! Make      <LF>
 every shot count!"            <LF>
                               <END>
@@ -681,9 +681,9 @@ every shot count!"            <LF>
 //すばやく!多くの浮きドックを制圧し、
 //敵の要塞を撃破するのだ!!!
 "Use every unit to the best of<LF>
-its abilities! Capture those  <LF>
+its abilities. Capture those  <LF>
 docks and destroy the enemy   <LF>
-fortress! And do it fast!     <LF>
+fortress. And do it fast!     <LF>
 Freedom for Luggnagg!"        <END>
 //--------------------------------------
 //Briefing M16-01 (0x53)
@@ -726,7 +726,7 @@ arsenals.                     <LF>
 taking control of the docks,  <LF>
 we have no choice but to      <LF>
 destroy the quantum bombs     <LF>
-themselves! The threat is     <LF>
+themselves. The threat is     <LF>
 huge! Hurry!"                 <END>
 //--------------------------------------
 //Briefing M17-01 (0x57)
@@ -759,7 +759,7 @@ the Stanley invasion.         <LF>
 the invasion route. This will <LF>
 surely be the final battle for<LF>
 Luggnagg! But… What could this<LF>
-Corvus thing be?!"            <LF>
+Corvus thing be?"             <LF>
                               <END>
 
 //Briefing M17-04 (0x5a)
@@ -875,13 +875,13 @@ have finally reached Basilisk,<LF>
 the target of Operation       <LF>
 Erebos. The entire fleet of   <LF>
 the Union is assembling at the<LF>
-gates of the fortress.        <END>
+fortress gates.               <END>
 
 //Briefing M20-03 (0x65)
 //要塞の最大の武器は長距離レーザー砲
 //「バッカニア」である。直撃されれば、
 //艦隊は、宇宙のチリとなるだろう!!
-The greatest weapon of the    <LF>
+The greatest asset of the     <LF>
 fortress is the long-range    <LF>
 laser cannon Buccaneer. Any-  <LF>
 thing it hits is turned into  <LF>
@@ -893,7 +893,7 @@ space dust.                   <LF>
 //そのスキをついて、要塞の内部に入り込み
 //要塞のコントロールタワーを破壊せよ!
 "The Buccaneer Cannon can't   <LF>
-fire continuously! Time your  <LF>
+fire continuously. Time your  <LF>
 approach carefully, get inside<LF>
 the fortress and destroy the  <LF>
 command center!"              <LF>
@@ -914,10 +914,10 @@ the Gotlieb sector.          <END>
 //ふたたび、ガルト軍のものとなろう!
 Although Union forces now     <LF>
 control the core of the fort- <LF>
-ress, the outer section are   <LF>
+ress, the outer sections are  <LF>
 still contested, and the Galt <LF>
 Empire might yet be able to   <LF>
-retake Basilisk.              <END>                     
+retake Basilisk.              <END>
 
 
 //Briefing M21-03 (0x69)
@@ -927,7 +927,7 @@ retake Basilisk.              <END>
 "It looks like Galt forces    <LF>
 intend to make a frontal      <LF>
 breakthrough at the base of   <LF>
-the fortress! We barely have  <LF>
+the fortress. We barely have  <LF>
 enough to hold them off…"     <LF>
                               <END>
 
@@ -939,7 +939,7 @@ enough to hold them off…"     <LF>
 sent a new fleet with secret  <LF>
 weapons as reinforcements!    <LF>
 What have these Imperials     <LF>
-cooked up now?!"              <LF>
+cooked up now?"               <LF>
                               <END>
 //--------------------------------------
 //Briefing M22-01 (0x6b)
@@ -1169,8 +1169,8 @@ Galt's frontier.              <END>
 //最後の防衛線を守るべく、砲撃艦を
 //主軸とする迎撃艦隊を送りこんできた。
 Galt Emperor Ahriman sends    <LF>
-a gunboat fleet to fortify    <LF>
-his last line of defense.     <LF>
+a battle line of warships to  <LF>
+protect his capital.          <LF>
                               <LF>
                               <LF>
                               <END>
@@ -1179,10 +1179,12 @@ his last line of defense.     <LF>
 //一方、連邦軍も砲撃艦を主軸とした艦隊で
 //ガルト軍の砲撃艦隊を迎え撃つ!!
 //砲撃艦どうしの大艦隊戦がはじまった!
-"We'll meet their gunboats    <LF>
-with our own! Looks like this <LF>
-is going to be a long-range   <LF>
-artillery duel!"              <END>
+"We'll meet their line of     <LF>
+battle with our own! Looks    <LF>
+like this is going to be a    <LF>
+long-range artillery duel."   <LF>
+                              <LF>
+                              <END>
 
 //Briefing M27-04 (0x82)
 //なんとかして、敵艦隊の一角をつきくずし
@@ -1190,8 +1192,10 @@ artillery duel!"              <END>
 //要塞攻略のポイントになるだろう!!
 "Somehow we must find a way to<LF>
 punch a hole through their    <LF>
-fleet, so that we can invade  <LF>
-and capture this base!"       <END>
+formation so that we can      <LF>
+invade and capture this base."<LF>
+                              <LF>
+                              <END>
 //--------------------------------------
 //Briefing M28-01 (0x83)
 //連邦軍は、「ラグナログ」作戦の最終目標!
@@ -1306,7 +1310,7 @@ centers…"                     <LF>
 //なんとしても、「バビロン」を落とせ!
 "There's no more room for     <LF>
 strategies against such a     <LF>
-massive warship! We must go   <LF>
+massive warship. We must go   <LF>
 all-in! Bring Babylon down by <LF>
 any means necessary!"         <LF>
                               <END>
