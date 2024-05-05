@@ -49,7 +49,7 @@ Pulse Gunboat              <END>
 Rail Gunboat               <END>
 
 //0a Cyclops
-Missile Gunboat            <END>
+Missile Boat               <END>
 
 //0b wisp
 Space Mine                 <END>
@@ -359,7 +359,7 @@ opened the attack.            <END>
 //ピン・ポイント作戦だ!!
 "This is a surgical strike!   <LF>
 Our only target is the        <LF>
-Admiral's Tiamat battleship!  <LF>
+Admiral's Tiamat battleship.  <LF>
 We must bring it down, no     <LF>
 matter the cost!"             <END>
 //-------------------------------------
@@ -526,7 +526,7 @@ fleet will probably disband.  <LF>
 weapons! Evade the fighter    <LF>
 screen on your approach, then <LF>
 our warships will be free to  <LF>
-engage!"                      <END>
+engage."                      <END>
 //--------------------------------------
 //Briefing M12-01 (0x43)
 //「エデン」を出発した連邦軍艦隊は、
@@ -605,9 +605,10 @@ in.                           <END>
 //あらわれるのかわからないのだ!!
 "If only we could destroy the <LF>
 fortress before the Imperial  <LF>
-fleet arrives! But we don't   <LF>
-know when or where they will  <LF>
-appear!"                      <END>
+reinforcements arrive! But we <LF>
+don't know when or where they <LF>
+will appear."                 <LF>
+                              <END>
 //--------------------------------------
 //Briefing M14-01 (0x4b)
 //ガルト 帝国軍は、
@@ -737,8 +738,8 @@ Having lost the battle of the <LF>
 Verne Docks, the Galt fleet   <LF>
 throws its last reserves into <LF>
 a desperate counterattack     <LF>
-against Fort Stanley, the last<LF>
-stronghold of Luggnagg.       <END>
+against Fort Stanley, the cen-<LF>
+tral stronghold of Luggnagg.  <END>
 
 //Briefing M17-02 (0x58)
 //皇帝アーリマンは、ガルト 本国より
@@ -873,9 +874,9 @@ Earth.                        <END>
 The forces of the Terran Union<LF>
 have finally reached Basilisk,<LF>
 the target of Operation       <LF>
-Erebos. The entire fleet of   <LF>
-the Union is assembling at the<LF>
-fortress gates.               <END>
+Erebos. The entire Union fleet<LF>
+is assembling at the fortress <LF>
+gates.                        <END>
 
 //Briefing M20-03 (0x65)
 //要塞の最大の武器は長距離レーザー砲
@@ -896,7 +897,7 @@ space dust.                   <LF>
 fire continuously. Time your  <LF>
 approach carefully, get inside<LF>
 the fortress and destroy the  <LF>
-command center!"              <LF>
+command centers!"             <LF>
                               <END>
 //--------------------------------------
 //Briefing M21-01 (0x67)
@@ -906,7 +907,7 @@ command center!"              <LF>
 As Emperor Ahriman flees from <LF>
 Arcadia, the battle over Grand<LF>
 Fortress Basilisk rages on in <LF>
-the Gotlieb sector.          <END>
+the Gotlieb sector.           <END>
 
 //Briefing M21-02 (0x68)
 //連邦軍は、要塞の中核を制圧したとはいえ
@@ -978,9 +979,10 @@ Pandora.                      <LF>
 //すばやく機雷を破壊し、敵をたたけ!!
 "The space mines spread       <LF>
 throughout the Pandora sector <LF>
-will hinder the movement of   <LF>
-both sides. Destroy them      <LF>
-quickly and defeat the enemy."<END>
+will hinder us as much as the <LF>
+Galt forces. Destroy the mines<LF>
+quickly and defeat the enemy."<LF>
+                              <END>
 //--------------------------------------
 //Briefing M23-01 (0x6f)
 //「バジリスク」では、地球連邦軍が
@@ -1097,7 +1099,7 @@ The Union fleet uses blitz-   <LF>
 krieg tactics. Several        <LF>
 carrier-based Brontes         <LF>
 squadrons bombard the         <LF>
-fortress in waves to soften   <LF>
+fortress in waves to weaken   <LF>
 its defenses.                 <END>
 
 //Briefing M25-04 (0x7a)
@@ -1169,9 +1171,9 @@ Galt's frontier.              <END>
 //最後の防衛線を守るべく、砲撃艦を
 //主軸とする迎撃艦隊を送りこんできた。
 Galt Emperor Ahriman sends    <LF>
-a battle line of warships to  <LF>
-protect his capital.          <LF>
-                              <LF>
+a fleet of warships to fortify<LF>
+his capital's last layer of   <LF>
+defense with a battle line.   <LF>
                               <LF>
                               <END>
 

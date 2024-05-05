@@ -344,7 +344,7 @@ Hunters and fighters.         <LF>
 
 //2f
 
-Missile Gunboat               <LF>
+Missile Boat                  <LF>
                               <LF>
 Armed with both rapid-fire and<LF>
 armor-piercing long-range     <LF>
@@ -748,7 +748,7 @@ hex radius.                   <END>
    Move<END>
 //68
 
-Interdictor Destroyer         <LF>
+Interdiction Destroyer        <LF>
                               <LF>
 Armed with four eight-barrel  <LF>
 turrets for a total of thirty-<LF>
